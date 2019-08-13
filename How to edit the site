@@ -1,0 +1,28 @@
+To edit header button:
+
+/_layout/default.html
+
+change button
+
+/_sass/jekyll-theme-hacker.scss
+
+
+Jekyll command:
+
+source /home/dat/.rvm/scripts/rvm
+
+jekyll serve
+
+localhost:4000
+
+Update website:
+
+git status
+
+git add .
+
+git commit -m 'message'
+
+git push
+
+

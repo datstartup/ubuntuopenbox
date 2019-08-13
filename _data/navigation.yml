@@ -1,17 +1,17 @@
 # main links
 main:
-  - title: "Lesson"
+  - title: "Home"
+    url: /
+  - title: "Lessons"
     url: /lessons/
   - title: "Galery"
     url: /galery/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Posts"
-    url: /year-archive/
+  #- title: "Posts"
+  #  url: /year-archive/
   - title: "About"
     url: /about/
   - title: "Contact Me"
-    url: /about/
+    url: https://forms.gle/ZEPE93sK8fFUW5KT7
   # - title: "Sample Collections"
   #   url: /collection-archive/
   #- title: "Sitemap"

@@ -16,7 +16,9 @@ header:
 
 Hi you all,
 
-My name is Dat and I am from Vietnam. I learned Linux as a hobby years ago and eventually using it on everything I can (my PC, my laptop and my Raspberry Pis).
+I am Dat from Vietnam.
+
+I learned Linux as a hobby years ago and eventually using it on everything I can (my PC, my Notebook and my Raspberry Pis).
 
 This site is created out of the love for Debian and Openbox. Although the though of "who am I to write this kind of tutorial?" is always lurking at the back of my mind, writing it has been a journey of pure joy.
 
