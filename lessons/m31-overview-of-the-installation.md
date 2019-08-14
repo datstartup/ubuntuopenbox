@@ -6,6 +6,7 @@ toc: true
 toc_label: "Overview"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 Objective: It will give you the full picture of how Openbox and other components are put together to form a complete Ubuntu Openbox system.

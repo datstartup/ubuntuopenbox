@@ -6,6 +6,7 @@ toc: true
 toc_label: "Openbox Theme"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 An openbox theme will define the look of the window (the border, the title bar), the look of the right click menu...

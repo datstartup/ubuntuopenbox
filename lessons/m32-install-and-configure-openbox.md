@@ -3,9 +3,10 @@ layout: single
 title: CONFIGURE OPENBOX
 description: "configure three most important configuration files of Openbox: menu.xml, rc.xml and autostart."
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Configure Openbox"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 Objective: Install the core packages & Configure Openbox

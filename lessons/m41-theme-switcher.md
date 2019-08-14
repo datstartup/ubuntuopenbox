@@ -6,6 +6,7 @@ toc: true
 toc_label: "Theme manager"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 In this lesson I will show you the nuts and bolts of how to configure the look of an Openbox desktop.

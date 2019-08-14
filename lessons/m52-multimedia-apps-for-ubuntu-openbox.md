@@ -6,6 +6,7 @@ toc: true
 toc_label: "Multimedia Apps"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 Multimedia apps:

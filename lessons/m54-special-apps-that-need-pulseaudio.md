@@ -6,6 +6,7 @@ toc: true
 toc_label: "Apps require PulseAudio"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 I have to give these programs a special place for some of you who do not use PulseAudio.

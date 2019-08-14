@@ -6,6 +6,7 @@ toc: true
 toc_label: "Four essential commands"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 Objective: To be familiar with the four below commands:

@@ -6,6 +6,7 @@ toc: false
 toc_label: "Cursor theme"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 The cursor theme we use called **Breeze** which is a series of beautiful cursor themes.

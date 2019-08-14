@@ -6,6 +6,7 @@ toc: true
 toc_label: "System applications"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 Essential operating system applications:

@@ -6,7 +6,6 @@ toc: true
 toc_label: "Maintaining System"
 toc_icon: "cog"
 author_profile: true
-comments: true
 ---
 
 ### 1. Update your system frequently

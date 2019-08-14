@@ -6,6 +6,7 @@ toc: true
 toc_label: "Internet Applications"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 Internet apps:
 + Firefox as web browser

@@ -6,6 +6,7 @@ toc: true
 toc_label: "Common Features"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 Essential features of a operating system

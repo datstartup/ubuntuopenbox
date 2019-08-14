@@ -6,6 +6,7 @@ toc: true
 toc_label: "Apt command"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 Ubuntu/ Debian use **Apt (Advanced Package Tool)** as their package manager (a tool that assist you on resolving dependencies when you need to install, upgrade, configure, and remove packages).

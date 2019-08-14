@@ -6,6 +6,7 @@ toc: true
 toc_label: "GTK Theme"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 GTK themes will define the appearance of applications on your system: the general interface, the color of the taskbar, the backgrounds for windows and tabs, the looks of GTK applications.

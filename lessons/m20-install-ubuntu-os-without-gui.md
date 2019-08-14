@@ -6,6 +6,7 @@ toc: false
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 I have create a Video with step by step instruction showing how to install an Ubuntu operating system without any GUI. From this foundation, we will build the GUI the way we like.
 

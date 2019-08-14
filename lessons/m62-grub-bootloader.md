@@ -6,6 +6,7 @@ toc: true
 toc_label: "Grub Configuration"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 >“A bootloader is the first program that runs when a computer starts. It is responsible for loading and transferring control to the Linux kernel. The kernel, in turn, initializes the rest of the operating system.”

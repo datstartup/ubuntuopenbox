@@ -6,6 +6,7 @@ toc: true
 toc_label: "Icon Theme"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 In the below screenshot I have applied “AwOken” icon set (its name is really written like that, not a typo) to my system.

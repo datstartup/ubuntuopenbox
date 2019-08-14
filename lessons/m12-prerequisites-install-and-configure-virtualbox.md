@@ -6,6 +6,7 @@ toc: false
 toc_label: "Virtualbox"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 Looking back, Virualbox has been the most important discover to help me to take the next step into the Linux world. With it I can freely create a lot of virtual machines to test many Linux distributions.

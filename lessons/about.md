@@ -7,6 +7,7 @@ toc: true
 toc_label: "All the Questions"
 toc_icon: "cog"
 author_profile: true
+comments: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /images/ian-schneider-TamMbr4okv4-unsplash.jpg
