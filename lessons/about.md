@@ -26,6 +26,8 @@ The saying "The best way to learn something is to teach it" is absolutely right.
 
 I have also received a lot of encouraging emails from people around the world who read this website - their compliments as well as their offers for help. They are the great sources of motivation. Please do not hesitate to share your thoughts with me on the Facebook page of the site: [facebook.com/ubuntuopenbox](https://www.facebook.com/ubuntuopenbox)
 
+Or contact me with this Google form: https://forms.gle/ZEPE93sK8fFUW5KT7
+
 Hope you will enjoy your read and found my information helpful!
 
 # Why Ubuntu?
