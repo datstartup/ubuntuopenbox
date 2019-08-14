@@ -3,7 +3,7 @@ layout: single
 title: GTK THEME
 description: ""
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "GTK Theme"
 toc_icon: "cog"
 author_profile: true
 ---

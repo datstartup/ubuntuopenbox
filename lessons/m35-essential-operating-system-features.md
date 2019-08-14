@@ -3,7 +3,7 @@ layout: single
 title: ESSENTIAL OPERATING SYSTEM FEATURES
 description: Common features of an Operating System
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Common Features"
 toc_icon: "cog"
 author_profile: true
 ---

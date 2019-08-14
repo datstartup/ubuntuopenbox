@@ -3,7 +3,7 @@ layout: single
 title: CURSOR THEME
 description: ""
 toc: false
-toc_label: "My Table of Contents"
+toc_label: "Cursor theme"
 toc_icon: "cog"
 author_profile: true
 ---

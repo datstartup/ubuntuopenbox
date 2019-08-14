@@ -3,7 +3,7 @@ layout: single
 title: FOUR ESSENTIAL COMMANDS
 description: learn about APT and apt-get.
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Four essential commands"
 toc_icon: "cog"
 author_profile: true
 ---

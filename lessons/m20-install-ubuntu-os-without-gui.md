@@ -2,7 +2,7 @@
 layout: single
 title: HOW TO INSTALL UBUTU WITHOUT GUI
 description: ""
-toc: true
+toc: false
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 author_profile: true

@@ -3,7 +3,7 @@ layout: single
 title: OVERVIEW OF THE INSTALLATION
 description: Go through the steps you will take and the packages you will install.
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Overview"
 toc_icon: "cog"
 author_profile: true
 ---

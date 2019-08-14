@@ -3,7 +3,7 @@ layout: single
 title: ESSENTIAL OPERATING SYSTEM APPLICATIONS
 description: install terminal emulator, text editor, GUI package manager, task manager.
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "System applications"
 toc_icon: "cog"
 author_profile: true
 ---

@@ -3,7 +3,7 @@ layout: single
 title: ESSENTIAL DESKTOP ENVIRONMENT COMPONENTS
 description: install taskbar, file manager, wallpaper manager, network manager and power manager.
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Desktop components"
 toc_icon: "cog"
 author_profile: true
 ---

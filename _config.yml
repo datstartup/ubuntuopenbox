@@ -301,4 +301,11 @@ search: true
 google:
   search_engine_id: 011103332185932955998:flqc54scnig
 
+# Comment
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "ubuntuopenbox"
+
+
 

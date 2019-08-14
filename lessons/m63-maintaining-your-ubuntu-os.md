@@ -6,6 +6,7 @@ toc: true
 toc_label: "MAINTAIN UBUNTU/ DEBIAN SYSTEM"
 toc_icon: "cog"
 author_profile: true
+comments: true
 ---
 
 ### 1. Update your system frequently

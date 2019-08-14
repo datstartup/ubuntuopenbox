@@ -2,8 +2,8 @@
 layout: single
 title: INSTALL AND CONFIGURE VIRTUALBOX
 description: Download latest version to install and create a testing machine for the course.
-toc: true
-toc_label: "My Table of Contents"
+toc: false
+toc_label: "Virtualbox"
 toc_icon: "cog"
 author_profile: true
 ---
