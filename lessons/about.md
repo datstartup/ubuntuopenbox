@@ -3,6 +3,7 @@ layout: single
 permalink: /about/
 title: About
 description: "All the questions"
+excerpt: "All the trivials."
 toc: true
 toc_label: "All the WHs"
 toc_icon: "cog"

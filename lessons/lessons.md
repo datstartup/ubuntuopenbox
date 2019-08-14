@@ -3,6 +3,7 @@ layout: single
 permalink: /lessons/
 title: LESSONS
 description: All the lessons
+excerpt: "Conquer Ubuntu Openbox."
 toc: true
 toc_label: "All lessons"
 toc_icon: "cog"
