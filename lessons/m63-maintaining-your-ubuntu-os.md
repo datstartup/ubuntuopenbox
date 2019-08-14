@@ -3,7 +3,7 @@ layout: single
 title: MAINTAIN YOUR UBUNTU/ DEBIAN SYSTEM
 description: introduce some "house keeping" tasks for a Debian system.
 toc: true
-toc_label: "MAINTAIN UBUNTU/ DEBIAN SYSTEM"
+toc_label: "Maintaining System"
 toc_icon: "cog"
 author_profile: true
 comments: true

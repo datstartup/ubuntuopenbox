@@ -3,7 +3,7 @@ layout: single
 title: INTERNET APPLICATIONS
 description: We will install a web browser, an email client, a torrent client and a download manager.
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Internet Applications"
 toc_icon: "cog"
 author_profile: true
 ---

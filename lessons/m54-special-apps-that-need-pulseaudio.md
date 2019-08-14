@@ -3,7 +3,7 @@ layout: single
 title: SPECIAL APPS
 description: Applications that require PulseAudio to be installed.
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Apps require PulseAudio"
 toc_icon: "cog"
 author_profile: true
 ---

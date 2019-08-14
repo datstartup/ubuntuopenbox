@@ -3,7 +3,7 @@ layout: single
 title: MULTIMEDIA APPLICATIONS
 description: We will install a video player, a music player, a media converter, an image suite, an image viewer and a better screenshoter. We also install pavucontrol to easily select audio output.
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Multimedia Apps"
 toc_icon: "cog"
 author_profile: true
 ---

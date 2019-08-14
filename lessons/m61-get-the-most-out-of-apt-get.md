@@ -3,7 +3,7 @@ layout: single
 title: GET THE MOST OUT OF APT-GET
 description: introduce some other apt-get commands.
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Apt command"
 toc_icon: "cog"
 author_profile: true
 ---

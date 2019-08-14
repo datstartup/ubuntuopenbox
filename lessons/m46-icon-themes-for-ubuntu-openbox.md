@@ -3,7 +3,7 @@ layout: single
 title: ICON THEME
 description: ""
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Icon Theme"
 toc_icon: "cog"
 author_profile: true
 ---

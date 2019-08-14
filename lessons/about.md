@@ -2,9 +2,9 @@
 layout: single
 permalink: /about/
 title: About
-description: "All the whys"
+description: "All the questions"
 toc: true
-toc_label: "All the whys"
+toc_label: "All the Questions"
 toc_icon: "cog"
 author_profile: true
 header:
@@ -14,7 +14,7 @@ header:
 
 ---
 
-Hi you all,
+# Why this website?
 
 I am Dat from Vietnam.
 

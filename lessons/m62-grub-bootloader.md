@@ -3,7 +3,7 @@ layout: single
 title: GRUB BOOTLOADER
 description: ""
 toc: true
-toc_label: "My Table of Contents"
+toc_label: "Grub Configuration"
 toc_icon: "cog"
 author_profile: true
 ---
