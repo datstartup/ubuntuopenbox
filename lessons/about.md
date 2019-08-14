@@ -4,7 +4,7 @@ permalink: /about/
 title: About
 description: "All the questions"
 toc: true
-toc_label: "All the Questions"
+toc_label: "All the WHs"
 toc_icon: "cog"
 author_profile: true
 comments: true
@@ -17,7 +17,7 @@ header:
 
 # Why this website?
 
-I am Dat from Vietnam.
+Hi, I am Dat from Vietnam.
 
 I learned Linux as a hobby years ago and eventually using it on everything I can (my PC, my Notebook and my Raspberry Pis).
 
