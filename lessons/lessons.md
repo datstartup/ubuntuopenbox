@@ -10,6 +10,7 @@ header:
   overlay_image: /images/will-van-wingerden-dsvJgiBJTOs-unsplash.jpg
   overlay_color: "#5e616c"
   caption: "Photo credit: [**Photo by Will van Wingerden on Unsplash**](https://unsplash.com/photos/dsvJgiBJTOs)"
+author_profile: true
 ---
 
 ## Module 1 - Prerequisites

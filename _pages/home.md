@@ -60,6 +60,7 @@ github:
   - excerpt: '{::nomarkdown}  {:/nomarkdown}'
 intro:
   - excerpt: '{::nomarkdown}<span style="color:#dd8500">Get notified when I add new stuff with Facebook</span> {:/nomarkdown}&nbsp; [<i class="fab fa-facebook-f"></i> @ UbuntuOpenbox](https://facebook.com/UbuntuOpenbox){: .btn .btn--facebook}'
+comments: false
 ---
 
 {% include feature_row id="intro" type="center" %}
