@@ -88,18 +88,19 @@ gksu baobab
 ```
 Disk Usage Analyzer
 
-{% include image name="Disk-Usage-Analyzer.jpg" caption="Disk Usage Analyzer"%}
+![baobab]({{site.baseurl}}/images/Disk-Usage-Analyzer.jpg)
+
 ### 4. Monitor your system
 
 If suddenly your fan run fast, your computer was slow down…
 
-Problem like this often happens when there is a program which requires resources beyond the capability of your system or that program is not configured correctly. For the former case, you have to find another lightweight alternative. For the later, here is my own experience: I used to encounter a problem with my video configuration. The video playback of Chrome did not use GPU power but used CPU power instead causing extremely high CPU usage for no obvious reason. After tracking the problem down, I then reconfigured Chrome and everything was fine.
+Problem like this often happens when there is a program which requires resources beyond the capability of your system or there is a not configured correctly. For the former case, you have to find another lightweight alternative. For the later, I used to encounter a similar problem with my Chrome configuration. The video playback of Chrome did not use GPU but used CPU instead causing extremely high CPU usage. After tracking the problem down, I then reconfigured Chrome to use GPU and everything was fine.
 
-These are typical cases that you should using a system monitor program like **htop** to detect which is the culprit - a program hogging your system resources (using a lot of CPU power or RAM or Disk).
+These are typical cases that you should using a system monitor program like **htop** to detect which is the culprit (a program hogging your system resources - by using a lot of CPU power or RAM or Disk).
 
 You may need to **kill** that process (to terminate it) for further step can be taken.
 
-To ***kill*** a running program the hard way (force it to close) by using command when the normal way of clicking the close button do not have any effect (that program is hanging):
+To ***kill*** a running program the hard way (force it to close) by using command:
 
 ```
 killall [program_name]
