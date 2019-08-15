@@ -299,7 +299,9 @@ defaults:
 # Search
 search: true
 google:
-  search_engine_id: 011103332185932955998:flqc54scnig
+  search_engine_id: 011103332185932955998
+  
+#:flqc54scnig
 
 # Comment
 comments:
