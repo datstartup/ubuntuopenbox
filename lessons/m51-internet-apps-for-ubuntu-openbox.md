@@ -5,7 +5,7 @@ description: We will install a web browser, an email client, a torrent client an
 toc: true
 toc_label: "Internet Applications"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 Internet apps:

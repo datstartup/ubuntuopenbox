@@ -5,7 +5,7 @@ description: introduce some "house keeping" tasks for a Debian system.
 toc: true
 toc_label: "Maintaining System"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 ---
 
 ### 1. Update your system frequently

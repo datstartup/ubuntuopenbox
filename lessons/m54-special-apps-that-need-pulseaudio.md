@@ -5,7 +5,7 @@ description: Applications that require PulseAudio to be installed.
 toc: true
 toc_label: "Apps require PulseAudio"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

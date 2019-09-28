@@ -5,7 +5,7 @@ description: Common features of an Operating System
 toc: true
 toc_label: "Common Features"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

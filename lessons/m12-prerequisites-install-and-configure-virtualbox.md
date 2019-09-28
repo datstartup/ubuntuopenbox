@@ -5,7 +5,7 @@ description: Download latest version to install and create a testing machine for
 toc: false
 toc_label: "Virtualbox"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

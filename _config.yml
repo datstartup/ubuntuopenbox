@@ -141,7 +141,8 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/ubuntuopenbox"
+      url: "fb://page/738859439593164"
+      #url: "https://facebook.com/ubuntuopenbox"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
@@ -297,7 +298,7 @@ defaults:
       related: true
       
 # Search
-search: true
+search: false
 google:
   search_engine_id: 011103332185932955998:flqc54scnig 
   

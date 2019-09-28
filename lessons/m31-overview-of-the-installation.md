@@ -5,7 +5,7 @@ description: Go through the steps you will take and the packages you will instal
 toc: true
 toc_label: "Overview"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

@@ -5,7 +5,7 @@ description: ""
 toc: true
 toc_label: "Openbox Theme"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

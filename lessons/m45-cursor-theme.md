@@ -5,7 +5,7 @@ description: ""
 toc: false
 toc_label: "Cursor theme"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

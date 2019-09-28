@@ -5,7 +5,7 @@ description: We will install a video player, a music player, a media converter, 
 toc: true
 toc_label: "Multimedia Apps"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

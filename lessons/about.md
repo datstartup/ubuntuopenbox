@@ -22,36 +22,33 @@ Hi, I am Dat from Vietnam.
 
 I learned Linux as a hobby years ago and eventually using it on everything I can (my PC, my Notebook and my Raspberry Pis).
 
-This site is created out of the love for Debian and Openbox. Although the though of "who am I to write this kind of tutorial?" is always lurking at the back of my mind, writing it has been a journey of pure joy.
+This site is created out of the love for Debian and Openbox. (The though of "who am I to write this kind of tutorial?" is always lurking at the back of my mind, writing it has been a journey of pure joy.)
 
-The saying "The best way to learn something is to teach it" is absolutely right. I have learned a lot since then.
+I have also received a lot of encouraging emails. They are a great sources of motivation. Please do not hesitate to share your thoughts on the Facebook page: [facebook.com/ubuntuopenbox](https://www.facebook.com/ubuntuopenbox)
 
-I have also received a lot of encouraging emails from people around the world who read this website - their compliments as well as their offers for help. They are the great sources of motivation. Please do not hesitate to share your thoughts with me on the Facebook page of the site: [facebook.com/ubuntuopenbox](https://www.facebook.com/ubuntuopenbox)
+Or contact me through this Google form: [https://forms.gle/ZEPE93sK8fFUW5KT7](https://forms.gle/ZEPE93sK8fFUW5KT7)
 
-Or contact me with this Google form: [https://forms.gle/ZEPE93sK8fFUW5KT7](https://forms.gle/ZEPE93sK8fFUW5KT7)
-
-Hope you will enjoy your read and found my information helpful!
+Hope you will enjoy your read and found the information helpful!
 
 # Why Ubuntu?
 
-I am choosing Ubuntu because it is one of the most recognizable name in Linux world, but user of other Linux distros should found this tutorial helpful.
+Because it is one of the most recognizable name in Operating System world.
 
 # Why Openbox?
 
-First and foremost: Openbox is Awesome!
-
-And next:
+First and foremost: Openbox is Awesome!;
+Next:
 
 To busting a bit of the myth of "how the components of your Ubuntu system work together".
 
-A Window Manager only gives you the “boxes” on the screen in which your programs will run, so you will have space for creativity.
+A Window Manager gives you the “boxes” on the screen in which your programs will run, so there will be space for your creativity.
 
-Linux OS is modular and to choose and to assemble those modules is a great experience.
+Linux OS is modular and to choose which packages for your own OS is a great experience.
 
 # Who are the target readers?
 
-The website is for those who are seeking the way to install a Operating System containing only what packages they want (i.e the customizing way!), and those who are seeking information for a minimal installation.
+For those who are seeking the way to install a Operating System containing only the packages they want (i.e the customizing way!).
 
-At first, I thought the target readers of this website had better be using pre-configured Linux operating systems (Ubuntu, Kubuntu, Debian, openSUSE...) and had a general idea of what Linux was. Along the way, I have tried to give as much as information for it is easy for everyone else.
+The target readers of this website had better be using pre-configured Linux operating systems (Ubuntu, Kubuntu, Debian, openSUSE...) and had a general idea of what Linux was.
 
 HAPPY READING!

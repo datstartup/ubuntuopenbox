@@ -5,7 +5,7 @@ description: We will install a word processor, a spreedsheet, a pdf reader and a
 toc: true
 toc_label: "Office Apps"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

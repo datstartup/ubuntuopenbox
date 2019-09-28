@@ -5,7 +5,7 @@ description: install terminal emulator, text editor, GUI package manager, task m
 toc: true
 toc_label: "System applications"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

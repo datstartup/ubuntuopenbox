@@ -5,7 +5,7 @@ description: ""
 toc: true
 toc_label: "Theme manager"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 
@@ -13,8 +13,8 @@ In this lesson I will show you the nuts and bolts of how to configure the look o
 
 We will need two programs: **Lxapperance** is for changing Gtk theme, icon theme and cursor theme; and **Obconf** is for changing Openbox theme.
 
-[**screenshots**]({{site.baseurl}}/screenshots.html){:target="_blank"}.
-Above are my current set up.
+Skim through this galery for my current setup:
+[**Galery**]({{site.baseurl}}/galery/){:target="_blank"}.
 
 In case you are not agree my choices of theme and icons, you can easily create another look for yours. There will be plenty space for the aesthetic sense to kick in.
 

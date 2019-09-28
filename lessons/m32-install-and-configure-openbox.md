@@ -5,7 +5,7 @@ description: "configure three most important configuration files of Openbox: men
 toc: true
 toc_label: "Configure Openbox"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

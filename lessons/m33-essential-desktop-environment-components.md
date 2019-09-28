@@ -5,7 +5,7 @@ description: install taskbar, file manager, wallpaper manager, network manager a
 toc: true
 toc_label: "Desktop components"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 

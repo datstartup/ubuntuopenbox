@@ -5,7 +5,7 @@ description: learn about APT and apt-get.
 toc: true
 toc_label: "Four essential commands"
 toc_icon: "cog"
-author_profile: true
+author_profile: false
 comments: true
 ---
 
