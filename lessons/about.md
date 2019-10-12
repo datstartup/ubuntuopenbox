@@ -28,6 +28,8 @@ I have also received a lot of encouraging emails. They are a great sources of mo
 
 Or contact me through this Google form: [https://forms.gle/ZEPE93sK8fFUW5KT7](https://forms.gle/ZEPE93sK8fFUW5KT7)
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTRMJ2f0IHmRTdNzXZkz0bg8G-nF0XP0zJllWn_oHl48O5bQ/viewform?embedded=true" width="640" height="795" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 Hope you will enjoy your read and found the information helpful!
 
 # Why Ubuntu?
