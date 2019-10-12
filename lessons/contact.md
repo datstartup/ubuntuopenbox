@@ -1,12 +1,10 @@
 ---
 layout: single
-permalink: /about/
+permalink: /contact/
 title: About
 description: "All the questions"
 excerpt: "All the trivials."
-toc: true
-toc_label: "All the WHs"
-toc_icon: "cog"
+toc: false
 author_profile: true
 comments: true
 header:
