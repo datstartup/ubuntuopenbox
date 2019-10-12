@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fa fa-rocket'></i> Get start now"
   cta_url: "/lessons/"
   caption: "Photo credit: [**by Autumn Studio on Unsplash**](https://unsplash.com/photos/zv3ckJKftC4)"
-excerpt: <span style="color:#772953"> Linux freedom is not truely freedom if your operating system is still a myth! </span><br /> <small><a></a></small><br /><br /> {::nomarkdown}{:/nomarkdown}'
+excerpt: <span style="color:#772953"> Learn how to install and configure an Ubuntu with Openbox window manager! </span><br /> <small><a></a></small><br /><br /> {::nomarkdown}{:/nomarkdown}
 feature_row:
   - image_path: /images/builder-icon.png
     alt: "customizable"

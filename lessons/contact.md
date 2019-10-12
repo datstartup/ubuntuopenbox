@@ -2,8 +2,8 @@
 layout: single
 permalink: /contact/
 title: Contact
-description: "Your suggestion"
-excerpt: "Your suggestion"
+description: "Your suggestion."
+excerpt: "Your suggestion."
 toc: false
 author_profile: true
 comments: true
