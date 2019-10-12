@@ -13,6 +13,6 @@ main:
   - title: "About"
     url: /about/
   - title: "Contact Me"
-    url: https://forms.gle/ZEPE93sK8fFUW5KT7
-  - title: "Sitemap"
-    url: /sitemap/
+    url: /contact/
+  #- title: "Sitemap"
+  #  url: /sitemap/

@@ -25,7 +25,7 @@ A command is text written in a specific syntax. After entering a command into a 
 
 Some commands only available for power user. You will need to be the **root** user or to use **sudo**.
 
-REMEMBER: **sudo** mean borrowing the omnipotent power of the root user. <span style="color:red">It does not mean "try harder"!</span>
+REMEMBER: **sudo** mean to borrow the omnipotent power of the root user. <span style="color:red">It does not mean "try harder"!</span>
 {: .notice--danger}
 
 Why do we use command-line a lot in this tutorial? Because building operating system from the ground up, most of the time we will not have the luxury of GUI.
