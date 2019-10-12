@@ -6,13 +6,13 @@ main:
     url: /lessons/
   - title: "Galery"
     url: /galery/
-  #- title: "Posts"
-  #  url: /year-archive/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Collections"
+    url: /collection-archive/
   - title: "About"
     url: /about/
   - title: "Contact Me"
     url: https://forms.gle/ZEPE93sK8fFUW5KT7
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  #- title: "Sitemap"
-  #  url: /sitemap/
+  - title: "Sitemap"
+    url: /sitemap/
