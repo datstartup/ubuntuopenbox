@@ -1,9 +1,9 @@
 ---
 layout: single
 permalink: /contact/
-title: About
-description: "All the questions"
-excerpt: "All the trivials."
+title: Contact
+description: "Your suggestion"
+excerpt: "Your suggestion"
 toc: false
 author_profile: true
 comments: true

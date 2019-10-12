@@ -26,7 +26,7 @@ This site is created out of the love for Debian and Openbox. (The though of "who
 
 I have also received a lot of encouraging emails. They are a great sources of motivation. Please do not hesitate to share your thoughts on the Facebook page: [facebook.com/ubuntuopenbox](https://www.facebook.com/ubuntuopenbox)
 
-Or contact me through this Google form: [https://forms.gle/ZEPE93sK8fFUW5KT7](https://forms.gle/ZEPE93sK8fFUW5KT7)
+Or contact me through this Google form: [https://www.ubuntuopenbox.com/contact/](https://www.ubuntuopenbox.com/contact/)
 
 Hope you will enjoy your read and found the information helpful!
 
