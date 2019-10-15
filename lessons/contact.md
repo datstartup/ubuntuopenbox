@@ -16,4 +16,4 @@ header:
 
 If you have any suggestion to make the website better, please send me a message!
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTRMJ2f0IHmRTdNzXZkz0bg8G-nF0XP0zJllWn_oHl48O5bQ/viewform?embedded=true" width="640" height="795" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTRMJ2f0IHmRTdNzXZkz0bg8G-nF0XP0zJllWn_oHl48O5bQ/viewform?embedded=true" width="100%" height="795" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
