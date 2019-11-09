@@ -3,9 +3,9 @@ title: "Upgrade Debian from 9 to 10 (Stretch to Buster)"
 header:
 categories:
   - Debian 10
-  - Uncategorized
+  - Operating system
 tags:
-  - Debian 10
+  - Debian 10  
   - upgrade
   - obmenu-generator
 ---
@@ -41,7 +41,7 @@ sudo apt-get update
 #### 2. Next, install the newest versions of all packages currently installed on the system:
 ```bash
 sudo apt-get upgrade
-
+```
 #### 3. Finally, run upgrade the distribution:
 ```bash
 sudo apt-get dist-upgrade
