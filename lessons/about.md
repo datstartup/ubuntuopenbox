@@ -5,7 +5,7 @@ title: About
 description: "All the questions"
 excerpt: "All the trivials."
 toc: true
-toc_label: "All the WHs"
+toc_label: "All the questions"
 toc_icon: "cog"
 author_profile: true
 comments: true
@@ -22,7 +22,7 @@ Hi, I am Dat from Vietnam.
 
 I learned Linux as a hobby years ago and eventually using it on everything I can (my PC, my Notebook and my Raspberry Pis).
 
-This site is created out of the love for Debian and Openbox. (The though of "who am I to write this kind of tutorial?" is always lurking at the back of my mind, writing it has been a journey of pure joy.)
+This site is created out of the love of Debian and Openbox. (The though of "who am I to write this kind of tutorial?" is always lurking at the back of my mind, but writing it has been a journey of pure joy.)
 
 I have also received a lot of encouraging emails. They are a great sources of motivation. Please do not hesitate to share your thoughts on the Facebook page: [facebook.com/ubuntuopenbox](https://www.facebook.com/ubuntuopenbox)
 
@@ -32,23 +32,20 @@ Hope you will enjoy your read and found the information helpful!
 
 # Why Ubuntu?
 
-Because it is one of the most recognizable name in Operating System world.
+Because it is one of the most recognizable name in Operating System world (also a big name in Linux world).
 
 # Why Openbox?
 
-First and foremost: Openbox is Awesome!;
-Next:
+Because Openbox is Awesome!, and...
 
-To busting a bit of the myth of "how the components of your Ubuntu system work together".
+To busting a bit of the myth of "how the components of your Ubuntu system work together", and...
 
-A Window Manager gives you the “boxes” on the screen in which your programs will run, so there will be space for your creativity.
-
-Linux OS is modular and to choose which packages for your own OS is a great experience.
+A Window Manager gives you only the “boxes” on the screen in which your programs will run, so there will be space for your customization.
 
 # Who are the target readers?
 
-For those who are seeking the way to install a Operating System containing only the packages they want (i.e the customizing way!).
+For those who are seeking the way to install an OS with only the packages they want (i.e the customizing way!).
 
-The target readers of this website had better be using pre-configured Linux operating systems (Ubuntu, Kubuntu, Debian, openSUSE...) and had a general idea of what Linux was.
+And, for those who have been using pre-configured Linux operating systems (Ubuntu, Kubuntu, Debian, openSUSE...) and had a general idea of what Linux was.
 
 HAPPY READING!
