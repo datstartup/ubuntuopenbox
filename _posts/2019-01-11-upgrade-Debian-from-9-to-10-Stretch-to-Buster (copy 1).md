@@ -29,20 +29,19 @@ deb http://ftp.tw.debian.org/debian/ buster-updates main #Taiwan
 ```
 (STRL + X and "Y" to save the file).
 
-Because mine uses Taiwan server, it is not necessary that you have to, please choose a nearest mirror for the best downloading speed.
-{: .notice--info}
+Because mine uses Taiwan server, it is not necessary that you have to, please choose a nearest mirror for the best downloading speed{: .notice--info}
 
 ### Upgrade by running these commands in sequence:
 
-#### 1. First, update the local source lists:
+1. First, update the local source lists:
 ```bash
 sudo apt-get update
 ```
-#### 2. Next, install the newest versions of all packages currently installed on the system:
+2. Next, install the newest versions of all packages currently installed on the system:
 ```bash
 sudo apt-get upgrade
 
-#### 3. Finally, run upgrade the distribution:
+3. Finally, run upgrade the distribution:
 ```bash
 sudo apt-get dist-upgrade
 ```
@@ -61,7 +60,7 @@ Release:	10
 Codename:	buster
 ```
 
-**ISSUE:** On my notebook, the upgrade had only one glitch. The obmenu-generator said it needed a Perl module, called "Linux::DesktopFiles". Installed the module and everything went smoothly.
+**ISSUE:** On my notebook, the upgrade had only one glitch. The obmenu-generator said it needed a Perl module, called "Linux::DesktopFiles". Install the module and everything when smoothly.
 
 ```bash
 sudo perl -MCPAN -e 'CPAN::Shell->install(q{Linux::DesktopFiles})'
