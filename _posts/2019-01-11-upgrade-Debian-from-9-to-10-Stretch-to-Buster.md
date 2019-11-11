@@ -12,11 +12,11 @@ tags:
 
 ### First, change the content of the **sources.list** file.
 
-#### Backup it
+#### Backup
 ```bash
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 ```
-#### Change it
+#### Change the content
 Edit it using **nano** editor:
 ```bash
 sudo nano /etc/apt/sources.list
