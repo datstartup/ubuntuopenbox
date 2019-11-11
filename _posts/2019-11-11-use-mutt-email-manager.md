@@ -14,19 +14,19 @@ tags:
 
 ### I only use the Raspberry Pi for headless server, so I need a email client that send email. 
 
-> I use Raspbian OS
-> Gmail as free email
+* I use Raspbian OS and 
+* Gmail as free email
 
 #### Install and configure Mutt
 
-#####Install
+##### Install
 It is in Raspbian repositories, so the installation is simple.
 ```bash
 sudo apt-get install mutt
 ```
 
-#####Configure Mutt to manage a Gmail
-Configure mutt to manage your Gmail by edit its configuration file at **/home/pi/.muttrc**
+##### Configure Mutt to manage a Gmail
+Edit its configuration file at **/home/pi/.muttrc**
 ```bash
 nano /home/pi/.muttrc
 ```
@@ -53,19 +53,19 @@ set charset = "utf-8"
 set record = ''
 ```
 **Note:** Change these line accordingly to your Gmail preferences:
-set realname = "Last_name First_name"
-set from = "your_gmail_account@gmail.com"
-set smtp_url = "smtps://your_gmail_account@gmail.com@smtp.gmail.com:465/"
-set smtp_pass = "your_gmail_password"
-set imap_user = "your_gmail_account@gmail.com"
-set imap_pass = "your_gmail_password"
+* set realname = "Last_name First_name"
+* set from = "your_gmail_account@gmail.com"
+* set smtp_url = "smtps://your_gmail_account@gmail.com@smtp.gmail.com:465/"
+* set smtp_pass = "your_gmail_password"
+* set imap_user = "your_gmail_account@gmail.com"
+* set imap_pass = "your_gmail_password"
 {: .notice--info}
 
-#####To test your new setting:
+##### To test your new setting:
 ```bash
 mutt -s "Test from mutt" your_name@your_email.com < ~/text
 ```
-Note: Change the email to yours (the one you want to receive test email).
+Note: Change the email to the one you want to receive the test email.
 {: .notice--info}
 
 #### Send email content IP at startup - A simple script to employ Mutt in Raspbian.
@@ -83,7 +83,7 @@ fi
 ```
 Save it at **home/pi/emailIP.sh**
 
-**Note:** Change the email to yours (the one you want to receive the IP) and change the username of the command **sudo -u pi /usr/bin/mutt...** if you using another (it is "pi" here as current sending user).
+**Note:** Change the email to the one you want to receive the IP and change the username of the command **sudo -u pi /usr/bin/mutt...** if you using another (it is "pi" here as current sending user).
 {: .notice--info}
 
 ##### Run it at boot
@@ -91,7 +91,7 @@ On your Pi, edit the file /etc/rc.local (need root power):
 ```bash
 sudo nano /etc/rc.local
 ```
-Add commands **/home/pi/emailIP.sh** , then save the file and exit.
+Add commands **/home/pi/emailIP.sh** below the comments, then save the file and exit.
 
-**Note:** you must leave the line **exit 0** at the end
+**Note:** you must leave the line **exit 0** at the end.
 {: .notice--info}
