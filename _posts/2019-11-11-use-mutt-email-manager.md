@@ -69,8 +69,8 @@ Note: Change the email to the one you want to receive the test email.
 {: .notice--info}
 
 #### Send email content IP at startup - A simple script to employ Mutt in Raspbian.
-I often drag my Rasberry Pi around and it often have to jump between different wifi network.
-The script will tell me which IP it has in order to SSH.
+I often drag my Rasberry Pi around and it often has to jump between different wifi network.
+The script will tell me which IP it has for me to SSH.
 ```bash
 #! /bin/bash
 sleep 10
