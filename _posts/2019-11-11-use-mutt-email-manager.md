@@ -63,9 +63,9 @@ set record = ''
 
 ##### To test your new setting:
 ```bash
-mutt -s "Test from mutt" your_name@your_email.com < ~/text
+mutt -s "Test from mutt" your_name@your_email.com < /home/pi/text
 ```
-Note: Change the email to the one you want to receive the test email.
+Note: Change the email to the one you want to receive the test email. You also need a text file name 'text' with the body (message) of the email in it.
 {: .notice--info}
 
 #### Send email content IP at startup - A simple script to employ Mutt in Raspbian.

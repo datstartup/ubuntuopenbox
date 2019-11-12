@@ -1,0 +1,14 @@
+:0
+*^content-Type:
+{
+  $HOME/.procmailrc
+   # backup the complete mail first..
+   # you can leave out this part if you don't want a backup of the complete mail
+  # :0c:
+  # $HOME/mail_backup
+
+   # Now the actual unpacking part
+   # forward to uudeview and unpack attachments to $HOME/epub_attachments
+   :0fw
+   | uudeview -p $HOME/epub_attachments -
+}

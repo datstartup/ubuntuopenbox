@@ -1,0 +1,17 @@
+set realname = "Last_name First_name"
+set from = "your_gmail_account@gmail.com"
+set use_from = yes
+set envelope_from = yes
+
+set smtp_url = "smtps://datsbooks@gmail.com@smtp.gmail.com:465/"
+set smtp_pass = "!hoanglong?88"
+set imap_user = "datsbooks@gmail.com"
+set imap_pass = "!hoanglong?88"
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set ssl_force_tls = yes
+# G to get mail
+bind index G imap-fetch-mail
+set editor = "nano"
+set charset = "utf-8"
+set record = ''
