@@ -38,7 +38,7 @@ ebook-convert myebook.epub myebook.mobi"
 #### Bash sript that can convert and send epub to my kindle on the spot
 
 ```bash
-nano /home/pi/convertAndSend
+nano /home/pi/convertAndSend.sh
 ```
 Change the content of the file as following:
 
@@ -69,7 +69,7 @@ Copy the script to /usr/bin to make it global.
 {: .notice--info}
 
 ```bash
-sudo cp /home/pi/convertAndSend /usr/bin
+sudo cp /home/pi/convertAndSend.sh /usr/bin
 ```
 
 #### To use it:
@@ -77,5 +77,5 @@ sudo cp /home/pi/convertAndSend /usr/bin
 Suppose I have an ebook name myebook.epub on my /home/username/. To convert and send it to my kindle:
 
 ```bash
-convertAndSend home/username/myebook.epub
+convertAndSend.sh home/username/myebook.epub
 ```
