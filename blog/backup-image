@@ -1,1 +1,0 @@
-sudo dd bs=4M if=/dev/sdb | gzip > rasbian.img.gz
