@@ -31,8 +31,10 @@ What I had been and have been used it for:
 * Audio experience: The 3.5 jack came with it is terrible (cracking noice, while noice). I have to use it with a USB audio card, any cheap one will do (because Raspbian uses relatively new kernel, almost all USB sould card can be recognized).
 
 * GUI experience: I have use it (using a monitor/ Raspberry 7 inch LCD) as Kodi media center and Volumio music player. 
- * Kodi: It is okay, it can connect to my file server (on another Raspberry Pi), play full HD videos with ease and occationally play some musics. However, if I load movie database like I use Kodi on my PC, the Raspberry Pi became painfully slow. So it is okay, but you cannot have the full experience, just a fine device to play movies and musics.
- * Volumio: the official display is good, use it to control music for my coffee shop, have been running it for several months without any issues.
+  
+  * Kodi: It is okay, it can connect to my file server (on another Raspberry Pi), play full HD videos with ease and occationally play some musics. However, if I load movie database like I use Kodi on my PC, the Raspberry Pi became painfully slow. So it is okay, but you cannot have the full experience, just a fine device to play movies and musics.
+  
+  * Volumio: the official display is good, use it to control music for my coffee shop, have been running it for several months without any issues.
 
 * Server experience: This is the most I use it with, always on headless server (without a monitor connect to it and using SSH to communicate). It can be use as a stand alone server (Pi-hole, Transmission...) or as a mediator server (have it check a Gmail every 5 minutes, if there is new email, do something with it and send the result again to another Gmail which is handled by a Google Apps Script to do the next something for me).
 
