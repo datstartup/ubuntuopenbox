@@ -28,7 +28,7 @@ I have to say this: Although I understand the completeness and quick set-up of *
 Lxpanel is a lightweight yet fully equipped with
 all the necessary plugins (system tray, menu...)
 
-[![lxpanel]({{site.baseurl}}/images/lxpanel.png)]({{site.baseurl}}/images/lxpanel.png){:target="_blank"}
+[![lxpanel]({{site.baseurl}}/images/lxpanel.png)]({{site.baseurl}}/images/lxpanel.png){:target="blank"}
 
 ```
 sudo apt-get install lxpanel
