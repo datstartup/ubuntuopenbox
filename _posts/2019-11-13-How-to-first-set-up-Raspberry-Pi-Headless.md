@@ -49,7 +49,7 @@ Raspbian will detect it during the first boot and enable SSH.
 
 ### Scan for Raspberry Pi's IP on your network
 
-I have setup fix IPs for every of my Raspberry Pi depending on their Mac addresses or have them send me their IP to my email everytime they connected to a new network as in this post:.... So this is only for the first time use.
+I have setup fix IPs for every of my Raspberry Pi depending on their Mac addresses or have them send me their IP to my email everytime they connected to a new network as in this post:[Use mutt email manager/](https://www.ubuntuopenbox.com/raspberry-pi/debian/ubuntu/command-line/use-mutt-email-manager/). So this is only for the first time use.
 
 I am using **nmap** to scan the IPs in my network with this command:
 
