@@ -2,10 +2,10 @@
 title: "Back Up Raspberry Pi OS To Image"
 header:
 categories:
-  - Raspberry Pi
+  - Raspberry-Pi
 tags:
   - Raspbian
-  - Raspberry Pi
+  - Raspberry-Pi
   - Backup
 ---
 

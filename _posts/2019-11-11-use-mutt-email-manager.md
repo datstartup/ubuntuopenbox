@@ -2,13 +2,13 @@
 title: "Use Mutt As Email Manager"
 header:
 categories:
-  - Raspberry Pi
+  - Raspberry-Pi
   - Debian
   - Ubuntu
   - Command-line
 tags:
   - Raspbian
-  - Raspberry Pi
+  - Raspberry-Pi
   - Mutt
 ---
 

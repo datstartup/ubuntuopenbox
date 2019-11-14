@@ -2,12 +2,12 @@
 title: "What I use Raspberry Pi for and my own opinions about it"
 header:
 categories:
-  - Raspberry Pi
+  - Raspberry-Pi
   - Debian
   - Ubuntu
 tags:
   - Raspbian
-  - Raspberry Pi
+  - Raspberry-Pi
 ---
 
 ### I have been using Raspberry Pi from the model B 1st to the 3rd version of the board and have some interesting things to share in case someone is wondering that whether or not they should buy one.

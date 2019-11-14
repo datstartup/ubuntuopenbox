@@ -2,10 +2,10 @@
 title: "Upgrade Debian from 9 to 10 (Stretch to Buster)"
 header:
 categories:
-  - Debian 10
-  - Operating system
+  - Debian-10
+  - Operating-system
 tags:
-  - Debian 10  
+  - Debian-10  
   - upgrade
   - obmenu-generator
 ---

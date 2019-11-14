@@ -1,12 +1,11 @@
 ---
-title: "What I use Raspberry Pi for and my own opinions about it"
+title: "How I set up my Raspberry Pis as headless servers"
 header:
 categories:
-  - Raspberry Pi
+  - Raspberry-Pi
 tags:
   - Raspbian
-  - Raspberry Pi
-  - How to
+  - Raspberry-Pi
 ---
 
 ## The steps laying out here are distilled from my own trial and error. Hope it will help you!
@@ -37,13 +36,13 @@ network={
 
 Raspbian will move it to the proper place at /etc/wpa_supplicant/ at the first boot and automatically connect to the wifi specified in the file.
 
-*Note:* This is not me to invent the method, I read it somewhere on stackexchange when my HDMI cable broke and too lazy to connect it to a LAN cable. Have been using it successfully ever since from Stretch to Buster.
+*Note:* It is not me to invent the method, I read it somewhere on stackexchange when my HDMI cable broke and could not access to a LAN port. Have been using it successfully ever since from Stretch to Buster.
 {: .notice--info}
 
 ### Enable SSH
 
 Create a empty file name *ssh*, without any extension, in the /boot directory.
-Raspbian will detect it during the first boot and enable SSH server on it.
+Raspbian will detect it during the first boot and enable SSH.
 
 *Note:* I found it here: [Raspberry Pi's documentation on SSH](https://www.raspberrypi.org/documentation/remote-access/ssh/ "Raspberry Pi's documentation on SSH").
 {: .notice--info}

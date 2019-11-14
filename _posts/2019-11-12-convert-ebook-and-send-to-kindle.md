@@ -2,13 +2,13 @@
 title: "Convert and send ebook to kindle"
 header:
 categories:
-  - Raspberry Pi
+  - Raspberry-Pi
   - Debian
   - Ubuntu
   - Command-line
 tags:
   - Raspbian
-  - Raspberry Pi
+  - Raspberry-Pi
   - Mutt
 ---
 
