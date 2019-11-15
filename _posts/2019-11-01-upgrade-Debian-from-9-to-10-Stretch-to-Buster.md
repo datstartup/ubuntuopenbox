@@ -66,3 +66,12 @@ Codename:	buster
 ```bash
 sudo perl -MCPAN -e 'CPAN::Shell->install(q{Linux::DesktopFiles})'
 ```
+
+**UPDATE 15 Nov 2019:** I found another bug when trying to "open terminal here" in Thunar: "Failed to launch preferred application for category TerminalEmulator. Failed to execute child process /usr/lib/x86_64-linux-gnu/xfce4/exo-1/exo-helper-1 (No such file or directory).) Directory exo-1 does not exist."
+
+Have to install the package name **"libexo-1-0"**:
+```bash
+sudo apt-get install libexo-1-0
+```
+
+as found here [on askubuntu.com](https://askubuntu.com/questions/1136194/xfce-can-not-start-preferred-applications-under-ubuntu-19-04).
