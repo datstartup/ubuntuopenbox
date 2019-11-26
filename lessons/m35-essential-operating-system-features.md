@@ -128,7 +128,7 @@ Bind **Windows + l** these keys to the following command:
 $ light-locker-command -l
 ```
 in my rc.xml file. The entry looks like this:
-```bash
+```xml
 <keybind key="W-l">
   <action name="Execute">
     <startupnotify>
