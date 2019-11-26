@@ -52,7 +52,6 @@ Now as soon as you have entered your login credential, the GUI will be launched.
 
 The operating system needs an output to notify about happening events (an email is received, your battery is low, a download is finished...).
 
-It is in a form of bubbles popping out on the desktop (with sound).
 ```bash
 sudo apt-get install xfce4-notifyd
 ```
@@ -61,7 +60,7 @@ To configure how would the notification will be like:
 ```bash
 xfce4-notifyd-config
 ```
-
+These nofification are in a form of bubbles popping out on the desktop (with sound).
 ![notification bubble]({{site.baseurl}}/images/xfce4-notifyd-fullwindow.png)
 
 ### 3. Alsa and PulseAudio for audio
@@ -69,26 +68,26 @@ xfce4-notifyd-config
 * Alsa will give you the audio driver
 * PulseAudio will give you multiple choices over the output.
 
-I recommend to use them both on your system. I used to hate PulseAudio because of its unpredictable behaviors, but after having some USB DACs, PulseAudio really makes my life easier.
+I recommend to use them both on your system. I used to hate PulseAudio because of its unpredictable behaviors. After having some USB DACs, PulseAudio really makes my life easier.
 
 ```bash
 sudo apt-get install alsa-base alsa-utils pulseaudio pavucontrol
 ```
 
-In your terminal using the command Alsamixer to open the mixer and pressing "SPACE" key to unmute all the channels.
+In your terminal using the command **alsamixer** to open the mixer and using "SPACE" key to unmute any muted chanel.
 ```bash
 alsamixer
 ```
+
+![alsamixer]({{site.baseurl}}/images/alsamixer.jpg)
 
 You should have the sound working immediately, if not, follow by this command:
 ```bash
 alsactl init
 ```
 
-![alsamixer]({{site.baseurl}}/images/alsamixer.jpg)
-
 ### 4. Windows fonts
-Lacking windows fonts, some websites and documents will not display nicely as expected (Especially documents received from someone using Windows).
+Lacking windows fonts, some websites and documents will not display nicely as expected (Especially those from someone using Windows).
 ```
 sudo apt-get install ttf-mscorefonts-installer
 ```
@@ -115,8 +114,8 @@ This **scrot** command can be bound to the **PRINT SCREEN** key on your keyboard
 </keybind>
 ```
 
-Note: **-e 'mv $f ~/Pictures/Screenshots/'**, this part is for the screenshots saved into preferred folder. 
-{.notice danger}
+Note: **-e 'mv $f ~/Pictures/Screenshots/'**, this part is for the screenshots saved into my preferred folder. 
+{: .notice--danger}
 
 ### 6. light-locker for locking screen
 
@@ -154,7 +153,7 @@ In my my **rc.xml** file, the **gmrun** have been bound into **“Windows key + 
 Press these combination keys and **gmrun** window should be ready.
 
 Here is how the key binding entry for **gmrun** looks like in my **rc.xml**:
-```bash
+```html
 </keybind>
 <keybind key="W-r">
   <action name="Execute">
