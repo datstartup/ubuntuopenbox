@@ -63,7 +63,7 @@ Configure the three most important files of Openbox: **menu.xml**, **autostart**
   + Notification mechanism
   + Audio driver
   + Windows fonts
-  + App got taking screenshot
+  + App for taking screenshot
   + App for locking screen
 
 ## Module 4 - Eye Candy

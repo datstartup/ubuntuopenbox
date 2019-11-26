@@ -14,7 +14,7 @@ Essential features of a operating system
   + Notification mechanism
   + Audio driver
   + Windows fonts
-  + App got taking screenshot
+  + App for taking screenshot
   + App for locking screen
   + App launcher
 
