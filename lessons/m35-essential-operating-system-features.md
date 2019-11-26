@@ -50,7 +50,7 @@ Now as soon as you have entered your login credential, the GUI will be launched.
 
 ### 2. Xfce4-notifyd for Notification mechanism
 
-The operating system needs an output to notify about happned events (an email is received, your battery is low, a download is finished...).
+The operating system needs an output to notify about happening events (an email is received, your battery is low, a download is finished...).
 
 It is in a form of bubbles popping out on the desktop (with sound).
 ```bash
