@@ -128,7 +128,7 @@ Bind **Windows + l** these keys to the following command:
 $ light-locker-command -l
 ```
 in my rc.xml file. The entry looks like this:
-```xml
+```bash
 <keybind key="W-l">
   <action name="Execute">
     <startupnotify>
@@ -153,7 +153,7 @@ In my my **rc.xml** file, the **gmrun** have been bound into **“Windows key + 
 Press these combination keys and **gmrun** window should be ready.
 
 Here is how the key binding entry for **gmrun** looks like in my **rc.xml**:
-```html
+```bash
 </keybind>
 <keybind key="W-r">
   <action name="Execute">
