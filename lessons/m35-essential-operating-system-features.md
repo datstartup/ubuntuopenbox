@@ -61,6 +61,7 @@ To configure how would the notification will be like:
 xfce4-notifyd-config
 ```
 These nofification are in a form of bubbles popping out on the desktop (with sound).
+
 ![notification bubble]({{site.baseurl}}/images/xfce4-notifyd-fullwindow.png)
 
 ### 3. Alsa and PulseAudio for audio
