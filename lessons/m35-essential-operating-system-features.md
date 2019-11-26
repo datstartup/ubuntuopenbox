@@ -31,7 +31,7 @@ sudo apt-get install lightdm lightdm-gtk-greeter
 
 * **lightdm-gtk-greeter** is for handling the gtk theme of Lightdm (the other theme handlers are: lightdm-kde-greeter for KDE, lightdm-unity-greeter for Unity...).
 
-<span style="color:blue">***The below is totally unnecessary, but it is nice to having another option:***</span>
+<span style="color:blue">***The below is totally unnecessary, but it is nice to have another option:***</span>
 
 **There was a choice of not using any loggin manager:**
 
