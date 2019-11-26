@@ -26,9 +26,7 @@ In short, what Openbox give you are just the "boxes" in which the programs are r
 
 This modesty is the reason why people love Openbox. You will have the freedom to deeply configure the GUI.
 
-## Overview of the installation
-
-### 1. Core steps
+## Core steps
 
 1. Step 1: Install the base Ubuntu OS without any GUI.
 
@@ -51,7 +49,7 @@ This modesty is the reason why people love Openbox. You will have the freedom to
 5. Step 5: Customize the look and feel of your new OS.
   Customize my own Openbox is a fun and exciting experience.
 
-### 2. Core packages:
+## Core packages:
 
 Here is the command to install all necessary packages for a competent Ubuntu operating system using Openbox:
 
