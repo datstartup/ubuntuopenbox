@@ -12,9 +12,9 @@ tags:
   - Mutt
 ---
 
-### I have been using kindle for several years and have been use the GUI version of Calibre to convert ebook then using Thunderbird email client to send the converted file to my kindle email account. 
+### I have been using kindle for several years and used the GUI version of Calibre to convert ebook then using Thunderbird to send the converted ebook to my kindle account. 
 
-After using mutt on Raspberry Pi, I write a script on my Debian Laptop to convert and send ebook to my kindle on the spot, using just one line of command.
+After using mutt, I write a script on my Debian Laptop to convert and send ebook to my kindle on the spot.
 
 * Debian 
 * Mutt with Gmail
@@ -25,7 +25,7 @@ After using mutt on Raspberry Pi, I write a script on my Debian Laptop to conver
 Please see this post: [Use Mutt As Email Manager](https://www.ubuntuopenbox.com/raspberry%20pi/debian/ubuntu/command-line/use-mutt-email-manager/ "Install and configure Mutt with Gmail")
 
 #### Install Calibre
-It is in Raspbian repositories, so the installation is simple.
+It is in Raspbian repositories:
 ```bash
 sudo apt-get install calibre
 ```

@@ -12,7 +12,7 @@ tags:
   - parse email
 ---
 
-## My only focus is to parse my Gmail for .epub files (for my ebook converter server) and sort it to proper folder. You can use it for any other file format.
+## My only focus is to parse my Gmail for .epub files (for my ebook converter server) and sort them to a folder. You can use it for any other file format.
 
 I needs:
 
@@ -26,11 +26,14 @@ To install all of them:
 sudo apt-get install fetchmail procmail uudeview
 ```
 
-### uudeview is a command, I will use it like any other in Linux
+### uudeview 
+It is a command, I will use it like any other in Linux.
 
-### Configure procmail to forward to uudeview and unpack attachments to $HOME/epub_attachments (I need the directory /home/username/epub_attachements available)
+### procmail
 
-Edit its configuration file in my user's home directory.
+Configure procmail to forward to uudeview and unpack attachments to $HOME/epub_attachments (I need the directory /home/username/epub_attachements available).
+
+Edit its configuration file in my home directory.
 ```bash
 nano /home/username/.procmailrc
 ```
@@ -57,7 +60,7 @@ Learn more about *procmail*: [https://wiki.archlinux.org/index.php/Procmail](htt
 
 ### Configure fetchmail
 
-Edit its configuration file in my user's home directory. I should have had *procmail* configure properly because *fetchmail* will feed the emails to *procmail* for sorting.
+Edit its configuration file in my home directory. I should have already had *procmail* configure properly because *fetchmail* will feed the emails to *procmail* for sorting.
 ```bash
 nano /home/username/.fetchmailrc
 ```
@@ -78,8 +81,7 @@ mda '/usr/bin/procmail -d %T'
 
 NOTE: **postmaster "username"** is the current user, mine is "pi". **'email_to_fetch'** is the username of the Gmail as in username@gmail.com. **'password_of_the_email'** is the one of the Gmail {: .notice--info}
 
-To test fetchmail, have emails with .epubs attatchments send to the Gmail. The command below should run smoothly and .epubs files are properly added to the $HOME/epub_attachments directory.
+To test fetchmail, have emails with .epubs attatchments send to the Gmail. The command below should run smoothly and .epubs files are properly downloaded, decoded and sorted to the $HOME/epub_attachments directory.
 ```bash
 fetchmail -d0 -vk pop.gmail.com
 ```
-

@@ -21,7 +21,7 @@ Edit it using **nano** editor:
 ```bash
 sudo nano /etc/apt/sources.list
 ```
-Modify its content as following:
+Modify its content:
 ```bash
 deb http://ftp.tw.debian.org/debian/ buster main contrib non-free #Taiwan
 deb http://security.debian.org/ buster/updates main

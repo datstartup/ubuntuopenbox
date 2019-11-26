@@ -52,7 +52,7 @@ As a die hard user of spreadsheets, I only use Calc for "lite" spreadsheet work 
 
 ![libreoffice-writer]({{site.baseurl}}/images/LibreOffice-Writer.jpg)
 
-**UPDATE 26 Nov 2019:** I have been using Google Docs, Spreadsheet, Mail, Calendar, Drive, Form... as my productivity tools for over two full years. In fact, the contact form of this website is a Google form. I express how awesome they are enough. Please give them a try!
+**UPDATE 26 Nov 2019:** I have been using Google Docs, Spreadsheet, Mail, Calendar, Drive, Form... as my productivity tools for over two full years. In fact, the contact form of this website is a Google form. I cannot express how awesome they are enough. Please give them a try!
 {: notice--info}
 
 ### 2. Qpdfview as Pdf reader

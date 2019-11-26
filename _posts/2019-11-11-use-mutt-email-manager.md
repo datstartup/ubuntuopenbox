@@ -14,8 +14,8 @@ tags:
 
 ### I only use the Raspberry Pi for headless server, so I need a email client that send email. 
 
-* I use Raspbian OS and 
-* Gmail as free email
+* Raspbian OS and 
+* Gmail
 
 #### Install and configure Mutt
 
@@ -69,8 +69,8 @@ Note: Change the email to the one you want to receive the test email. You also n
 {: .notice--info}
 
 #### Send email content IP at startup - A simple script to employ Mutt in Raspbian.
-I often drag my Rasberry Pi around and it often has to jump between different wifi network.
-The script will tell me which IP it has for me to SSH.
+I often drag my Rasberry Pi around so it has to get different assigned IP.
+The script will tell me which IP it currently has.
 ```bash
 #! /bin/bash
 sleep 10
@@ -86,8 +86,7 @@ Save it at **home/pi/emailIP.sh**
 **Note:** Change the email to the one you want to receive the IP and change the username of the command **sudo -u pi /usr/bin/mutt...** if you using another (it is "pi" here as current sending user).
 {: .notice--info}
 
-##### Run it at boot
-On your Pi, edit the file /etc/rc.local (need root power):
+To run the script at boot, on your Pi edit the file /etc/rc.local (need root power):
 ```bash
 sudo nano /etc/rc.local
 ```

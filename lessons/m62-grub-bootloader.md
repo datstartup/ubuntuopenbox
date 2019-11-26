@@ -13,16 +13,20 @@ comments: true
 
 ***- From Arch wiki***
 
-We have installed the Grub bootloader while installing Ubuntu in Module 2. Now we can configure it to fit out need.
+The Grub bootloader is installed along with the OS. Now we can configure it to fit out need.
 
-The file **/etc/default/grub** store the settings of Grub.
+The file **/etc/default/grub** store the settings of Grub. To edit:
+
+```bash
+sudo nano /etc/default/grub
+```
 
 Please remember: Grub bootloader is a very important component of your system, editing it is a dangerous task.
 {: .notice--danger}
 
-After editing it, run bellow command for the change to be applied.
+After editing, run bellow command for the change to be applied.
 
-```
+```bash
 sudo update-grub
 ```
 
@@ -48,13 +52,13 @@ _***The main options you can change in this file are:***_
 
 ### 1. The default OS which Grub will always chose to boot first.
 
-When you see your Grub boot menu, from the top down will all the entries. The order will start with 0 for the first entry, 1 for the second and so on..
+All the entries (lines) are indexed. The order will start with 0 for the first entry, 1 for the second and so on..
 
-To specify the default boot entry change the line below:
+To specify the default OS change the line below:
 ```
 GRUB_DEFAULT=0
 ```
-This mean I am choosing the first entry as default.
+This mean I am choosing the first OS as default.
 
 ### 2. Hide Grub menu (only if you mainly use one OS on your boot menu)
 
@@ -76,11 +80,11 @@ GRUB_TIMEOUT=1
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi=Linux acpi_backlight=vendor pcie_aspm=force drm.vblankoffdelay=1 i915.semaphores=1"
 ```
 
-In various cases, especially when you are using a Laptop, for some functions can work as expected, you have to specify the kernel parameters. You can do it with Grub by edit the line “GRUB_CMDLINE_LINUX_DEFAULT=...”.
+In various cases, especially when you are using a Laptop, for some functions can work as expected, you have to specify the kernel parameters by editing the line “GRUB_CMDLINE_LINUX_DEFAULT=...”.
 
-Mine is the illustrating line above; it is for the LCD display of my desktop can work out right.
+Mine is illustrated above; it is for the LCD display of my desktop can work well.
 
-Each laptop/ PC might need specific kernel parameters. So please do research it yourself. I show it here because editing kernel parameters using Grub is such a important feature.
+Each laptop/ PC might need specific kernel parameters. So please do research it yourself. I show it here because editing kernel parameters is such a important feature.
 
 ### 5. Change Grub background:
 
