@@ -24,7 +24,7 @@ I learned Linux as a hobby years ago and eventually using it on everything I can
 
 This site is created out of the love of Debian and Openbox. (The though of "who am I to write this kind of tutorial?" is always lurking at the back of my mind, but writing it has been a journey of pure joy.)
 
-I have also received a lot of encouraging emails. They are a great sources of motivation. Please do not hesitate to share your thoughts on the Facebook page: [facebook.com/ubuntuopenbox](https://www.facebook.com/ubuntuopenbox)
+I have also received a lot of encouraging emails. They are all great sources of motivation. Please do not hesitate to share your thoughts on the Facebook page: [facebook.com/ubuntuopenbox](https://www.facebook.com/ubuntuopenbox)
 
 Or contact me through this Google form: [https://www.ubuntuopenbox.com/contact/](https://www.ubuntuopenbox.com/contact/)
 
@@ -32,13 +32,13 @@ Hope you will enjoy your read and found the information helpful!
 
 # Why Ubuntu?
 
-Because it is one of the most recognizable name in Operating System world (also a big name in Linux world).
+Because it is one of the most recognizable name in Operating System world (also a big name in Linux world). Although eventually, I recommend Debian for its stability.
 
 # Why Openbox?
 
 Because Openbox is Awesome!, and...
 
-To busting a bit of the myth of "how the components of your Ubuntu system work together", and...
+To busting the myth of "how the components of your Ubuntu system work together", and...
 
 A Window Manager gives you only the “boxes” on the screen in which your programs will run, so there will be space for your customization.
 
@@ -46,6 +46,6 @@ A Window Manager gives you only the “boxes” on the screen in which your prog
 
 For those who are seeking the way to install an OS with only the packages they want (i.e the customizing way!).
 
-And, for those who have been using pre-configured Linux operating systems (Ubuntu, Kubuntu, Debian, openSUSE...) and had a general idea of what Linux was.
+And, for those who have been using pre-configured operating systems (Ubuntu, Kubuntu, Debian, openSUSE...) and want to play more with Linux.
 
 HAPPY READING!

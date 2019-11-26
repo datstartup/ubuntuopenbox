@@ -8,7 +8,7 @@ toc_icon: "cog"
 author_profile: false
 comments: true
 ---
-I have create a Video with step by step instruction showing how to install an Ubuntu operating system without any GUI. From this foundation, we will build the GUI the way we like.
+I have create a Video with step by step instruction showing how to install an Ubuntu operating system without any GUI. From this foundation, I will build the GUI the way I like.
 
 Here is the video:
 

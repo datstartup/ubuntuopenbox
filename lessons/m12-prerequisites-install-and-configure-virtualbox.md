@@ -9,11 +9,11 @@ author_profile: false
 comments: true
 ---
 
-Looking back, Virualbox has been the most important discover to help me to take the next step into the Linux world. With it I can freely create a lot of virtual machines to test many Linux distributions.
+Looking back, Virualbox has been the most important discover for my next step into the Linux world because I can freely create a virtual machine to test any Linux distribution.
 
-Virtualbox also allows me to reset the virtual machine back to any of its previous saving points (“snapshot”). This way, I will have another chance if I screw up something.
+Virtualbox also allows me to reset the virtual machine back to any of its previous saving points (“snapshot”). I always have other chances if I screw up something.
 
-Given all that, I recommend you to try this guide on a virtual machine prior to on a real machine.
+Given all that, I recommend you to try this guide on a virtual machine prior to on your real system.
 
 Here is my video that show you how to install a Virtualbox:
 

@@ -27,7 +27,7 @@ deb http://ftp.tw.debian.org/debian/ buster main contrib non-free #Taiwan
 deb http://security.debian.org/ buster/updates main
 deb http://ftp.tw.debian.org/debian/ buster-updates main #Taiwan
 ```
-(STRL + X and "Y" to save the file).
+(CTRL + X and "Y" to save the file).
 
 Because mine uses Taiwan server, it is not necessary that you have to, please choose a nearest mirror for the best downloading speed.
 {: .notice--info}

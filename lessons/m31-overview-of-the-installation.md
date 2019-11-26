@@ -13,7 +13,8 @@ Objective: It will give you the full picture of how Openbox and other components
 
 ## Core concepts:
 ### Window Manager Vs. Desktop Environment
-To understand what Openbox actually is, it's important to know the differences between a window manager and a desktop environment.
+
+It's important to know the differences between a window manager and a desktop environment.
 
 >A window manager is the program which draws on your screen the "box" in which the program is run. A window manager controls how your program window works, looks and acts. It decides what window decorations to use and gives you a way to move the windows, hide them, resize them, minimize them and close them. It controls what buttons you push to do those things, and what keys you press to make those things happen.
 
@@ -21,7 +22,9 @@ To understand what Openbox actually is, it's important to know the differences b
 
 from: [Debian wiki](https://wiki.debian.org/Openbox/ "Openbox documentation on Debian's wiki")
 
-In short, what Openbox give you are just the "boxes" in which the programs are run. This is modest, but this modesty is also the reason why people love Openbox specifically or Window manager in general. You will have the freedom to deeply configure the system and to choose the only specific apps/ features you actually need.
+In short, what Openbox give you are just the "boxes" in which the programs are run. 
+
+This modesty is the reason why people love Openbox. You will have the freedom to deeply configure the GUI.
 
 ## Overview of the installation
 
@@ -29,30 +32,28 @@ In short, what Openbox give you are just the "boxes" in which the programs are r
 
 1. Step 1: Install the base Ubuntu OS without any GUI.
 
-	This step only install Ubuntu to the point of having a functional OS (a headless server), on top of this base, we will build our Openbox and other desktop components.
+	This step only install Ubuntu to the point of having a functional OS (as a headless server), on top of this base, I will build my Openbox and other desktop components.
 
 2. Step 2: Install Xorg, the foundation of GUI.
 
 	Xorg will install graphic driver and other requisites for the GUI.
 
-3. Step 3: Install Openbox and other component of a desktop environment (file manager, network manager, notification, taskbar...).  	
+3. Step 3: Install Openbox and other components of a desktop environment (file manager, network manager, notification, taskbar...).  	
 
-	After this step, we will have a complete desktop and you can consider it has done and you can completely skip step 4 and go straight to step 5 to polish your system with icon and theme.
-
- 	If you want to know more about *my* chosen and recommended applications, please read on to step 4.
+	After this step, I will have a complete desktop.
 
 4. Step 4: Install necessary applications for day to day use.
 
 	I group these applications into some major ones based on their general usage: Internet applications (web browser, email client, torrent client), Office applications (Libre office suite), Multimedia applications (VLC, SMplayer...)...
 
-	The main point of this step is to show you **my** choice as just a humble reference. Please feel free to choose any alternative suited you.
+	The main point of this step is to show you **my** choice as a reference. Please feel free to choose any alternative suited you.
 
 5. Step 5: Customize the look and feel of your new OS.
-  Their will come to the time that your computer is just like a tool for your work and the look and feel of it will have no longer matter. But at this moment, I can assure you that customize your own Openbox is a fun and exciting experience.
+  Customize my own Openbox is a fun and exciting experience.
 
 ### 2. Core packages:
 
-Here is the command to install all necessary packages for a competent Ubuntu operating system using Openbox (other non-openbox packages are intentionally left out of the list):
+Here is the command to install all necessary packages for a competent Ubuntu operating system using Openbox:
 
 ```
 sudo apt-get install xorg openbox openbox-themes openbox-xdgmenu suckless-tools obmenu lxappearance terminator lxpanel thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin humanity-icon-theme gvfs gvfs-backends nitrogen alsa-base alsa-utils vlc numlockx light-locker lightdm wicd lxpolkit xfce4-notifyd
@@ -60,7 +61,7 @@ sudo apt-get install xorg openbox openbox-themes openbox-xdgmenu suckless-tools 
 
 **What each of these packages actually does?**
 
-With the above command, you have installed a series of packages which you can install one by one as explaining here:
+I can install one by one as explaining here:
 
 1. Xorg as the requisite of GUI.
 :	Packages: **`xorg`**
@@ -77,10 +78,10 @@ With the above command, you have installed a series of packages which you can in
 5. Lxpanel for taskbar.
 : Package: **`lxpanel`**
 
-6. Thunar and its plug-ins for your file manager.
+6. Thunar and its plug-ins for file manager.
 : Packages: **`thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin gvfs gvfs-backends`**
 
-7. An icon set for displaying your file and folder in a file manager.
+7. An icon set:
 : Package: **`humanity-icon-theme`**
 
 8. Nitrogen for setting wallpapers.
@@ -93,9 +94,9 @@ With the above command, you have installed a series of packages which you can in
 : Package: **`numlockx light-locker lxpolkit`**  
 
 	* **`numlockx`** is for enable the numlock at start up.
-	* **`light-locker`** is for locking screen  
-	* **`lxpolkit`** is an policykit authentication agent, help you with permission to access hard drive...
-	* **`xfce4-notifyd`** is for notification mechanism (new email received, download completed or battery fully charged )
+	* **`light-locker`** is for locking screen.  
+	* **`lxpolkit`** is an policykit authentication agent, help with permissions.
+	* **`xfce4-notifyd`** is for notification mechanism for other programs (new email received, download completed or battery fully charged...)
 
 11. Network manager.
 : Package: **`wicd`**
