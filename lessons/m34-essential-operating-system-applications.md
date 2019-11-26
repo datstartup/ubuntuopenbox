@@ -18,9 +18,9 @@ Essential operating system applications:
 
 ### 1.Terminator - Terminal emulator
 
-Using Linux needa a terminal emulator (you can rely on GUI only but it is much easier with one). 
+Using Linux you will need a terminal. 
 
-Terminator is a good terminal emulator with tabs support and can be split into some terminal portions from the original, both horizontally and vertically.
+Terminator is a good terminal emulator with tab support (several tabs in one window) and can be split into some terminal portions from the original, both horizontally and vertically.
 ```bash
 sudo apt-get install terminator
 ```

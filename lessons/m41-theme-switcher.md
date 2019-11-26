@@ -9,18 +9,14 @@ author_profile: false
 comments: true
 ---
 
-In this lesson I will show you the nuts and bolts of how to configure the look of an Openbox desktop.
-
-We will need two programs: **Lxapperance** is for changing Gtk theme, icon theme and cursor theme; and **Obconf** is for changing Openbox theme.
+You will need two programs to configure the look of an Openbox desktop:
+* **Lxapperance** is for changing Gtk theme, icon theme and cursor theme; and 
+* **Obconf** is for changing Openbox theme.
 
 Skim through this galery for my current setup:
 [**Galery**]({{site.baseurl}}/galery/){:target="_blank"}.
 
-In case you are not agree my choices of theme and icons, you can easily create another look for yours. There will be plenty space for the aesthetic sense to kick in.
-
-About composite, because my installation has minimalism in its natures, I try to avoid any visual effect. So, the Ubuntu Openbox of this guide will not have that feature.
-
-First, in this lesson I will install gtk and Openbox theme switchers. Then I will show you how to change themes using them (taskbar theme, Openbox theme, icon theme, gtk theme, cursor theme) in the next lessons.
+In case you do not agree with my choices of theme and icons, there will be plenty space for your aesthetic sense to kick in.
 
 ## Install theme swichers:
 
@@ -29,7 +25,7 @@ The easiest way to changing theme and icon in Openbox is using a theme switcher.
 * Obconf is for changing Openbox theme.
 
 To install them:
-```
+```bash
 sudo apt-get install lxappearance obconf
 ```
 ## lxappearance
@@ -37,3 +33,5 @@ sudo apt-get install lxappearance obconf
 
 ## obconf
 [![obconf]({{site.baseurl}}/images/obconf.png)]({{site.baseurl}}/images/obconf.png){:target="_blank"}
+
+I will show you how to change themes using **lxpapperance** and **obconf** (taskbar theme, Openbox theme, icon theme, gtk theme, cursor theme) in upcomming lessons.

@@ -18,11 +18,12 @@ Internet apps:
 ### 1. Firefox as web browser
 
 [https://www.mozilla.org/en-US/firefox/](https://www.mozilla.org/en-US/firefox/)
-```
+
+```bash
 sudo apt-get install firefox
 ```
 
-Firefox has the ability to extend its default features by adding add-on. Here are some cool add-ons I always use with Firefox (just Goolge their name):
+Firefox has the ability to extend features by adding add-on. Here are some cool ones I always use:
 
 * **Adblock plus**: block advertising on the websites you are visiting [https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/)   
 
@@ -37,7 +38,7 @@ Firefox has the ability to extend its default features by adding add-on. Here ar
 [https://www.mozilla.org/en-US/thunderbird/](https://www.mozilla.org/en-US/thunderbird/)
 
 Email client help you to effectively manage your emails. If you are familiar with Microsoft Outlook, there is a very competent alternative, Thunderbird.
-```
+```bash
 sudo apt-get install thunderbird
 ```
 Just add your email address and you are all set.
@@ -46,7 +47,8 @@ Just add your email address and you are all set.
 
 [http://www.transmissionbt.com/](http://www.transmissionbt.com/)
 
-Transmission gives you the ability to download from both torrent files and magnet links. Transmission just get the job done for me. To install:
+Transmission gives you the ability to download from both torrent files and magnet links. 
+To install:
 ```
 sudo apt-get install transmission
 ```
@@ -55,10 +57,8 @@ sudo apt-get install transmission
 
 [http://ugetdm.com/](http://ugetdm.com/)
 
-I used to feel that all the download managers in Linux would never be as good as **Internet Download Manager** in Windows platform, but changed my mind after finding **Uget**.
-
 **Uget** is a java based app with a modern looking interface and does the job nicely.
-```
+```bash
 apt-get install uget
 ```
 ![Uget]({{site.baseurl}}/images/uget.jpg)
@@ -67,8 +67,10 @@ apt-get install uget
 
 [https://www.dropbox.com/](https://www.dropbox.com/)
 
-In my own experience, of all cloud storage suppliers, **Dropbox** is the nicest regarding its fluent synchronization between multiple platforms. Out of the box, it gives you 2 Gb of free space. With my usage of mainly documents, it is plenty enough.
-```
+In my own experience, of all cloud storage suppliers, **Dropbox** is the nicest regarding its fluent synchronization between multiple platforms. 
+
+Out of the box, it gives you 2 Gb of free space. With my usage of mainly documents, it is plenty enough.
+```bash
 sudo apt-get install dropbox
 ```
-After installing, **Dropbox** will ask you to enter your account, create one if you have not already had one.
+After installing, **Dropbox** will ask you to enter your credential information.

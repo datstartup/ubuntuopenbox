@@ -9,7 +9,7 @@ author_profile: false
 comments: true
 ---
 
-The cursor theme we use called **Breeze** which is a series of beautiful cursor themes.
+The cursor theme I use called **Breeze** - a series of beautiful cursor themes.
 
 ![breeze cursor theme]({{site.baseurl}}/images/mousebreezegif.gif)
 
@@ -23,6 +23,6 @@ It comes with various color patterns and sizes, for left hand and right hand:
 
 To install a cursor theme in Openbox:
 
-Download the theme package, decompress it into **~/.icon/** folder on your home directory.
+Download the theme package, extract it into **~/.icon/** folder on your home directory.
 
-Open **lxappearance** > **Mouse cursor** tab > find the set of **Breeze** cursor you desire > **apply**. You need to restart your system for the change to take effect globally (system wide), because cursor theme cannot be changed on the fly.
+Open **lxappearance** > **Mouse cursor** tab > find the set of **Breeze** cursor you desire > **apply**. You need to restart your system for the change to take effect globally (system wide) because cursor theme cannot be changed on the fly.

@@ -11,7 +11,7 @@ comments: true
 
 Office applications:
 
-+ LibreOffice as office suite
++ LibreOffice/ Google suite as office suite
 + Qpdfview as Pdf reader
 + Fbreader as ebook reader
 
@@ -25,14 +25,14 @@ You can either install entire of this office suite or pick out only what you nee
   * Calc: spreadsheet application.
   * Writer: word processing application.
 
-```
+```bash
 apt-get install libreoffice-calc libreoffice-writer libreoffice-gtk
 ```
 
 The **libreoffice-gtk** package is for **Libreoffice** can integrate nicely with the system gtk theme (other wise it will look urgly).
 
 You can choose one from several icon sets. In the screenshot below I am using the **“sifr”** icon sets:
-```
+```bash
 apt-get install libreoffice-style-sifr
 ```
 
@@ -42,7 +42,7 @@ To enable the ability to remember the last working place in your document, you n
 
 If there is no user identified, every time you open a document, LibreOffice will assume it is a new user and direct you to the beginning.
 
-As a die hard user of spreadsheets, I only use Calc for "lite" spreadsheet work only. I am intensively depending on VBA/ GAS scripts (Visual Basic for Applications come with MS office & Google Apps Script come Google Apps). Only Microsoft Excel or Google Sheet can meet my requirement. I think this is not because of the limitation of Calc, but because of the limitation of my Calc knowledge.
+As a die hard user of spreadsheets, I only use Calc for "lite" spreadsheet work only. I am intensively depending on VBA/ GAS scripts (Visual Basic for Applications come with MS office & Google Apps Script come Google Apps). Only Microsoft Excel or Google Sheet can meet my requirement.
 
 **LibreOffice Calc**
 
@@ -52,22 +52,26 @@ As a die hard user of spreadsheets, I only use Calc for "lite" spreadsheet work 
 
 ![libreoffice-writer]({{site.baseurl}}/images/LibreOffice-Writer.jpg)
 
+**UPDATE 26 Nov 2019:** I have been using Google Docs, Spreadsheet, Mail, Calendar, Drive, Form... as my productivity tools for over two full years. In fact, the contact form of this website is a Google form. I express how awesome they are enough. Please give them a try!
+{: notice--info}
+
 ### 2. Qpdfview as Pdf reader
 
-I used to use Evince when I was using Crunchbang/ Debian Wheezy but had some problems with it (Slow to navigate through a large PDF file, blurry displays of image in PDF file). Then I found **qpdfview**, quickly open any PDF and render images nicely:
-```
+I have found **qpdfview**, quickly open any PDF file and render images nicely:
+```bash
 sudo apt-get install qpdfview
 ```
-In the old version of this website, I recommend Foxit reader (very good indeed!), but is is not native Linux, and need a PPA so I switch to **qpdfview**.
+In the old version of this website, I recommended Foxit reader (very good indeed!), but is was not a native of Linux, and needed a PPA so I switched to **qpdfview**.
 
 ### 3. Fbreader as ebook reader
 
 [https://fbreader.org/](https://fbreader.org/)
-```
+```bash
 apt-get install Fbreader
 ```
-"Supports popular ebook formats: ePub, fb2, mobi, rtf, html, plain text, and a lot of other formats" (From its website!). It's also lightweight and very fast to open ebook.
+"Supports popular ebook formats: ePub, fb2, mobi, rtf, html, plain text, and a lot of other formats" (From its website!). 
 
 ![fbreader]({{site.baseurl}}/images/fbreader.png)
 
 **Above is the awesome Quo Vadis novel by Henryk Sienkiewicz, translated by Jeremiah Curtin.**
+{: notice--info}

@@ -9,13 +9,13 @@ author_profile: false
 comments: true
 ---
 
-GTK themes will define the appearance of applications on your system: the general interface, the color of the taskbar, the backgrounds for windows and tabs, the looks of GTK applications.
+GTK themes will determine the appearance of applications: the general interface, the color of the taskbar, the backgrounds for windows and tabs, and the looks of GTK applications.
 
-As oppose to Openbox theme which defines the **border** of a window, the title and the border, an GTK theme defines the look of what are **inside** that window border.
+As oppose to an Openbox theme which defines the **outer parts** of a window, a GTK theme defines the **inner parts**.
 
 ## Normal GTK+ apps (Firefox, Transmission, Geany...)
 
-One of the things you should consider are which theme engines are needed. The creator of the theme will tell you which.
+One of the things you should know about the GTK theme is which theme engines it needs. The creator of the theme should tell you in its document.
 
 **Install a GTK theme:**
 
@@ -29,13 +29,14 @@ Extract the downloaded package.
 
 Then, move extracted **Flatstudio** theme folder into **~/.theme** folder.
 
- >In Linux, every file/folder with its name begin with a period (.) is >hidden.The **"~/.theme"** folder is often hidden and we need to unhide it: Using Thunar > View > Check “Show Hidden File”.
+In Linux, every file/folder with its name begin with a period (.) is >hidden.The **"~/.theme"** folder is often hidden and we need to unhide it: Using Thunar > View > Check “Show Hidden File”.
+{: notice--info}
 
-Now you can see **~/.theme** folder and move Flatstudio folder to it.
+Now **~/.theme** folder is visible and you can move Flatstudio folder to it.
 
 You need theme engines to render the theme as it supposed to. As with this theme, the author have instructed us to install **unico-engine** & **gtk2-engines-murrine**.
 
-```
+```bash
 sudo apt-get install unico-engine gtk2-engines-murrine
 ````
 Open **Lxappearance** (by the command **lxappearance**) > Under the **Widget** tab, choose **Flatstudio**.
