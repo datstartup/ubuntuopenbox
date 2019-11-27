@@ -23,7 +23,7 @@ Essential features of a operating system
 A login manager asks users for their credentials, lets users select which session they want to use... then transfers them to GUI accordingly.  
 
 **lightdm**
-```
+```bash
 sudo apt-get install lightdm lightdm-gtk-greeter
 ```
 
@@ -89,7 +89,7 @@ alsactl init
 
 ### 4. Windows fonts
 Lacking windows fonts, some websites and documents will not display nicely as expected (Especially those from someone using Windows).
-```
+```bash
 sudo apt-get install ttf-mscorefonts-installer
 ```
 
@@ -97,7 +97,7 @@ sudo apt-get install ttf-mscorefonts-installer
 Printing screen/ screen capturing program: **scrot**
 
 To use **scrot**, in a terminal window, type:
-```
+```bash
 scrot -d 5 -c
 ```
 ![taking_screenshot]({{site.baseurl}}/images/taking_screenshot.jpg)
