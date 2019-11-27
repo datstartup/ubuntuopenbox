@@ -62,7 +62,7 @@ xfce4-notifyd-config
 ```
 These nofification are in a form of bubbles popping out on the desktop (with sound).
 
-![notification bubble]({{site.baseurl}}/images/xfce4-notifyd-fullwindow.png)
+![notification bubble]({{site.baseurl}}/images/xfce4-notifyd-fullwindow.png){:target="_blank"}
 
 ### 3. Alsa and PulseAudio for audio
 
@@ -80,7 +80,7 @@ In your terminal using the command **alsamixer** to open the mixer and using "SP
 alsamixer
 ```
 
-![alsamixer]({{site.baseurl}}/images/alsamixer.jpg)
+![alsamixer]({{site.baseurl}}/images/alsamixer.jpg){:target="_blank"}
 
 You should have the sound working immediately, if not, follow by this command:
 ```bash
@@ -100,7 +100,7 @@ To use **scrot**, in a terminal window, type:
 ```bash
 scrot -d 5 -c
 ```
-![taking_screenshot]({{site.baseurl}}/images/taking_screenshot.jpg)
+![taking_screenshot]({{site.baseurl}}/images/taking_screenshot.jpg){:target="_blank"}
 
 It will take a screen shot after 5 seconds and display the countdown (-d for delaying and -c for displaying the countdown).
 
@@ -144,7 +144,7 @@ in my rc.xml file. The entry looks like this:
 
 **gmrun** give you the ability to quickly launch a program or run a command by just using your keyboard. To make it is even easier, it has an auto-complete feature that will recommend you a list of commands based on what you have typed:
 
-![gmrun]({{site.baseurl}}/images/gmrun.png)
+![gmrun]({{site.baseurl}}/images/gmrun.png){:target="_blank"}
 
 To install:
 ```bash
