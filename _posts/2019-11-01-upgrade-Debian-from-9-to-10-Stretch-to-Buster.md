@@ -75,3 +75,5 @@ sudo apt-get install libexo-1-0
 ```
 
 as found here [on askubuntu.com](https://askubuntu.com/questions/1136194/xfce-can-not-start-preferred-applications-under-ubuntu-19-04).
+
+**UPDATE 27 Nov 2019:** I found that Shutter was removed from Debian Buster because of a unsecured dependency [https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914183](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914183). I have replaced it with Flameshot [https://www.ubuntuopenbox.com/apps/flameshot/](https://www.ubuntuopenbox.com/apps/flameshot/ "Flameshot as screenshot tool").

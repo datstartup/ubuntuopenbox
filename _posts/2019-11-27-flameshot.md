@@ -10,7 +10,7 @@ tags:
 
 Several days ago, I needed a screenshot of a small part of my screen. As usual I tried to open Shutter and found that the command shutter "is not found".
 
-Later when I had time, a quick search turn out that Shutter was not in the mainstream of Debian Buster anymore: [https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914183](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914183).
+Later when I had time, a quick search turn out that Shutter was removed from Debian Buster: [https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914183](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914183).
 
 My mindset after using Linux for a while is that there are two solutions for such a problem:
 
