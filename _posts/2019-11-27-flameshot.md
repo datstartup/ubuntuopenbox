@@ -30,7 +30,7 @@ sudo apt-get install flameshot
 
 ### How to use:
 
-You can find the in depth about it here [https://github.com/lupoDharkael/flameshot](https://github.com/lupoDharkael/flameshot)
+You can find the in depth about how to use Flameshot here: [https://github.com/lupoDharkael/flameshot](https://github.com/lupoDharkael/flameshot)
 
 ### How I integrated Flameshot to my Openbox shortcut key (W + PrintScreeen):
 
@@ -49,6 +49,6 @@ You can find the in depth about it here [https://github.com/lupoDharkael/flamesh
 **Note**: **"-p /home/dat/Pictures/Screenshots/"** - this part is for saving the snipped screenshots into my preferred folder.
 {: notice--info}
 
-![Flameshot in action]({{site.baseurl}}/images/flameshot.png){:target="_blank"}
+[![Flameshot in action]({{site.baseurl}}/images/flameshot.png)]({{site.baseurl}}/images/flameshot.png){:target="_blank"}
 
 Notice that it has various kind of tools to edit the screenshot on the fly!
