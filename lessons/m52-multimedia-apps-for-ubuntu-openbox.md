@@ -106,8 +106,8 @@ Shutter is powerful! It gives you a lot of options (which windows, which menu, w
 ```bash
 apt-get install shutter
 ```
-![shutter]({{site.baseurl}}/images/shutter.png)
+[![shutter]({{site.baseurl}}/images/shutter.png)]({{site.baseurl}}/images/shutter.png)
 
-**UPDATE 26 Nov, 2019:**
-Since **shutter** is no longer in the main stream of Debian Buster repository, I have used **Flameshot** instead. Please go here to lean more about it: [link](https://link.link "tobecontinue").
+**UPDATE 27 Nov, 2019:**
+I found that Shutter was removed from Debian Buster because of an unsecured dependency [https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914183](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914183). I have replaced it with Flameshot [https://www.ubuntuopenbox.com/apps/flameshot/](https://www.ubuntuopenbox.com/apps/flameshot/ "Flameshot as screenshot tool").
 {: notice--info}
