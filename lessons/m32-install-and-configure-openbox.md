@@ -171,3 +171,9 @@ To call it:
 obmenu
 ```
 ![obmenu]({{site.baseurl}}/images/obmenu.png)
+
+### 4. Using **obmenu-generator** to generate menu:
+
+To assist you in the task of generating a menu with icon, there is an app called obmenu-generator.
+
+I have written a post about it here here: [https://www.ubuntuopenbox.com/apps/obmenu-generator/](https://www.ubuntuopenbox.com/apps/obmenu-generator/).
