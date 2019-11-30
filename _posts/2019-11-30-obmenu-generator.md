@@ -14,7 +14,7 @@ Since I always find any auto-generated menu is too busy, I need **obmenu-generat
 
 ### To install:
 
-Although its not in the official repositories, it is so useful that I have to install it.
+Although not in the official repositories, obmenu-generator is so useful that I have to install it.
 
 As instructed here for Debian: [https://github.com/trizen/obmenu-generator/blob/master/INSTALL.md](https://github.com/trizen/obmenu-generator/blob/master/INSTALL.md)
 
@@ -41,7 +41,7 @@ To find where all PATH are:
 echo $PATH
 # mine are: /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/dat/.rvm/bin
 ```
-You can find where any executable file is locating using the **which** command:
+You can find the location of any executable file using the **which** command:
 
 ```bash
 which obmenu-generator
