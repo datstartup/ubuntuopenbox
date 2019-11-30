@@ -36,11 +36,13 @@ Because it is one of the most recognizable name in Operating System world (also 
 
 # Why Openbox?
 
-Because Openbox is Awesome!, and...
+Because
+:
+ * Openbox is Awesome: minimal and rock solid!
 
-To busting the myth of "how the components of your Ubuntu system work together", and...
+ * To busting the myth of "how the components of your Ubuntu system work together".
 
-A Window Manager gives you only the “boxes” on the screen in which your programs will run, so there will be space for your customization.
+ * A Window Manager gives you only the “boxes” on the screen, so there will be spaces for customization.
 
 # Who are the target readers?
 
@@ -48,4 +50,4 @@ For those who are seeking the way to install an OS with only the packages they w
 
 And, for those who have been using pre-configured operating systems (Ubuntu, Kubuntu, Debian, openSUSE...) and want to play more with Linux.
 
-HAPPY READING!
+HAPPY PLAYING!
