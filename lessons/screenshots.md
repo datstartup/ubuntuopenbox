@@ -30,6 +30,14 @@ gallery :
       image_path: /images/Firefox-NitrogenDesktop.jpg
       alt: "Busy with Firefox and Nitrogen"
       title: "Busy with Firefox & Nitrogen"
+    - url: /images/Galery/conkyinfinitymodified.png
+      image_path: /images/Galery/conkyinfinitymodified.png
+      alt: "With mondified conky infinity"
+      title: "With mondified conky infinity"
+    - url: /images/Galery/infinitywithAudacious.png
+      image_path: /images/Galery/infinitywithAudacious.png
+      alt: "infinity conky with Audacious"
+      title: "infinity conky with Audacious"      
 
 gallery1 :
     - url: /images/clearDesktop.png
