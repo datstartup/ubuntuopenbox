@@ -38,7 +38,7 @@ Because it is one of the most recognizable name in Operating System world (also 
 
 Because
 :
- * Openbox is Awesome: minimal and rock solid!
+ * Openbox is awesome, minimal and rock solid!
 
  * To busting the myth of "how the components of your Ubuntu system work together".
 
