@@ -55,7 +55,7 @@ As a die hard user of spreadsheets, I only use Calc for "lite" spreadsheet work 
 **UPDATE 26 Nov 2019:** I have been using Google Docs, Spreadsheet, Mail, Calendar, Drive, Form... as my productivity tools for over two full years. In fact, the contact form of this website is a Google form. I cannot express how awesome they are enough. Please give them a try!
 {: notice--info}
 
-**UPDATE 26 Nov 2019:** Today I used Calc the fist time since updating to Debian 10 Buster and I noticed that the display is not compatiple with the gtk3 theme (small font...). I need to installed **libreoffice-gtk3** package to fix the problem.
+**UPDATE 18 Dec 2019:** Today I used Calc the fist time since updating to Debian 10 Buster and I noticed that the display is not compatiple with the gtk3 theme (small font...). I need to installed **libreoffice-gtk3** package to fix the problem.
 {: notice--info}
 
 ```bash
