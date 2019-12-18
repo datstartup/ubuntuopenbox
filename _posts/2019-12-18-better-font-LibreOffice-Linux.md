@@ -32,6 +32,8 @@ Create a fontconfig file in **~/.config** folder with the content below:
 
 ###2. Install Mac fonts:
 
-I found an artical here: ["Calibri and Cambria fonts for Mac"](https://www.rmtweb.co.uk/calibri-and-cambria-fonts-for-mac) 
+I found an article here: ["Calibri and Cambria fonts for Mac"](https://www.rmtweb.co.uk/calibri-and-cambria-fonts-for-mac) 
 
 I download the fonts to replace the ones I copied from Windows.
+
+I appriciate the author and the article so much! 
