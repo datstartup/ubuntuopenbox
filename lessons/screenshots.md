@@ -37,7 +37,11 @@ gallery :
     - url: /images/Galery/infinitywithAudacious.png
       image_path: /images/Galery/infinitywithAudacious.png
       alt: "infinity conky with Audacious"
-      title: "infinity conky with Audacious"      
+      title: "infinity conky with Audacious"
+    - url: /images/Galery/conky-comptom-plank.jpg
+      image_path: /images/Galery/conky-comptom-plank.jpg
+      alt: "infinity conky with Plank and Compton"
+      title: "infinity conky with Plank and Compton"            
 
 gallery1 :
     - url: /images/clearDesktop.png
