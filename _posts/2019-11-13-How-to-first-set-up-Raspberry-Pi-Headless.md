@@ -1,11 +1,12 @@
 ---
-title: "How I set up my Raspberry Pis as headless servers"
+title: "How to set up Raspberry Pis as headless servers"
 header:
 categories:
   - Raspberry-Pi
 tags:
   - Raspbian
   - Raspberry-Pi
+  - Headless-server
 ---
 
 ## The steps laying out here are distilled from my own trial and error. Hope it will help you!
@@ -54,10 +55,10 @@ I have setup fix IPs for every of my Raspberry Pi depending on their Mac address
 I am using **nmap** to scan the IPs in my network with this command:
 
 ```bash
-sudo nmap -sP 192.168.1.1
+sudo nmap -sP 192.168.1.0/24
 ```
 
-Where 192.168.1.1 will be your local network mask.
+Where 192.168.1.0/24 will be your all network gateways (the IPs of devices that grant IPs).
 
 *Note:* Credit to the answer here: [Find Raspberry PI address on local network](https://raspberrypi.stackexchange.com/questions/13936/find-raspberry-pi-address-on-local-network).
 {: .notice--info}
