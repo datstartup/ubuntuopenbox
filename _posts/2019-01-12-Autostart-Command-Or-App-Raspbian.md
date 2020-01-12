@@ -9,13 +9,13 @@ tags:
 ---
 
 
-When I run Raspberry as headless server, eventually I will need to run some command/ app at startup.
+When using Raspberry as headless server, eventually I will need to run some commands or apps at start up.
 
-There are various ways to archieve the result, and below is just one that I find very flexible and robust.
+Although there are various ways to get the task done, I have found a way that I think very flexible and robust.
  
 The method is to create an **autostart.sh** script storing commands, then run the script at boot by adding it to **/etc/rc.local** file.
 
-This way you can add as many commands as you want to the autostart.sh script and only have to maintain this file in case something changes.
+This way you can add as many commands as you want to the **autostart.sh** script and only focus to maintain this file.
 
 ### 1. Add an **autostart.sh** script
 
@@ -31,9 +31,9 @@ sudo -u pi /usr/bin/python3 TFLite_detection_webcam_person.py --modeldir=Sample_
 cd /
 ```
 
-**cd** command are for navigate to the directory containing script. This is particular useful when running python module. 
+* **cd** command are for navigate to the directory containing script. This is particular useful when running python module. 
 
-**sudo -u pi** are for instructing that a specific user should run the command. 
+* **sudo -u pi** are for instructing that a specific user should run the command. 
 
 You can add many commands at you want and if you want to delay their running, put the **sleep 3s** (as many seconds as you want, I just use 3 here) above it.
 
