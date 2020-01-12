@@ -10,7 +10,7 @@ tags:
 
 Please understand that I am no expert on font rederring, and this post is just a note for my future self in case I have to reinstall the whole system.
 
-Today I had to open one .docx file in calibri font with LibreOffice Writer and notice that some charaters of the text are blurry, espcially at smaller size. It looked weird too; some of the characters are not spacing correctly, some are too far from each other, some just stick together. So I checked if I have the font calibri and it is there in the folder **~/.fonts**.
+Today I had to open one .docx file in calibri font with LibreOffice Writer and notice that some charaters of the text are blurry, espcially at smaller size. It looked weird too; some of the characters are not spacing correctly, some are too far from each other, some just stick together. So I checked if I have the font calibri and it was there in the folder **~/.fonts**.
 
 I did two things and the result was unexpectedly-mind-blowing good, not only my document was displayed better in LibreOffice but also the font of the whole system was improved (Firefox, text in windows...):
 
