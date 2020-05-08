@@ -1,3 +1,13 @@
+---
+title: "RESTful Routes Reminder"
+header:
+categories:
+  - tips
+tags:
+  - RESTful-Routes  
+  - reminder
+---
+
 | **URL** | **HTTP Verb** |  **Action**|**Mongoose**|
 |------------|-------------|------------|-----------|
 | /blogs/         | GET       | index  | Dog.find() |
