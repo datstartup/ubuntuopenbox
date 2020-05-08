@@ -1,5 +1,5 @@
 ---
-title: "Use Mutt As Email Manager"
+title: "Use Mutt As Email Client"
 header:
 categories:
   - Raspberry-Pi
@@ -12,7 +12,7 @@ tags:
   - Mutt
 ---
 
-### I only use the Raspberry Pi for headless server, so I need a email client that send email. 
+### I only use the Raspberry Pi for headless server, so I need a email client for sending email. 
 
 * Raspbian OS and 
 * Gmail

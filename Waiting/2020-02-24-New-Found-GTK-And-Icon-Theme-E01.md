@@ -4,18 +4,12 @@ header:
 categories:
   - tips
 tags:
-  - raspbian  
+  - eye-candy 
   - run-command-at-boot
 ---
 
-
-When using Raspberry as headless server, eventually I will need to run some commands or apps at start up.
-
-Although there are various ways to get the task done, I have found a way that I think very flexible and robust.
- 
-The method is to create an **autostart.sh** script storing commands, then run the script at boot by adding it to **/etc/rc.local** file.
-
-This way you can add as many commands as you want to the **autostart.sh** script and only focus to maintain this file.
+sudo apt install adapta-gtk-theme --no-install-recommends
+sudo apt install papirus-icon-theme
 
 ### 1. Add an **autostart.sh** script
 
