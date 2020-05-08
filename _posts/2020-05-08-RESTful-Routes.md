@@ -8,12 +8,14 @@ tags:
   - reminder
 ---
 
-| **URL** | **HTTP Verb** |  **Action**|**Mongoose**|
-|------------|-------------|------------|-----------|
-| /blogs/         | GET       | index  | Dog.find() |
-| /blogs/new         | GET       | new   | N/A |
-| /blogs          | POST      | create   | Dog.create() |
-| /blogs/:id      | GET       | show     | Dog.findById() |
-| /blogs/:id/edit | GET       | edit     | Dog.findById() |
-| /blogs/:id      | PATCH/PUT | update   | Dog.findByIdAndUpdate() |
-| /blogs/:id      | DELETE    | destroy  | Dog.findByIdAndRemove() |
+This table I get from a course by Colt Steele (best teacher ever!). Put here just as a easy to reach reference.
+
+| **URL** | **HTTP Verb** |  **Action**|**Mongoose**| **Purpose**|
+|------------|-------------|------------|-----------|------------|
+| /blogs/         | GET       | index  | Dog.find() | List all dogs|
+| /blogs/new         | GET       | new   | N/A | Show a form to add dog|
+| /blogs          | POST      | create   | Dog.create() | Create a new dog, then redirect somewhere |
+| /blogs/:id      | GET       | show     | Dog.findById() | Show info about one specific dog |
+| /blogs/:id/edit | GET       | edit     | Dog.findById() | Show edit form for one dog |
+| /blogs/:id      | PATCH/PUT | update   | Dog.findByIdAndUpdate() | Update a specific dog then redirect somewhere |
+| /blogs/:id      | DELETE    | destroy  | Dog.findByIdAndRemove() | Delete a specific dog then  redirect somewhere |
