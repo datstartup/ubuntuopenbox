@@ -16,7 +16,7 @@ To automatically change wallpapers after a period of time.
 ```
 whrere:
 
-* `--save` on the command line in order to create a saved `/home/user/.config/nitrogen/bg-saved.cfg` file for nitrogen to `--restore` when the system is rebooted. 
+* `--save`: create a saved `/home/user/.config/nitrogen/bg-saved.cfg` file for nitrogen to `--restore` when the system is rebooted. 
 
 * `--set-zoom-fill`: the style to which the wallpaper is set.
 
@@ -33,9 +33,9 @@ Add this line to the bottom of the file:
 */20 * * * * (export DISPLAY=:0.0 && /bin/date && /usr/bin/nitrogen --set-zoom-fill --random /wallpapers/folder/ --save) > /tmp/myNitrogen.log 2>&1
 ```
 
-* Note: Please change `/wallpapers/folder/` to yours.
+* Note: Please change `/wallpapers/folder/` to your wallpaper direcory.
 
-This cron task will change wallpaper which is picked randomly in a folder every 20 minutes. 
+This cron task will change wallpaper to one picked randomly in a folder every 20 minutes. 
 
 The `export DISPLAY=:0.0` is to specify the command to run in which display.
 
@@ -45,7 +45,7 @@ The log of this cron task will be found at `/tmp/myNitrogen.log` in case somethi
 ```bash
 sudo service cron restart
 ```
-Check for its status
+Check for its status:
 ```bash
 sudo service cron restart
 ```
