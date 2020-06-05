@@ -8,7 +8,7 @@ tags:
   - reminder
 ---
 
-This table I get from a course by Colt Steele (best teacher ever!). Put here just as a easy to reach reference.
+I get this table from a course by Colt Steele (best teacher ever!). Put here just as an easy to reach reference.
 
 | **URL** | **HTTP Verb** |  **Action**|**Mongoose**| **Purpose**|
 |------------|-------------|------------|-----------|------------|

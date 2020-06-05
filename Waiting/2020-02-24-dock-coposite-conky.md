@@ -27,4 +27,18 @@ Investigate further it come to my bad conky configuration (or my config is not p
 
 Below is my current one.
 
+### Composite
+
+compton
+
+compton.conf
+
+backend = "xr_glx_hybrid";
+vsync = "opengl-swc";
+#glx-no-stencil = true;
+#glx-no-rebind-pixmap = true;
+vsync-use-glfinish = true;
+focus-exclude = ["n:a:Conky"];
+paint-on-overlay = true;
+
 
