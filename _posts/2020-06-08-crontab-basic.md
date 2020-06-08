@@ -88,15 +88,16 @@ Mine (with date added): The task is for changing my wallpaper every 20 minutes.
 */20 * * * * (/bin/date && /home/dat/Custom/nitrogenSlideShow.py) > /tmp/mycommand.log 2>&1
 ```
 
-* Note: `>>` is appended; `>` is overriten.
-{: .notice--info}
+**Note:** 
+`>>` is appended; `>` is overriten.
 
 ## 8.Check if cron is running in system:
 ```bash
 ps -ef | grep cron
 ```
-* Note: `ps` (processes status) is a command to view a selection of running processes. It get the info from `/proc`
-{: .notice--info}
+**Note:**
+`ps` (processes status) is a command to view a selection of running processes. It get the info from `/proc`
+
 
 Mine here:
 
