@@ -51,17 +51,18 @@ Because I rarely write one myself, I cannot affort to re-learn it every time I n
 ```bash
 sudo service cron restart
 ```
-* Note: `sudo service cron reload` also work. It is always safer to use `restart` because `reload` sometime do not exist for a service.
+NOTE
 {: .notice--info}
 
-* Second note:
-{: .notice--info}
+* First: `sudo service cron reload` also work. It is always safer to use `restart` because `reload` sometime do not exist for a service.
+
+* Second:
 `restart = stop + start`
 `reload = remain running + re-read configuration file`
 So if `reload` does exist, it is preferable to `restart` because it will be no down time.
 
-* Third note: if you want a thoroughly read here: [The Debian Policy Manual](https://www.debian.org/doc/debian-policy/ch-opersys.html#s-writing-init)
-{: .notice--info}
+* Third: if you want a thoroughly read here: [The Debian Policy Manual](https://www.debian.org/doc/debian-policy/ch-opersys.html#s-writing-init)
+
 
 ## 5. Check the service status
 

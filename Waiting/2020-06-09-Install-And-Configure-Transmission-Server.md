@@ -91,9 +91,10 @@ Change these lines:
 }
 ```
 
-Note: `"rpc-whitelist": "127.0.0.1,192.168.*.*"` I have remove the local host "127.0.0.1" because I only use it remotely.
-
-"umask": 2 translates to permissions of `774`, or `rwxrwxr--`, which means full access for owner and group. Everyone else, not in user's group, can only read.
+* Note:
+* `"rpc-whitelist": "127.0.0.1,192.168.*.*"` I have remove the local host "127.0.0.1" because I only use it remotely.
+* "umask": 2 translates to permissions of `774`, or `rwxrwxr--`, which means full access for owner and group. Everyone else, not in user's group, can only read.
+{: .notice--info}
 
 Entire config file of mine, just copy-paste if you want.
 ```bash
