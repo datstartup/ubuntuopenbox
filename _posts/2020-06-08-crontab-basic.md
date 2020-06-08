@@ -33,7 +33,7 @@ User's one:
 ```bash
 *  *  *  *  * command to be executed
 ```
-* Note: I get this guide from the file `/etc/crontab`
+Note: I get this guide from the file `/etc/crontab`
 {: .notice--info}
 ```bash
 # Example of job definition:
@@ -51,8 +51,7 @@ Because I rarely write one myself, I cannot affort to re-learn it every time I n
 ```bash
 sudo service cron restart
 ```
-NOTE
-{: .notice--info}
+**NOTE:**
 
 * First: `sudo service cron reload` also work. It is always safer to use `restart` because `reload` sometime do not exist for a service.
 
