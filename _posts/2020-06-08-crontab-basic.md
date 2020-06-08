@@ -11,8 +11,8 @@ Cron is for schedule tasks.
 
 ### 1. Basic terms
 
-`crontab -e` - (commands) maintains crontab files for individual users, with flag`-e` to edit a crontab file of current user)
-`crontab` - files used to schedule the execution of programs
+* `crontab -e` - (commands) maintains crontab files for individual users, with flag`-e` to edit a crontab file of current user)
+* `crontab` - files used to schedule the execution of programs
 
 ## 2. How to add/ edit a cron task
 
