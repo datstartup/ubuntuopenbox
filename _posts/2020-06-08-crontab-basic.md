@@ -34,6 +34,7 @@ User's one:
 *  *  *  *  * command to be executed
 ```
 * Note: I get this guide from the file `/etc/crontab`
+{: .notice--info}
 ```bash
 # Example of job definition:
 # .---------------- minute (0 - 59)
@@ -50,14 +51,17 @@ Because I rarely write one myself, I cannot affort to re-learn it every time I n
 ```bash
 sudo service cron restart
 ```
-* Note: `sudo service cron reload` also work. It is always safer to use `restart` because `reload` sometime do not exist for a service. 
+* Note: `sudo service cron reload` also work. It is always safer to use `restart` because `reload` sometime do not exist for a service.
+{: .notice--info}
 
 * Second note:
+{: .notice--info}
 `restart = stop + start`
 `reload = remain running + re-read configuration file`
 So if `reload` does exist, it is preferable to `restart` because it will be no down time.
 
 * Third note: if you want a thoroughly read here: [The Debian Policy Manual](https://www.debian.org/doc/debian-policy/ch-opersys.html#s-writing-init)
+{: .notice--info}
 
 ## 5. Check the service status
 
@@ -85,12 +89,14 @@ Mine (with date added): The task is for changing my wallpaper every 20 minutes.
 ```
 
 * Note: `>>` is appended; `>` is overriten.
+{: .notice--info}
 
 ## 8.Check if cron is running in system:
 ```bash
 ps -ef | grep cron
 ```
 * Note: `ps` (processes status) is a command to view a selection of running processes. It get the info from `/proc`
+{: .notice--info}
 
 Mine here:
 

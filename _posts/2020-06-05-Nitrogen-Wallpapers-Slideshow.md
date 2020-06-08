@@ -34,6 +34,7 @@ Add this line to the bottom of the file:
 ```
 
 * Note: Please change `/wallpapers/folder/` to your wallpaper direcory.
+{: .notice--info}
 
 This cron task will change wallpaper to one picked randomly in a folder every 20 minutes. 
 

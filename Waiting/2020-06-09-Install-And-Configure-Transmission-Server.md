@@ -7,9 +7,10 @@ tags:
   - Transmission
   - Raspberry Pi
 ---
+
 Why another Transmission guide:
 1. This is my seft note.
-2. With more comprehensive information about permission.
+2. This guide focus on giving more comprehensive information about permission.
 
 ### Installation
 
