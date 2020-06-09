@@ -35,12 +35,11 @@ gallery :
       alt: "cleanDesktopLxpanel"
       title: "Clean Desktop with Lxpanel and Tin2 (as pager)"
 
-
 gallery1 :
     - url: /images/Galery/conkywithplank.jpg
-    image_path: /images/Galery/conkywithplank.jpg
-    alt: "With conky and plank"
-    title: "With conky and plank"
+      image_path: /images/Galery/conkywithplank.jpg
+      alt: "With conky and plank"
+      title: "With conky and plank"
 ---
 ### Screenshots of an Ubuntu/ Debian Openbox in action.
 
