@@ -30,24 +30,17 @@ gallery :
       image_path: /images/Firefox-NitrogenDesktop.jpg
       alt: "Busy with Firefox and Nitrogen"
       title: "Busy with Firefox & Nitrogen"
-    - url: /images/Galery/conkyinfinitymodified.png
-      image_path: /images/Galery/conkyinfinitymodified.png
-      alt: "With mondified conky infinity"
-      title: "With mondified conky infinity"
-    - url: /images/Galery/infinitywithAudacious.png
-      image_path: /images/Galery/infinitywithAudacious.png
-      alt: "infinity conky with Audacious"
-      title: "infinity conky with Audacious"
-    - url: /images/Galery/conky-comptom-plank.jpg
-      image_path: /images/Galery/conky-comptom-plank.jpg
-      alt: "infinity conky with Plank and Compton"
-      title: "infinity conky with Plank and Compton"            
-
-gallery1 :
     - url: /images/clearDesktop.png
       image_path: /images/clearDesktop.png
       alt: "cleanDesktopLxpanel"
       title: "Clean Desktop with Lxpanel and Tin2 (as pager)"
+
+
+gallery1 :
+    - url: /images/Galery/conkywithplank.jpg
+    image_path: /images/Galery/conkywithplank.jpg
+    alt: "With conky and plank"
+    title: "With conky and plank"
 ---
 ### Screenshots of an Ubuntu/ Debian Openbox in action.
 
