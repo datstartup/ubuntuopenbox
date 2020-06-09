@@ -8,21 +8,12 @@ tags:
   - rsync
 ---
 
-`rsync` provides fast incremental file transfer (obvious reason not to use only `cp` for backup)
+`rsync` provides fast incremental file transfer (obvious reason not to use only `cp` for backup).
 
-### 1. 
+### 1. Installing 
 
 ```bash	
-sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
-```
-
-
-*Note:* I have to install youtube-dl from source instead off from the repository (and update it as I wish) because it is **essential** to have the lastest version of the script. Youtube changes and the developer adapts.
-{: .notice--info}
-
-ffmpeg
-```bash
-sudo apt install ffmpeg
+sudo apt install rsync
 ```
 
 ### 2. Trailing slash (rsync follows the convention of BSD `cp`, not GNU `cp`)
@@ -32,6 +23,8 @@ When not using "/" at the end of source, rsync will copy the last folder and the
 
 When using "/" at the end of destination, rsync will paste the data inside the last folder.
 When not using "/" at the end of destination, rsync will create a folder with the last destination folder name and paste the data inside that folder. 
+
+Sound confusing, you'd better make some test to see more clearly.
 
 ### 3. My rsync backup commands:
 
@@ -61,8 +54,6 @@ Most of the other options are space or performance related. When you delete the 
 
 --exclude - Excludes folders and files from backup. I typed exclude as a separate option for every directory. You can also use it this way --exclude={/dev/*,/proc/*,/sys/*,/tmp/*,/run/*,/mnt/*,/media/*,/home/*,/lost+found}. But make sure you change your working directory to root (cd /) before you run rsync, otherwise the joint exclude option may not work.
 
-
-
 Here is what the "-arv" option does:
 a = archive - means it preserves permissions (owners, groups), times, symbolic links, and devices.
 
@@ -70,8 +61,8 @@ v = verbose - means that it prints on the screen what is being copied
 
 The human-readable option (h) directs rsync to produce slightly more readable output.
 
-*Note:* `r` (= recursive - means it copies directories and sub directories) is implied if using the flag `-a` (equivalent to `-rlptgoD` )
-{: .notice--info}
+**Note:** 
+`r` (= recursive - means it copies directories and sub directories) is implied if using the flag `-a` (equivalent to `-rlptgoD` )
 
 ### 4. Special use case
 
@@ -109,8 +100,7 @@ This will create a public and private SSH key for you. You’ll be prompted twic
 ```bash
 ssh-copy-id -i ~/.ssh/id_dsa.pub user@host
 ```
-*Note:* Delete known hosts in `/home/user/.ssh/known_hosts` if the remote computer were changed (reflash a Raspberry image).
-{: .notice--info}
+**Note:** Delete known hosts in `/home/user/.ssh/known_hosts` if the remote computer were changed (after reflashing a Raspberry image...).
 
 This is a script that will copy your public key to a remote host. It may not work on systems that have the remote shell disabled. For instance, I’ve had no success getting it to work with rsync.net. In those cases, you need to copy your public key to `~/.ssh/authorized_keys` on the remote system.
 

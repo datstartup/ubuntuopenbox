@@ -7,7 +7,7 @@ tags:
   - crontab
 ---
 
-Cron is for schedule tasks.
+Cron is for scheduling tasks.
 
 ### 1. Basic terms
 
@@ -58,9 +58,9 @@ sudo service cron restart
 * More:
    * `restart = stop + start`  
    * `reload = remain running + re-read configuration file`  
-   * So if `reload` does exist, it is preferable to `restart` because it will be no down time.
+   * So if `reload` does exist, it is preferable to `restart` because there will be no down time.
 
-* If you want a thoroughly read here: [The Debian Policy Manual](https://www.debian.org/doc/debian-policy/ch-opersys.html#s-writing-init)
+* If you want a thoroughly read, go here: [The Debian Policy Manual](https://www.debian.org/doc/debian-policy/ch-opersys.html#s-writing-init)
 
 
 ## 5. Check the service status
@@ -96,7 +96,7 @@ Mine (with date added): The task is for changing my wallpaper every 20 minutes.
 ps -ef | grep cron
 ```
 **Note:**
-`ps` (processes status) is a command to view a selection of running processes. It get the info from `/proc`
+`ps` (processes status) is a command to view a selection of running processes. It get the info from `/proc`.
 
 
 Mine here:

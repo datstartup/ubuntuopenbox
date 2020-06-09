@@ -9,28 +9,30 @@ tags:
 ---
 
 Why another Transmission guide:
-1. This is my seft note.
+1. This is my seft-note.
 2. This guide focus on giving more comprehensive information about permission.
 
 ### Installation
 
 Run `sudo apt install transmission-daemon`.
 
-### Prequisite
+### Objectives
 
-1. The configuration will give the permission to the `pi` user because I use this transmission server for my Raspberry Pi.
+1. The configuration will give the permission to the `pi` user because I use this transmission configuration for my Raspberry Pi.
 
-2. The principle of this configuration is all the right to access downloading folders will be given to the user `pi` and the group 'debian-transmission'
+2. The principle of this configuration is all the right to access downloading folders will be given to the user `pi` and the group `debian-transmission`.
 
-3. By default, there is no log file for transmission-daemon. It is really hard to track what is going, so I will add one.
-
-4. Create torrent folder:
+### Prequisites
+Need these two folder availables:
 
 * In-progress files storage: `/home/pi/torrent/incomplete`
 * Complete files storage: `/home/pi/torrent/complete`
 
 ### Change the user running service to `pi`, create user's transmission folder and add log
 
+1. Change the user running the transmission-daemon service
+
+1.1 Edit user in `init` file
 Run `sudo nano /etc/init.d/transmission-daemon`
 
 edit the “USER=” line, so that the Transmission daemon will be run by the “pi” user and not the “debian-transmission” (default).
@@ -38,17 +40,18 @@ edit the “USER=” line, so that the Transmission daemon will be run by the �
 USER=pi
 ```
 
+1.2 Create a user's config folder
 Start the transmission-daemon
 
 `sudo service transmission-daemon start`
 
 
-The transmission folder should be also created for user `pi` at `/home/pi/.config/transmission-daemon/`.
+The transmission folder should be also created for user `pi` at `/home/pi/.config/transmission-daemon/`. You can manually creat one if the task is not done automatically.
 
+1.3 Add log
+Run `sudo nano /lib/systemd/system/transmission-daemon.service`.
 
-Run `sudo nano /lib/systemd/system/transmission-daemon.service`
-
-Change these two lines to:
+Change these two lines:
 ```bash
 User=pi
 ```
@@ -91,10 +94,9 @@ Change these lines:
 }
 ```
 
-* Note:
+** Note**
 * `"rpc-whitelist": "127.0.0.1,192.168.*.*"` I have remove the local host "127.0.0.1" because I only use it remotely.
 * "umask": 2 translates to permissions of `774`, or `rwxrwxr--`, which means full access for owner and group. Everyone else, not in user's group, can only read.
-{: .notice--info}
 
 Entire config file of mine, just copy-paste if you want.
 ```bash
@@ -172,7 +174,7 @@ Entire config file of mine, just copy-paste if you want.
     "utp-enabled": true
 }
 ```
-### More on permission
+### Modify the default permission
 
 Add the user `pi` to the `debian-transmission` group:
 
