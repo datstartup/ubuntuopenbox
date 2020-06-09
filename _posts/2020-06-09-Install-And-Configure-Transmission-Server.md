@@ -22,6 +22,8 @@ Run `sudo apt install transmission-daemon`.
 
 2. The principle of this configuration is all the right to access downloading folders will be given to the user `pi` and the group `debian-transmission`.
 
+3. Add a log.
+
 ### Prequisites
 Need these two folder availables:
 
@@ -32,15 +34,14 @@ Need these two folder availables:
 
 1. Change the user running the transmission-daemon service
 
-1.1 Edit user in `init` file
+    1.1 Edit user in `init` file  
 Run `sudo nano /etc/init.d/transmission-daemon`
 
 edit the “USER=” line, so that the Transmission daemon will be run by the “pi” user and not the “debian-transmission” (default).
 ```bash
 USER=pi
 ```
-
-1.2 Create a user's config folder
+    1.2 Create a user's config folder  
 Start the transmission-daemon
 
 `sudo service transmission-daemon start`
@@ -48,7 +49,7 @@ Start the transmission-daemon
 
 The transmission folder should be also created for user `pi` at `/home/pi/.config/transmission-daemon/`. You can manually creat one if the task is not done automatically.
 
-1.3 Add log
+    1.3 Add log 
 Run `sudo nano /lib/systemd/system/transmission-daemon.service`.
 
 Change these two lines:
