@@ -9,9 +9,9 @@ toc_sticky: true
 toc_label: "All lessons"
 toc_icon: "cog"
 header:
-  overlay_image: /images/will-van-wingerden-dsvJgiBJTOs-unsplash.jpg
+  overlay_image: /images/lesson.jpg
   overlay_color: "#5e616c"
-  caption: "Photo credit: [**Photo by Will van Wingerden on Unsplash**](https://unsplash.com/photos/dsvJgiBJTOs)"
+  caption: "Photo credit: [**Photo by Christin Hume on Unsplash**](https://unsplash.com/photos/k2Kcwkandwg)"
 author_profile: true
 ---
 
