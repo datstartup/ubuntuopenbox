@@ -42,7 +42,8 @@ edit the “USER=” line, so that the Transmission daemon will be run by the �
 USER=pi
 ```
 
-   1.2 Create a user's config folder  
+    1.2 Create a user's config folder
+
 Start the transmission-daemon
 
 `sudo service transmission-daemon start`
@@ -50,7 +51,7 @@ Start the transmission-daemon
 
 The transmission folder should be also created for user `pi` at `/home/pi/.config/transmission-daemon/`. You can manually creat one if the task is not done automatically.
 
-   1.3 Add log 
+    1.3 Add log 
 
 Run `sudo nano /lib/systemd/system/transmission-daemon.service`.
 
