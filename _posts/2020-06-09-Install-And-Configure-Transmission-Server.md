@@ -34,14 +34,14 @@ Need these two folder availables:
 
 1. Change the user running the transmission-daemon service
 
-    1.1. Edit user in `init` file  
+* Edit user in `init` file  
 Run `sudo nano /etc/init.d/transmission-daemon`
 
 edit the “USER=” line, so that the Transmission daemon will be run by the “pi” user and not the “debian-transmission” (default).
 ```bash
 USER=pi
 ```
-    1.2. Create a user's config folder
+* Create a user's config folder
 
 Start the transmission-daemon
 
@@ -49,7 +49,8 @@ Start the transmission-daemon
 
 
 The transmission folder should be also created for user `pi` at `/home/pi/.config/transmission-daemon/`. You can manually creat one if the task is not done automatically.
-    1.3. Add log 
+
+* Add log 
 
 Run `sudo nano /lib/systemd/system/transmission-daemon.service`.
 
@@ -69,13 +70,13 @@ Reload the systemd daemon:
 
 ### Configuration
 
-1. Stop transmission service
+  1. Stop transmission service
 
 **Stop the service to prevent the settings file from being replaced by a running transmission service.**
 
 Run `sudo service transmission-daemon stop`.  
 
-2. Change the setting
+  2. Change the setting
 
 The user setting file will be stored at `/home/pi/.config/transmission-daemon/settings.json`
 
