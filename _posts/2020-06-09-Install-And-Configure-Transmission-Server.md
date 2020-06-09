@@ -70,13 +70,13 @@ Reload the systemd daemon:
 
 ### Configuration
 
-  1. Stop transmission service
+* Stop transmission service
 
 **Stop the service to prevent the settings file from being replaced by a running transmission service.**
 
 Run `sudo service transmission-daemon stop`.  
 
-  2. Change the setting
+* Change the setting
 
 The user setting file will be stored at `/home/pi/.config/transmission-daemon/settings.json`
 
@@ -97,7 +97,7 @@ Change these lines:
 }
 ```
 
-** Note**
+**Note**
 * `"rpc-whitelist": "127.0.0.1,192.168.*.*"` I have remove the local host "127.0.0.1" because I only use it remotely.
 * "umask": 2 translates to permissions of `774`, or `rwxrwxr--`, which means full access for owner and group. Everyone else, not in user's group, can only read.
 
