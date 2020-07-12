@@ -29,14 +29,14 @@ After I get the layout I want, I can save the layout as a bash script to easly a
 # 2. How to set random separate wallpaper for each monitor using Nitrogen. 
 
 The `--head=X` option tells nitrogen to set wallpaper to which monitor.
-```Bash
+
+```bash
 (nitrogen --head=0 --set-zoom-fill --random $HOME/Wallpapers)
 ```
 
 # 3. A script to toggle between one monitor and multiple one.
 
-This is not my original idea, I remmember saw someone's script somewhere online 
-and develop my own version of the script. All the credit going to that person.
+This was not my original idea, I remmembered seeing someone's script elsewhere online and developed my own version of the script. All the credit going to that person.
 
 ```bash
 #!/bin/bash
