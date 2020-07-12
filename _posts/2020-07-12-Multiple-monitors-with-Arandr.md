@@ -18,7 +18,7 @@ sudo apt install arandr
 ```
 Open it using command `arandr`
 
-![Arandr]({{site.baseurl}}/images/arandr.jpg)
+![Arandr]({{site.baseurl}}/images/arandr.png)
 
 The best thing about Arandr is that it give me the ability to drag around display to choose the best layout I want (which going left - right/ above - under...). Then press apply.
 
