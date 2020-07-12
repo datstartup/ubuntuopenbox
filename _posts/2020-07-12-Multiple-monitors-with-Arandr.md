@@ -20,13 +20,15 @@ Open it using command `arandr`
 
 ![Arandr]({{site.baseurl}}/images/arandr.png)
 
+Usually all plugged monitors are appeared here. In case any of them is not, I have to go to `Output` menu and `Active` it.
+
 The best thing about Arandr is that it gives me the ability to drag around display to choose the best layout I want (which going left - right/ above - under...). Then press apply.
 
 After I get the layout I want, I can save the layout as a bash script to easly activate it later. The script will be save in `$HOME/.screenlayout`.
 
 # 2. How to set random separate wallpaper for each monitor using Nitrogen. 
 
-The `--head=X` option tell nitrogen to set wallpaper to which monitor.
+The `--head=X` option tells nitrogen to set wallpaper to which monitor.
 ```Bash
 (nitrogen --head=0 --set-zoom-fill --random $HOME/Wallpapers)
 ```
