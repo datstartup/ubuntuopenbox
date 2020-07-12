@@ -10,6 +10,8 @@ tags:
 
 sudo apt install adapta-gtk-theme --no-install-recommends
 sudo apt install papirus-icon-theme
+luv
+
 
 ### 1. Add an **autostart.sh** script
 
