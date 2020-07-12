@@ -36,7 +36,7 @@ The `--head=X` option tells nitrogen to set wallpaper to which monitor.
 
 # 3. A script to toggle between one monitor and multiple one.
 
-This was not my original idea, I remembered seeing someone's script elsewhere online and developed my own version of the script. All the credit going to that person.
+This was not my original idea, I remembered seeing someone's script elsewhere online and developed my own version. The credit goes to that person.
 
 ```bash
 #!/bin/bash
