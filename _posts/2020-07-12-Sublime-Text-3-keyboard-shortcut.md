@@ -41,7 +41,7 @@ Place the cure sure some where in the line, then `ctrl + shift + D`
 
 `ctrl + ] / ctrl + [`
 
-# 9.Comment out
+# 9.Comment toggle
 
 `ctrl + /`
 
