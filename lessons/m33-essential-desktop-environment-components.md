@@ -38,7 +38,7 @@ Here are some configurations to make **lxpanel** look nicer:
 * Make it use the system theme:
 **right-click** > **Panel settings** to access panel references > **Appearance** tab > tick **System theme** in the **Background** section.
 
-![lxpanelSystemtheme]({{site.baseurl}}/images/Panel Preferences_Systemtheme.png)
+[![lxpanelSystemtheme]({{site.baseurl}}/images/Panel Preferences_Systemtheme.png)]({{site.baseurl}}/images/Panel Preferences_Systemtheme.png){:target="blank"}
 
 * I have borrow the awesome and mature **logout** script from [**bunsenlabs**](https://www.bunsenlabs.org/){:target="_blank"} distro [**here**](https://github.com/BunsenLabs/bunsen-exit){:target="_blank"}
 
