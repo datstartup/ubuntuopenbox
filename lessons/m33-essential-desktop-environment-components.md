@@ -57,7 +57,7 @@ python /home/dat/Custom/bunsen-exit
 
 Now you have a very nice logout interface with various choices:
 
-![bl-exit]({{site.baseurl}}/images/blexit.png)
+[![bl-exit]({{site.baseurl}}/images/blexit.png)]({{site.baseurl}}/images/blexit.png){:target="_blank"}
 
 #### **TINT2**:
 
@@ -69,7 +69,7 @@ Tint2 is a full feature, customizable yet lightweight enough even for a minimal 
 
 With its default settings, tint2 will look extremely ugly. So again I will use my configuration file. The new tint2 will look like this:
 
-![tint2taskbar]({{site.baseurl}}/images/tint2.png)
+[![tint2taskbar]({{site.baseurl}}/images/tint2.png)]({{site.baseurl}}/images/tint2.png){:target="_blank"}
 
 Here is configuration on pastebin, [**click here!**](https://pastebin.com/hxYLwYjw){:target="_blank"}
 
@@ -107,7 +107,7 @@ sudo apt-get install thunar thunar-volman thunar-archive-plugin thunar-media-tag
 
 You have to install some more packages along with **thunar** for it can have enough features (the additional features: add thumbnails, add achieve entries to Thunar menu, add sharing file accessibility...)
 
-![thunar]({{site.baseurl}}/images/Panel Preferences_Systemtheme.png)
+[![thunar]({{site.baseurl}}/images/Panel Preferences_Systemtheme.png)]({{site.baseurl}}/images/Panel Preferences_Systemtheme.png){:target="_blank"}
 
 **USE CATFISH TO SEARCH FILE AND INTEGRATE IT TO THUNAR RIGHT-CLICK MENU**
 
@@ -125,9 +125,10 @@ In **Thunar** > **Edit** > **Configure custom action** > **Edit action** to edit
 ```bash
 catfish --path=%f
 ```
-![editactionCommand]({{site.baseurl}}/images/Edit Action_c.png)
 
-![editactionFiletype]({{site.baseurl}}/images/Edit Action_t.png)
+[![editactionCommand]({{site.baseurl}}/images/Edit Action_c.png)]({{site.baseurl}}/images/Edit Action_c.png){:target="_blank"}
+
+[![editactionFiletype]({{site.baseurl}}Edit Action_t.png)]({{site.baseurl}}Edit Action_t.png){:target="_blank"}
 
 Now you have an entry on **Thunar** right-click menu for searching files & folders.
 
@@ -143,7 +144,7 @@ sudo apt-get install file-roller rar unrar p7zip zip unzip p7zip-full p7zip-rar
 
 After installing these packages, you will have full compressing/decompressing power in your right click menu (when you are in Thunar).
 
-![fileroller]({{site.baseurl}}/images/File_Roller.png)
+[![fileroller]({{site.baseurl}}/images/File_Roller.png)]({{site.baseurl}}/images/File_Roller.png){:target="_blank"}
 
 ### 4. App for setting wallpaper
 
@@ -171,7 +172,7 @@ In my **menu.xml** the entry for **Nitrogen**:
 
 Now testing it by **Right-click** > **Settings** > **Choose Wallpaper** and **Apply**!
 
-![nitrogen]({{site.baseurl}}/images/nitrogen.jpg)
+[![nitrogen]({{site.baseurl}}/images/nitrogen.jpg)]({{site.baseurl}}/images/nitrogen.jpg){:target="_blank"}
 
 ### 5. Network manager
 
@@ -184,11 +185,11 @@ sudo apt-get install wicd
 
 How to use it is pretty straight forward, please tinker with it.
 
-![wicd]({{site.baseurl}}/images/wicd.png)
+[![wicd]({{site.baseurl}}/images/wicd.png)]({{site.baseurl}}/images/wicd.png){:target="_blank"}
 
 Wicd oftions:
 
-![wicdoption]({{site.baseurl}}/images/wicdoption.png)
+[![wicdoption]({{site.baseurl}}/images/wicdoption.png)]({{site.baseurl}}/images/wicdoption.png){:target="_blank"}
 
 You can see how I configure my network to use Google DNS.
 
@@ -201,4 +202,4 @@ Besides controlling the power references, the power manager also gives **lxpanel
 ```bash
 sudo apt-get install mate-power-manager
 ```
-![wicdoption]({{site.baseurl}}/images/Power Management Preferences.png)
+[![Mate Power Manager]({{site.baseurl}}/images/Power Management Preferences.png)]({{site.baseurl}}/images/Power Management Preferences.png){:target="_blank"}
