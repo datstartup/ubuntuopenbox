@@ -37,7 +37,7 @@ Place the cursor at the text + `ctrl + D` to select it, then `ctrl + D` again to
 
 Place the cure sure some where in the line, then `ctrl + shift + D`
 
-# 8.Indent/ disindent
+# 8.Indent/ unindent
 
 `ctrl + ] / ctrl + [`
 
