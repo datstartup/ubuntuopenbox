@@ -93,7 +93,7 @@ sudo apt-get install gsimplecal volti
 
 **BATTERY ICON ON SYSTEM TRAY**
 
-The battery icon on your system tray will come from a power manager application. My current one is from **mate-power-manager**. *Please go to the **Power Manager** section of this page to know more about it.*
+The battery icon on your system tray will come from a power manager application. My current one is from **mate-power-manager**. *Please go to the [Power Manager](https://www.ubuntuopenbox.com/lessons/m33-essential-desktop-environment-components/#6-power-manager) section of this page to know more about it.*
 
 There are also some scripts that can monitor your battery and place an icon on system tray (to name a few: cbatticon, tidybattery...), but they often need to be compiled from source. I want to recommend a safe and easy to be installed system, so a power manager is an obvious choice.
 
