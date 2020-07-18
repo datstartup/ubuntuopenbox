@@ -15,7 +15,7 @@ Hold `ctrl` + using mouse to select where to add cursors.
 
 # 2.Select multiple text (and automatically add cursors)
 
-Double click to select the first + hold `ctrl` + double click other to select more
+Double click to select the first + hold `ctrl` + double click others to select more.
 
 # 3.Select many similar texts (change variable name at variable place as one) 
 
@@ -31,7 +31,7 @@ Place the cursor at the text + `ctrl + D` to select it, then `ctrl + D` again to
 
 # 6.Move line (place the cursor somewhere in the line)/ block of lines (highlight them first)
 
-`ctrl + shift + up/down`
+`ctrl + shift + up/down`.
 
 # 7.Dublicate a line
 
@@ -41,9 +41,9 @@ Place the cure sure some where in the line, then `ctrl + shift + D`
 
 `ctrl + ] / ctrl + [`
 
-# 9.Comment toggle
+# 9. Toggle between commenting out and uncommenting
 
-`ctrl + /`
+`ctrl + /`.
 
 # 10.Open file in current open project
 
