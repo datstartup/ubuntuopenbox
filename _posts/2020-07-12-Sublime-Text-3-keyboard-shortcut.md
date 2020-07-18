@@ -17,7 +17,7 @@ Hold `ctrl` + using mouse to select where to add cursors.
 
 Double click to select the first + hold `ctrl` + double click others to select more.
 
-# 3.Select many similar texts (change variable name at variable place as one) 
+# 3.Select many similar texts (change variable name at many place at once) 
 
 Place the cursor at the text + `ctrl + D` to select it, then `ctrl + D` again to select the next instance of the text. Repeat to select more.
 
