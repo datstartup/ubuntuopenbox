@@ -21,11 +21,11 @@ Please read further for more specific step.
 
 ## 1. How to add a alias
 
-### 1. Create a `~/.bash_aliases` file with `touch ~/.bash_aliases`.
+1. Create a `~/.bash_aliases` file with `touch ~/.bash_aliases`.
 
-You can actually add an alias directly to the bottom of the `.bashrc`
+You can actually add an alias directly to the bottom of the `.bashrc` but using a separate `.bash_aliases` file is recommended.
 
-### 2. Add a alias
+2. Add a alias
 
 Add a line with this syntax to `~/.bash_aliases` file:
 
@@ -35,9 +35,9 @@ alias command_shortcut_word='Bash command go here'
 
 A very simple rule is that the shortcut word need to be "weird" and meaningful (to be easier to remmeber). It has to be "weird" so that there has not been any command with that word in the system (at the momemnt and in the future).
 
-### 3. Update Bash environment by the command `source ~/.bashrc`.
+3. Update Bash environment by the command `source ~/.bashrc`.
 
-## 2. Some alias examples
+## 2. Several alias examples
 
 Update Debian system
 
