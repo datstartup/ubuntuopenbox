@@ -19,7 +19,7 @@ sudo apt install arandr
 
 Open it using command `arandr`
 
-![Arandr]({{site.baseurl}}/images/arandr.png)
+[![arandr]({{site.baseurl}}/images/arandr.png)]({{site.baseurl}}/images/arandr.png){:target="_blank"}
 
 Usually all plugged monitors are appeared here. In case any of them is not, I have to go to `Output` menu and `Active` it.
 
