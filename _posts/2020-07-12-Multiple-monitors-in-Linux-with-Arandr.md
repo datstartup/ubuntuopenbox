@@ -1,5 +1,5 @@
 ---
-title: "Setup Multiple Monitors with Arandr"
+title: "Setup Multiple Monitors in Linux with Arandr"
 header:
 categories:
   - tips
@@ -16,6 +16,7 @@ Install Arandr
 ```bash
 sudo apt install arandr
 ```
+
 Open it using command `arandr`
 
 ![Arandr]({{site.baseurl}}/images/arandr.png)
@@ -26,7 +27,7 @@ The best thing about Arandr is that it gives me the ability to drag around displ
 
 After I get the layout I want, I can save the layout as a bash script to easly activate it later. The script will be save in `$HOME/.screenlayout`.
 
-# 2. How to set random separate wallpaper for each monitor using Nitrogen. 
+# 2. How to set random separate wallpaper for each monitor using Nitrogen.
 
 The `--head=X` option tells nitrogen to set wallpaper to which monitor.
 
@@ -41,7 +42,7 @@ This was not my original idea, I remembered seeing someone's script elsewhere on
 ```bash
 #!/bin/bash
 #Check if HDMI 1 is connect
-#If connect, active twoMonitors mode 
+#If connect, active twoMonitors mode
 #If disconnect, active oneMonitor mode
 
 function HDMIConnected {
@@ -80,7 +81,7 @@ I use `polybar` and only want to add it to just my laptop's monitor (I use anoth
 
 ```bash
 [bar/example]
-monitor = ${env:eDP1:} 
+monitor = ${env:eDP1:}
 ```
 
 # 4. Bind it to a desktop file to go with rofi
@@ -96,4 +97,3 @@ Terminal=False
 Type=Application
 Version=1.0
 ```
-
