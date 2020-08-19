@@ -21,7 +21,7 @@ Open it using command `arandr`
 
 [![arandr]({{site.baseurl}}/images/arandr.png)]({{site.baseurl}}/images/arandr.png){:target="_blank"}
 
-Usually all plugged monitors are appeared here. In case any of them is not, I have to go to `Output` menu and `Active` it.
+Usually all plugged monitors are appeared here. In case any of them is not, I have to go to `Outputs` menu and `Active` it.
 
 The best thing about Arandr is that it gives me the ability to drag around display to choose the best layout I want (which going left - right/ above - under...). Then press apply.
 

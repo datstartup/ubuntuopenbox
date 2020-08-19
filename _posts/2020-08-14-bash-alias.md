@@ -11,7 +11,7 @@ In stead of having to type a frequenly used command, I can specify a "short word
 
 For example, to update my Debian system there is two commands to be typed, `sudo apt update`, then `sudo apt upgrade`. I can turn it into an alias of `aptuu`.
 
-```
+```bash
 alias aptuu='sudo apt update && sudo apt upgrade'
 ```
 
@@ -29,7 +29,7 @@ You can actually add an alias directly to the bottom of the `.bashrc` but using 
 
 Add a line with this syntax to `~/.bash_aliases` file:
 
-```
+```bash
 alias command_shortcut_word='Bash command go here'
 ```
 
@@ -41,24 +41,24 @@ A very simple rule is that the shortcut word need to be "weird" and meaningful (
 
 Update Debian system
 
-```
+```bash
 alias aptuu='sudo apt update && apt list --upgradable && sudo apt upgrade'
 ```
 
 Update Pi-hole on my Raspberry Pi:
 
-```
+```bash
 alias upihole='sudo apt-get update -y && sudo apt-get upgrade -y && pihole -up'
 ```
 
 Sort file/ folder in a folder by size check sizes:
 
-```
+```bash
 alias lss='du -sh * | sort -h'
 ```
 
 Copy with rsync:
 
-```
+```bash
 alias cpr='rsync -ah --info=progress2'
 ```
