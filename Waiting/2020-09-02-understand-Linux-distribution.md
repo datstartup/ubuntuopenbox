@@ -1,0 +1,38 @@
+---
+title: "Understand Linux Distribution"
+header:
+categories:
+  - tips
+tags:
+  - firewall
+---
+
+Environment (KDE, Gnome, XFCE...): the look and feel of a Linux
+
+Distribution is how linux install packages
+
+apt: Debian base (Debian, Ubuntu, Mint...).
+
+{%- capture code -%}
+/* Some js code */
+const redis = require('redis');
+const host = <HOSTNAME>;
+{%- endcapture -%}
+
+{% include code_snippet.md code=code language='javascript' %}
+
+{%- capture code -%}
+# Some ruby code
+t = Time.now
+t.succ  
+{%- endcapture -%}
+
+{% include code_snippet.md code=code language='ruby' %}
+
+{%- capture code -%}
+# Some bash code
+sudo apt install firefox
+{%- endcapture -%}
+
+{% include code_snippet.md code=code language='bash' %}
+
