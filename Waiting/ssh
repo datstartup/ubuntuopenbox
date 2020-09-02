@@ -1,0 +1,15 @@
+Change SSH to Key
+
+Remote Machine: ssh-keygen -t rsa
+Transfer to Server
+Method 1:
+
+Transfer pub ssh key to server
+
+scp ~/.ssh/id_rsa.pub user@server.com:~
+cat ~/id_rsa.pub >> ~/.ssh/authorized_keys
+
+Method 2:
+
+Copy key and place in authorized_key file in one command
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@server.com
