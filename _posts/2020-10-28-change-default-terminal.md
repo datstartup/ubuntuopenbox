@@ -13,7 +13,7 @@ I choose Alacrity and find that there are some obstacles to change system defaul
 
 Here are those troubles and how I have solved them.
 
-1. It is not in system terminal list
+## 1. It is not in system terminal list
 
 Because I install it manually, I have to add it to the list myself.
 
@@ -27,13 +27,13 @@ Then switch default termianl to Alacrity.
 sudo update-alternatives --config x-terminal-emulator
 ```
 
-2. Thunar
+## 2. Thunar
 
 I use Thunar without the Xfce DE, so I have to change xfce4 config file manually, so that I have Alacrity to open in 'Open terminal here' context menu.
 
 Open `~/.config/xfce4/helpers.rc` and change "TerminalEmulator=terminator" to "TerminalEmulator=alacrity".
 
-3. Obmenu generator
+## 3. Obmenu generator
 
 Change the terminal entry in the schema (`~/.config/obmenu-generator/schema.pl`).
 
@@ -41,7 +41,7 @@ Change the terminal entry in the schema (`~/.config/obmenu-generator/schema.pl`)
 {item => ['alacritty',            'Terminal',     'utilities-terminal']},
 ```
 
-4. Openbox rc.xml
+## 4. Openbox rc.xml
 
 Change this binding.
 
