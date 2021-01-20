@@ -1,1 +1,19 @@
 /etc/UPower/UPower.conf 
+
+
+# Hibernate when lowbattery
+
+# The action to take when "TimeAction" or "PercentageAction" above has been
+# reached for the batteries (UPS or laptop batteries) supplying the computer
+#
+# Possible values are:
+# PowerOff
+# Hibernate
+# HybridSleep
+#
+# If HybridSleep isn't available, Hibernate will be used
+# If Hibernate isn't available, PowerOff will be used
+CriticalPowerAction=HybridSleep
+
+Add this resume=swap_partition to enable hiberbate.
+GRUB_CMDLINE_LINUX_DEFAULT="... resume=UUID=72cb4892-2ada-4ae2-ba2c-8df7531bf617

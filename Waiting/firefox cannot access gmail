@@ -1,0 +1,20 @@
+(2) Flush Data for Problem Site(s)
+
+If you tell Firefox to remove all data for a site, that should include removing its storage folder, as well as its cookies, history, and customized permissions. If you don't want to remove all data, you might be able to fix it temporarily by just removing the "cookies and site data". Here are how to access these options:
+
+(A) Cookies and Site Data
+
+Open the Options/Preferences page using either:
+
+    Windows: "3-bar" menu button (or Tools menu) > Options
+    Mac: "3-bar" menu button (or Firefox menu) > Preferences
+    Linux: "3-bar" menu button (or Edit menu) > Preferences
+    Any system: type or paste about:preferences into the address bar and press Enter/Return to load it 
+
+In the left column, click Privacy & Security
+
+On the right side, scroll down to the Cookies and Site Data section
+
+Click the Manage Data... button to open the "Manage Cookies and Site Data" dialog.
+
+In the dialog's search box, type goog to filter the list. Select the domain(s) relevant to Gmail and click the Remove Selected button. Then click the Save Changes button at the lower right.
