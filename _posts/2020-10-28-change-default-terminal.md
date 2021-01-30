@@ -27,6 +27,11 @@ Then switch default termianl to Alacrity.
 sudo update-alternatives --config x-terminal-emulator
 ```
 
+Often, just this command will work globally, but some reasons below, there is still more thing need to do.
+
+I find Thunar need manual change xfce4 helper.rc file; Obmenu generator as I use other terminal as default, I need to hard code it to the schema, same reason for Openbox shortcut key.
+
+
 ## 2. Thunar
 
 I use Thunar without the Xfce DE, so I have to change xfce4 config file manually, so that I have Alacrity to open in 'Open terminal here' context menu.

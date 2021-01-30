@@ -1,73 +1,69 @@
 ---
-layout: default
-title: QUICK UBUNTU OPENBOX INSTALLION GUIDE
-description: learn about APT and apt-get.
+title: "QUICK UBUNTU OPENBOX INSTALLION GUIDE"
+header:
+categories:
+  - Guide
+tags:
+  - Ubuntu  
+  - Openbox
+  - NetInstall
 ---
 
-#COURSE MATERIAL
-#COMPLETE GUIDE TO INSTALL UBUNTU LINUX WITH OPENBOX
+# COURSE MATERIAL
+# COMPLETE GUIDE TO INSTALL UBUNTU LINUX WITH OPENBOX
+
+This use to be
+
 
 Here is configuration on pastebin, [**http://UbuntuOpenbox.com/lessons/course/**](UbuntuOpenbox.com/lessons/course){:target="_blank"}
 
+# Section 3 – Install Ubuntu Operating System
 
-Click pdf-icon for the PDF version of this page.
+## 1. Repositories:
 
-[spacer height="20px"]
+A repository is a server storing packages that are suitable to be installed right away.
 
-[spacer height="20px"]
-Section 3 – Install Ubuntu Operating System
-
-[spacer height="20px"]
-
-1. Repositories:
-
-A repository is a server storing packages that are suitable to be installed right away (packages as well as all of their dependencies)
-
-/etc/apt/source.list file will have a list of repository addresses.
+`/etc/apt/source.list` file will have a list of repository addresses.
 
 PPA: A Personal Package Archives (PPA) is a repository maintained by an individual or an independent group; as oppose to the official repository maintained by Ubuntu.
 
-2. Update apt information (from source.list file)
-
+## 2. Update apt information (from source.list file)
+```
 sudo apt-get update
+```
+It will go to the addresses listed in the `/apt/etc/source.list` file and update current information of which packages, what have been changed and what the current versions are.
 
-It will go to the addresses listed in the /apt/etc/source.list file and update the information about what are on there (which packages are on there) and what have been changed (what the current packages’ versions are).
+You need to execute this command whenever you want to install or update any package.
 
-You need to execute this command whenever you want to install any package.
-
-3. Install packages
-
+## 3. Install packages
+```
 sudo apt-get install [packages' name]
-
+```
 For example:
-
+```
 sudo apt-get install firefox openbox
-
+```
 will install both firefox and openbox at the same time.
 
-4. Remove packages
-
+## 4. Remove packages
+```
 sudo apt-get remove firefox
-
+```
 * remove packages and all their configuration file.
-
+```
 sudo apt-get remove --purge firefox
-
-5. nano to edit text file
-
+```
+## 5. Use nano to edit a text file
+```
 sudo nano /directory/to/text/file
-
+```
 Navigate through the text file using up/down/left/right keys.
 
-* shortcut keys:
+Userful shortcut keys: “Ctrl + X” to exit nano, “Y” to save and “N” to abort the saving.
 
-“Ctrl + X” to exit nano, “Y” to save and “N” to abort the saving.
+# Section 4 – Install Openbox And Configure It
 
-[spacer height="20px"]
-Section 4 – Install Openbox And Configure It
-
-[spacer height="20px"]
-A. Install packages
+## A. Install packages
 
 Copy paste: The commands to install all of the packages for this section.
 
@@ -75,28 +71,28 @@ sudo apt-get install xorg openbox firefox tint2 terminator geany gksu
 
 Detail:
 
-Xorg, the foundation of GUI: xorg
+** Xorg, the foundation of GUI: xorg
 
 If for any reason that “the startx command are not found”. Please install xinit package:
 
 sudo apt-get install xinit
 
-Firefox browser: firefox
+** Firefox browser: firefox
 
-Tint2 taskbar: tint2
+** Tint2 taskbar: tint2
 
-Geany text editor: geany
+** Geany text editor: geany
 
-Terminator terminal: terminator
+** Terminator terminal: terminator
 
-For using GUI application with root privilege: gksu
+** For using GUI application with root privilege: gksu
 
-For example: gksu geany /directory/to/text/file or gksu thunar
+For example: `gksu geany /directory/to/text/file` or `gksu thunar`
 
-*Install VboxGuestAdditions (For testing only. If you are installing on a real machine, this virtualbox guest additions package is not needed)
+** Install VboxGuestAdditions (For testing only. If you are installing on a real machine, this virtualbox guest additions package is not needed)
 
 Mount VboxGuestAdditions.iso file in to virtual machine.
-
+```
 sudo apt-get install build-essential module-assistant
 
 sudo m-a prepare
@@ -110,279 +106,237 @@ sudo mount /dev/sr0 cdrom
 cd cdrom
 
 sudo ./VBoxLinuxAdditions.run
-B. Configure Openbox
+```
+
+## B. Configure Openbox
 
 Copy configuration files to user's home folder:
-
+```
 cp -R /etc/xdg/openbox ~/.config/
-
-*Notice that because you are working on your home folder. You do not need to use sudo.
+```
+Note that because you are working on your home folder. You do not need to use sudo.
 
 Edit configureation files:
-
+```
 geany ~/.config/openbox/rc.xml
 
 geany ~/.config/openbox/autostart
 
 geany ~/.config/openbox/menu.xml
+```
+Replace the content of these files with my Openbox configuration files:
 
-Replace the content of these file with ones below:
+rc.xml file: [http://pastebin.com/ajfTFaay](http://pastebin.com/ajfTFaay)
 
-My recommended Openbox configuration files:
+autostart file: [http://pastebin.com/EmY8gx9c](http://pastebin.com/EmY8gx9c)
 
-rc.xml file: http://pastebin.com/ajfTFaay
+menu.xml file: [http://pastebin.com/5Cixsqpa](http://pastebin.com/5Cixsqpa)
 
-autostart file: http://pastebin.com/EmY8gx9c
+## Section 5 – Essential Features Of A Operating System
 
-menu.xml file: http://pastebin.com/5Cixsqpa
-
-* We have to edit the /etc/sudoer file for the two last entry (for shutdown and restart) of right click menu could work:
-
-Open sudo configuration file (sudoer) in nano text editor by this command:
-sudo visudo
-Add this line to the end of sudoer file:
-user_name ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot
-
-Ctrl + X and “Y” to confirm.
-
-[spacer height="20px"]
-Section 5 – Essential Features Of A Operating System
-
-[spacer height="20px"]
-
-Copy paste: The commands to install all of the packages for this section.
-
-sudo apt-get install thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin humanity-icon-theme gnome-icon-theme-full gvfs gvfs-backends file-roller rar unrar p7zip zip unzip p7zip-full p7zip-rar wicd htop scrot i3lock libnotify-bin xfce4-notifyd software-properties-common
-
+The commands to install all of the packages for this section.
+```
+sudo apt-get install thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin humanity-icon-theme gnome-icon-theme-full gvfs gvfs-backends file-roller rar unrar p7zip zip unzip p7zip-full p7zip-rar wicd htop scrot i3lock libnotify-bin xfce4-notifyd software-properties-common nitrogen lightdm
+```
 Detail:
 
-File manager: thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin humanity-icon-theme gnome-icon-theme-full gvfs gvfs-backends
+** File manager: thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin humanity-icon-theme gnome-icon-theme-full gvfs gvfs-backends 
 
-Archieve manager: file-roller rar unrar p7zip zip unzip p7zip-full p7zip-rar
+** Archieve manager: file-roller rar unrar p7zip zip unzip p7zip-full p7zip-rar
 
-The network manager: wicd
+** Network manager: wicd
 
-The system mornitor: htop
+** System mornitor: htop
 
-The screen capture (Print Scrn): scrot
+** Screen capture (Print Scrn): scrot
 
-The screen locker (Supper + L): i3lock
+** Screen locker (Supper + L): i3lock
 
-The notification: libnotify-bin & xfce4-notifyd
+** Notification: libnotify-bin & xfce4-notifyd
 
-For adding PPA: software-properties-common
+** For adding PPA: software-properties-common
+** Wallpaper manager: nitrogen
 
-The login manager:
+** Login manager: lightdm
 
-I have not used login manager anymore. Just plainly entering my username and password.
-We will add some lines into ~/.profile file in your home folder:
+You can use `--no-install-recommends` flag to prevent unnecessary packages to be installed.
+```
+sudo apt-get install lightdm lightdm-gtk-greeter --no-install-recommends
+```
+For more information and instruction [https://wiki.archlinux.org/index.php/LightDM](https://wiki.archlinux.org/index.php/LightDM)
 
+
+* If you do not want to use login manager. Just plainly entering username and password.
+Add some lines into ~/.profile file in your home folder:
+```
 geany ~/.profile
-
+```
 add these line to the end of that file:
+```
 # startx after login
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
 exec startx
 fi
+```
+From now on, the GUI will autostart (without the need of `startx` command) as soon as you enter your username and password.
 
-From now on, the GUI will autostart (without the need of startx command) as soon as you enter your username and password.
-
-(Optional – if you want to use Openbox with other Desktop Environments or Window Managers. You will need a good login manager)
-
-Use --no-install-recommends flag to prevent unnecessary package to be installed.
-
-*lxdm
-
-sudo apt-get install lxdm --no-install-recommends
-
-Please go here for more information and instruction:
-
-https://wiki.archlinux.org/index.php/LXDM
-
-OR
-
-*lightdm
-
-sudo apt-get install lightdm lightdm-gtk-greeter --no-install-recommends
-
-For more information and instruction
-
-https://wiki.archlinux.org/index.php/LightDM
-
-[spacer height="20px"]
-Section 6 – Install Internet Applications
-
-[spacer height="20px"]
+## Section 6 – Install Internet Applications
 
 Add PPA for Uget (this is the official PPA from the developer of Uget)
-
+```
 sudo add-apt-repository ppa:plushuang-tw/uget-stable
 
 sudo apt-get update
+```
 
-Copy paste: The commands to install all of the packages for this section.
-
+The commands to install all of the packages for this section.
+```
 sudo apt-get install thunderbird pidgin uget
-
+```
 Detail:
 
-Firefox for internet browser: firefox (already installed)
+** Firefox for internet browser: firefox (already installed)
 
-Thunderbird for email client: thunderbird
+** Thunderbird for email client: thunderbird
 
-Pidgin for multi-platform chat client: pidgin
+** Pidgin for multi-platform chat client: pidgin
 
-Uget for download manager (Official PPA from developer): uget
+** Uget for download manager (from a PPA): uget
 
-*Dropbox for cloud storage (proprietary software)
+** Dropbox for cloud storage (proprietary software)
 
-Go to: https://www.dropbox.com/install?os=lnx
+Go to: [https://www.dropbox.com/install?os=lnx](https://www.dropbox.com/install?os=lnx)
 
-to download the .deb package and install it with this command:
-
+Download the `.deb` package and install it with this command:
+```
 sudo dpkg -i [.deb package]
+```
 
-[spacer height="20px"]
-Section 7 – Install Multimedia Applications
+# Section 7 – Install Multimedia Applications
 
-[spacer height="20px"]
 
-Add PPA for Viewnior (for Ubuntu 14.04 only. If you are using newer version of Ubuntu, it has already been in repository)
+The commands to install all of the packages for this section.
+```
+sudo apt-get install alsa-base alsa-utils pavucontrol pulseaudio vlc audacious gimp shutter viewnior 
+```
+** Alsa sound cards driver: alsa-base alsa-utils
 
-sudo add-apt-repository ppa:skellat/flow1
+** Audio center control: pavucontrol
 
-Add PPA for Caffeine (for Ubuntu 15.04 and earlier. It has already been in the repository for Ubuntu 15.10)
+** Video player: vlc
 
-sudo add-apt-repository ppa:caffeine-developers/ppa
+** Music player: audacious
 
-sudo apt-get update
+** Image suite (like Photoshop): gimp
 
-Copy paste: The commands to install all of the packages for this section.
+** Screenshot app: shutter
 
-sudo apt-get install alsa-base alsa-utils volti vlc audacious gimp shutter viewnior
+** Image viewer: viewnior
 
-Detail:
+## Section 8 – Install Office Applications
 
-Alsa sound cards driver: alsa-base alsa-utils
-
-*If your sound card does not work right after installing the above packages, please do as following:
-
-sudo alsactl init
-
-and one more step to make alsa guess the audio card(s) on your system
-
-sudo adduser [username] audio
-
-to add your username to autio group
-
-Then, reboot your computer for the change to take effect.
-
-Volti for sound applet: volti
-
-VLC for playing videos: vlc
-
-Audacious for playing music: audacious
-
-Gimp as image suite (like Photoshop): gimp
-
-Shutter for screen capture: shutter
-
-Viewnior as image viewer: viewnior
-
-[spacer height="20px"]
-Section 8 – Install Office Applications
-
-[spacer height="20px"]
 
 Add PPA for LibreOffice (from the developer of LibreOffice)
-
+```
 sudo add-apt-repository ppa:libreoffice/ppa
 
 sudo apt-get update
-
-Copy paste: The commands to install all of the packages for this section.
-
+```
+The commands to install all of the packages for this section.
+```
 sudo apt-get install fbreader libreoffice-calc libreoffice-writer libreoffice-gtk
-
+```
 Detail:
 
-LibreOffice Writer (word processor): libreoffice-writer
+LibreOffice Writer (word processor): `libreoffice-writer`
 
-LibreOffice Calc (spreadsheet): libreoffice-calc
+LibreOffice Calc (spreadsheet): `libreoffice-calc`
 
 * OPTIONAL: for other applications of LibreOffice Suite:
 
-LibreOffice Base (database): libreoffice-base
+LibreOffice Base (database): `libreoffice-base`
 
-LibreOffice Draw (drawing): libreoffice-draw
+LibreOffice Draw (drawing): `libreoffice-draw`
 
-LibreOffice Impress (presentation): libreoffice-impress
+LibreOffice Impress (presentation): `libreoffice-impress`
 
-LibreOffice Math (equation editor): libreoffice-math
+LibreOffice Math (equation editor): `libreoffice-math`
 
-Theme for LibreOffice: libreoffice-gtk libreoffice-style-sifr
+Theme for LibreOffice: `libreoffice-gtk libreoffice-style-sifr`
 
-FB Reader for reading ebook: fbreader
+** FB Reader for reading ebook: fbreader
 
-*Foxit as Pdf reader (proprietary software)
+** Foxit as Pdf reader (proprietary software)
 
 https://www.foxitsoftware.com/downloads/
 
 go to the link to download the .run package for Linux 64 bit platform. Open it and follow the instruction.
 
-[spacer height="20px"]
-Section 9 – Customize The Look
+Note that by open it, I mean using terminal like this:
 
-[spacer height="20px"]
+```
+# In its folder
+$sh ./FoxitReader_version_Setup.run
+```
 
-Copy paste: The commands to install all of the packages for this section.
+Why I tell you to use Foxit while there is some others in the repository? I want to show you a lot of abnormal way to install app.
 
-sudo apt-get install nitrogen conky obconf lxappearance obconf
+These day I use Zathura because its flexibility color scheme (chose your own color scheme to view file) and the shortcut key. You will have to research a bit to know how to config it the way you like.
 
+## Section 9 – Customize The Look
+
+
+The commands to install all of the packages for this section.
+```
+sudo apt-get install conky obconf lxappearance obconf
+```
 Detail:
 
-Tint2 theme:
-
+## 1.Change the look of tint2 
+Tint2 config file:
+```
 geany ./.config/tint2/tint2rc
+```
+My tint2 config: [http://pastebin.com/hxYLwYjw](http://pastebin.com/hxYLwYjw)
 
-My tint2 theme: http://pastebin.com/hxYLwYjw
+## 2.Change Openbox theme and more: 
 
-Set wallpaper: nitrogen
+Openbox Theme: Mistral
 
-Change Openbox theme and more: using obconf
+Download at: [http://phobi4n.deviantart.com/art/Mistral-Openbox-543910044](http://phobi4n.deviantart.com/art/Mistral-Openbox-543910044)
 
-User-specific themes can be installed in ~/.local/share/themes or in ~/.themes.
+User-specific themes can be installed in `~/.local/share/themes` or in `~/.themes`. So, Openbox theme, Gtk theme, and cursor theme will go there.
 
-Theme: Mistral
+Use the command `obconf` to open obconf, then change the theme.
 
-Download at: http://phobi4n.deviantart.com/art/Mistral-Openbox-543910044
+## 3. Chang Gtk theme, cursor theme
 
-Change GTK theme: using lxappearance
 
-User-specific themes can be installed in ~/.local/share/themes or in ~/.themes.
+Again, User-specific themes can be installed in `~/.local/share/themes` or in `~/.themes`. So, Openbox theme, Gtk theme, and cursor theme will go there.
 
-Theme: Breeze-gtk
+Gtk theme: Breeze-gtk
 
-Download at: https://github.com/dirruk1/gnome-breeze
+Download at: [https://github.com/dirruk1/gnome-breeze](https://github.com/dirruk1/gnome-breeze)
 
-Change Icon theme: using lxappearance
+Cursor theme: Breeze
 
-Either install via PPAs or copy (the extracted) icon folder directly to /usr/share/icons or ~/.icons
+Download at: [http://gnome-look.org/content/show.php/Breeze+Serie?content=169316](http://gnome-look.org/content/show.php/Breeze+Serie?content=169316)
 
-Theme: Vivacious-colors
+Use the command `lxappearance` to open lxappearance, then change the theme.
+
+# 4. Change Icon theme
+
+Icon themes are either install via PPAs or copy (the extracted) icon folder directly to `/usr/share/icons` or `~/.icons`
+
+Icon Theme: Vivacious-colors
 
 Information at: http://www.ravefinity.com/p/vivacious-colors-gtk-icon-theme.html
 
 By PPA:
-
+```
 sudo add-apt-repository ppa:ravefinity-project/ppa
 sudo apt-get update
 sudo apt-get install vivacious-colors
+```
+Use the command `lxappearance` to open lxappearance, then change the theme.
 
-Change Cursor theme: using lxappearance
-
-Copy the cursor theme folder directly to /usr/share/icons or ~/.icons
-
-Theme: Breeze
-
-Download at: http://gnome-look.org/content/show.php/Breeze+Serie?content=169316
