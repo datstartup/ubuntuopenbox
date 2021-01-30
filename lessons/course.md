@@ -51,6 +51,7 @@ sudo apt-get remove firefox
 ```
 sudo apt-get remove --purge firefox
 ```
+
 ## 5. Use nano to edit a text file
 ```
 sudo nano /directory/to/text/file
