@@ -12,10 +12,7 @@ tags:
 # COURSE MATERIAL
 # COMPLETE GUIDE TO INSTALL UBUNTU LINUX WITH OPENBOX
 
-This use to be
-
-
-Here is configuration on pastebin, [**http://UbuntuOpenbox.com/lessons/course/**](UbuntuOpenbox.com/lessons/course){:target="_blank"}
+This material used to be for my course on Udemy.
 
 # Section 3 – Install Ubuntu Operating System
 
