@@ -131,7 +131,7 @@ autostart file: [http://pastebin.com/EmY8gx9c](http://pastebin.com/EmY8gx9c)
 
 menu.xml file: [http://pastebin.com/5Cixsqpa](http://pastebin.com/5Cixsqpa)
 
-## Section 5 – Essential Features Of A Operating System
+# Section 5 – Essential Features Of A Operating System
 
 The commands to install all of the packages for this section.
 ```
@@ -182,7 +182,7 @@ fi
 ```
 From now on, the GUI will autostart (without the need of `startx` command) as soon as you enter your username and password.
 
-## Section 6 – Install Internet Applications
+# Section 6 – Install Internet Applications
 
 Add PPA for Uget (this is the official PPA from the developer of Uget)
 ```
