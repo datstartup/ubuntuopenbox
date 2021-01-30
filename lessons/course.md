@@ -51,7 +51,6 @@ sudo apt-get remove firefox
 ```
 sudo apt-get remove --purge firefox
 ```
-
 ## 5. Use nano to edit a text file
 ```
 sudo nano /directory/to/text/file
@@ -69,7 +68,7 @@ sudo apt-get install xorg openbox firefox tint2 terminator geany gksu
 ```
 Detail:
 
-** Xorg, the foundation of GUI: xorg
+* Xorg, the foundation of GUI: xorg
 
 If for any reason that “the startx command are not found”. Please install xinit package:
 ```
@@ -77,19 +76,19 @@ sudo apt-get install xinit
 ```
 Login using `startx` is just temporary, later, a login manager will manage this.
 
-** Firefox browser: `firefox`
+* Firefox browser: `firefox`
 
-** Tint2 taskbar: `tint2`
+* Tint2 taskbar: `tint2`
 
-** Geany text editor: `geany`
+* Geany text editor: `geany`
 
-** Terminator terminal: `terminator`
+* Terminator terminal: `terminator`
 
-** For using GUI application with root privilege: `gksu`
+* For using GUI application with root privilege: `gksu`
 
 For example: `gksu geany /directory/to/text/file` or `gksu thunar`
 
-** Install VboxGuestAdditions (For testing only. If you are installing on a real machine, this virtualbox guest additions package is not needed)
+* Install VboxGuestAdditions (For testing only. If you are installing on a real machine, this virtualbox guest additions package is not needed)
 
 Mount VboxGuestAdditions.iso file in to virtual machine.
 ```
@@ -140,27 +139,27 @@ sudo apt-get install thunar thunar-volman thunar-archive-plugin thunar-media-tag
 ```
 Detail:
 
-** File manager: `thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin humanity-icon-theme gnome-icon-theme-full gvfs gvfs-backends` 
+* File manager: `thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin humanity-icon-theme gnome-icon-theme-full gvfs gvfs-backends` 
 
-** Archieve manager: `file-roller rar unrar p7zip zip unzip p7zip-full p7zip-rar`
+* Archieve manager: `file-roller rar unrar p7zip zip unzip p7zip-full p7zip-rar`
 
-** Network manager: `wicd`
+* Network manager: `wicd`
 
-** System mornitor: `htop`
+* System mornitor: `htop`
 
-** Screen capture (Print Scrn): `scrot`
+* Screen capture (Print Scrn): `scrot`
 
-** Screen locker (Supper + L): `i3lock`
+* Screen locker (Supper + L): `i3lock`
 
-** Notification: `libnotify-bin xfce4-notifyd`
+* Notification: `libnotify-bin xfce4-notifyd`
 
-** For adding PPA: `software-properties-common`
+* For adding PPA: `software-properties-common`
 
-** Wallpaper manager: `nitrogen`
+* Wallpaper manager: `nitrogen`
 
-** (LXDE) PolicyKit authentication agent: `lxpolkit` - An authentication agent, and is used to make the user of a session prove that the user of the session really is the user.
+* (LXDE) PolicyKit authentication agent: `lxpolkit` - An authentication agent, and is used to make the user of a session prove that the user of the session really is the user.
 
-** Login manager: `lightdm`
+* Login manager: `lightdm`
 
 You can use `--no-install-recommends` flag to prevent unnecessary packages to be installed.
 ```
@@ -198,15 +197,15 @@ sudo apt-get install thunderbird pidgin uget
 ```
 Detail:
 
-** Firefox for internet browser: `firefox` (already installed)
+* Firefox for internet browser: `firefox` (already installed)
 
-** Thunderbird for email client: `thunderbird`
+* Thunderbird for email client: `thunderbird`
 
-** Pidgin for multi-platform chat client: `pidgin`
+* Pidgin for multi-platform chat client: `pidgin`
 
-** Uget for download manager (from a PPA): `uget`
+* Uget for download manager (from a PPA): `uget`
 
-** Dropbox for cloud storage (proprietary software)
+* Dropbox for cloud storage (proprietary software)
 
 Go to: [https://www.dropbox.com/install?os=lnx](https://www.dropbox.com/install?os=lnx)
 
@@ -221,19 +220,19 @@ The commands to install all of the packages for this section.
 ```
 sudo apt-get install alsa-base alsa-utils pavucontrol pulseaudio vlc audacious gimp shutter viewnior 
 ```
-** Alsa sound cards driver: `alsa-base alsa-utils`
+* Alsa sound cards driver: `alsa-base alsa-utils`
 
-** Audio center control: `pavucontrol`
+* Audio center control: `pavucontrol`
 
-** Video player: `vlc`
+* Video player: `vlc`
 
-** Music player: `audacious`
+* Music player: `audacious`
 
-** Image suite (like Photoshop): `gimp`
+* Image suite (like Photoshop): `gimp`
 
-** Screenshot app: `shutter`
+* Screenshot app: `shutter`
 
-** Image viewer: `viewnior`
+* Image viewer: `viewnior`
 
 ## Section 8 – Install Office Applications
 
@@ -266,9 +265,9 @@ LibreOffice Math (equation editor): `libreoffice-math`
 
 Theme for LibreOffice: `libreoffice-gtk libreoffice-style-sifr`
 
-** FB Reader for reading ebook: fbreader
+* FB Reader for reading ebook: fbreader
 
-** Foxit as Pdf reader (proprietary software)
+* Foxit as Pdf reader (proprietary software)
 
 https://www.foxitsoftware.com/downloads/
 
