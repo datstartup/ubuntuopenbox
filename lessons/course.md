@@ -13,9 +13,6 @@ tags:
   - NetInstall
 ---
 
-# COURSE MATERIAL
-# COMPLETE GUIDE TO INSTALL UBUNTU LINUX WITH OPENBOX
-
 This material used to be for my course on Udemy.
 
 # Section 3 – Install Ubuntu Operating System
