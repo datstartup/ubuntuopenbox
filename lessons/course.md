@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "QUICK UBUNTU OPENBOX INSTALLION GUIDE"
 header:
 categories:
