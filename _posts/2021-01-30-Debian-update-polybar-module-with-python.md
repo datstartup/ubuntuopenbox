@@ -8,9 +8,9 @@ tags:
   - Debian-Update
 ---
 
-Credit: I modify the Python script here: [https://gist.github.com/yumminhuang/8b1502a49d8b20a6ae70](https://gist.github.com/yumminhuang/8b1502a49d8b20a6ae70)
+All the credits go here: [https://gist.github.com/yumminhuang/8b1502a49d8b20a6ae70](https://gist.github.com/yumminhuang/8b1502a49d8b20a6ae70)
 
-It look like this: ![debianUpdatePolybar]({{site.baseurl}}/images/debianUpdatePolybar.png)
+It looks like this: ![debianUpdatePolybar]({{site.baseurl}}/images/debianUpdatePolybar.png)
 
 ## 1. Polybar module
 
