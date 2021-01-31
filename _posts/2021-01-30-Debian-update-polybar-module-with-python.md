@@ -23,7 +23,7 @@ interval = 7200
 format-prefix = " "
 tail = true
 ```
-Others, like `format-underline`, `format-prefix-foreground`, `format-padding`... is according to your config.
+Others, like `format-underline`, `format-prefix-foreground`, `format-padding`... are according to your config.
 
 Also, the icon is from the font `FuraCode Nerd Font`.
 
