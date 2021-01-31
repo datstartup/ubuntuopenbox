@@ -12,9 +12,6 @@ Credit: I modify the Python script here: [https://gist.github.com/yumminhuang/8b
 
 It look like this: ![debianUpdatePolybar]({{site.baseurl}}/images/debianUpdatePolybar.png)
 
-
-test ![debianUpdatePolybar]({{{{site.baseurl}}/debianUpdatePolybar.png | relative_url }})
-
 ## 1. Polybar module
 
 Essentially it must have these lines.
