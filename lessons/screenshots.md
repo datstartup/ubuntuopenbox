@@ -14,6 +14,10 @@ tags:
   - galery
 
 gallery :
+    - url: /images/Galery/conkywithplank.jpg
+      image_path: /images/Galery/conkywithplank.jpg
+      alt: "With conky and plank"
+      title: "With conky and plank"
     - url: /images/cleanDesktopTin2.jpg
       image_path: /images/cleanDesktopTin2.jpg
       alt: "cleanDesktopTin2"
@@ -36,10 +40,10 @@ gallery :
       title: "Clean Desktop with Lxpanel and Tin2 (as pager)"
 
 gallery1 :
-    - url: /images/Galery/conkywithplank.jpg
-      image_path: /images/Galery/conkywithplank.jpg
-      alt: "With conky and plank"
-      title: "With conky and plank"
+    - url: /images/Galery/PolybarNeofetchGotop.png
+      image_path: /images/Galery/PolybarNeofetchGotop.png
+      alt: "With Polybar, neofetch and gotop"
+      title: "With Polybar, neofetch and gotop"
 ---
 ### Screenshots of an Ubuntu/ Debian Openbox in action.
 
