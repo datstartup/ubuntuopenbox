@@ -49,4 +49,4 @@ gallery1 :
 ### (Click the image to enlarge)
 {% include gallery id="gallery1" layout="" caption="My current screenshot" %}
 
-{% include gallery layout="half" caption="**All**" %}
+{% include gallery layout="half" caption="**All Others**" %}
