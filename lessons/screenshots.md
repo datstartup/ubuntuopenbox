@@ -46,7 +46,7 @@ gallery1 :
       title: "With Polybar, neofetch and gotop"
 ---
 ### Screenshots of an Ubuntu/ Debian Openbox in action.
-
-{% include gallery id="gallery1" layout="" caption="Clean Desktop with Lxpanel" %}
+### (Click the image to enlarge)
+{% include gallery id="gallery1" layout="" caption="My current screenshot" %}
 
 {% include gallery layout="half" caption="**All**" %}
