@@ -11,7 +11,8 @@ Jekyll command:
 
 source /home/dat/.rvm/scripts/rvm
 
-jekyll serve
+jekyll serve: for local 
+jekyll build: for production
 
 localhost:4000
 
