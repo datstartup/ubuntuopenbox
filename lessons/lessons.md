@@ -124,4 +124,4 @@ Manipulating Grub to suite your own booting requirements
 
 [Chapter 3 - Maintaining your Debian/ Ubuntu operating system]({{site.baseurl}}/lessons/m63-maintaining-your-ubuntu-os/){:target="_blank"}
 
-Learning necessary "house keeping" tasks to keep your OS as its peak
+Learning necessary "housekeeping" tasks to keep your OS as its peak

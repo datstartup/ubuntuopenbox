@@ -18,16 +18,12 @@ main:
   #  url: /sitemap/
 
 sidebar-lesson:
-  - title: "Parent Page A"
+  - title: "Module 1 - Prerequisites"
     children:
-      - title: "Child Page A1"
-        url: /
-      - title: "Child Page A2"
-        url: /
-      - title: "Child Page A3"
-        url: /
-      - title: "Child Page A4"
-        url: /
+      - title: "Chapter 1 - Four essential commands"
+        url: https://www.ubuntuopenbox.com/lessons/m11-four-essential-commands/
+      - title: "Chapter 2 - Virtualbox"
+        url: https://www.ubuntuopenbox.com/lessons/m12-prerequisites-install-and-configure-virtualbox/
   - title: "Parent Page B"
     children:
       - title: "Child Page B1"
