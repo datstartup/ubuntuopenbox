@@ -13,7 +13,6 @@ source /home/dat/.rvm/scripts/rvm
 
 jekyll serve: for local 
 jekyll build: for production
-
 localhost:4000
 
 Update website:

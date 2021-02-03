@@ -25,7 +25,7 @@ sidebar-module1:
       - title: "Chapter 2 - Virtualbox"
         url: https://www.ubuntuopenbox.com/lessons/m12-prerequisites-install-and-configure-virtualbox/
       - title: "GO TO MODULE 2 - Ubuntu OS"
-        url: https://www.ubuntuopenbox.com/lessons
+        url: https://www.ubuntuopenbox.com/lessons/m20-install-ubuntu-os-without-gui/
         
 sidebar-module2:
   - title: "Module 2 - Ubuntu OS"
@@ -77,7 +77,7 @@ sidebar-module5:
         url: https://www.ubuntuopenbox.com/lessons/m54-special-apps-that-need-pulseaudio/
       - title: "GO TO MODULE 6 - Insight"
         url: https://www.ubuntuopenbox.com/lessons/m61-get-the-most-out-of-apt-get/
-sidebar-module5:
+sidebar-module6:
   - title: "Module 6 - Insight"
     children:
       - title: "Chapter 1 - More about apt-get"

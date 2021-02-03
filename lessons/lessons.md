@@ -12,7 +12,7 @@ header:
   overlay_image: /images/lesson.jpg
   overlay_color: "#5e616c"
   caption: "Photo credit: [**Photo by Christin Hume on Unsplash**](https://unsplash.com/photos/k2Kcwkandwg)"
-author_profile: false
+author_profile: true
 ---
 
 ## Module 1 - Prerequisites
@@ -122,3 +122,6 @@ Manipulating Grub to suite your own booting requirements
 [Chapter 3 - Maintaining your Debian/ Ubuntu operating system]({{site.baseurl}}/lessons/m63-maintaining-your-ubuntu-os/){:target="_blank"}
 
 Learning necessary "housekeeping" tasks to keep your OS as its peak
+
+
+
