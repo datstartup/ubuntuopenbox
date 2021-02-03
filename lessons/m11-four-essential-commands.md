@@ -7,6 +7,9 @@ toc_label: "Four essential commands"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module1
 ---
 
 Objective: To be familiar with following four commands:

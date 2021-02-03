@@ -13,9 +13,6 @@ header:
   overlay_color: "#5e616c"
   caption: "Photo credit: [**Photo by Christin Hume on Unsplash**](https://unsplash.com/photos/k2Kcwkandwg)"
 author_profile: false
-sidebar:
-  title: "Ubuntu Openbox"
-  nav: sidebar-lesson
 ---
 
 ## Module 1 - Prerequisites

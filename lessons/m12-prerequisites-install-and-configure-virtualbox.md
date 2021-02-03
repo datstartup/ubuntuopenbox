@@ -7,6 +7,9 @@ toc_label: "Virtualbox"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module1
 ---
 
 Looking back, Virualbox has been the most important discover for my next step into the Linux world because I can freely create a virtual machine to test any Linux distribution.

@@ -17,17 +17,19 @@ main:
   #- title: "Sitemap"
   #  url: /sitemap/
 
-sidebar-lesson:
+sidebar-module1:
   - title: "Module 1 - Prerequisites"
     children:
       - title: "Chapter 1 - Four essential commands"
         url: https://www.ubuntuopenbox.com/lessons/m11-four-essential-commands/
       - title: "Chapter 2 - Virtualbox"
         url: https://www.ubuntuopenbox.com/lessons/m12-prerequisites-install-and-configure-virtualbox/
+sidebar-module2:
   - title: "Module 2 - Ubuntu OS"
     children:
       - title: "Chapter 1 - How to install Ubuntu Operating system without GUI"
         url: https://www.ubuntuopenbox.com/lessons/m20-install-ubuntu-os-without-gui/
+sidebar-module3:
   - title: "Module 3 - Openbox Window Manager"
     children:
       - title: "Chapter 1 - Overview of the installation"
@@ -39,7 +41,8 @@ sidebar-lesson:
       - title: "Chapter 4 - Essential operating system application"
         url: https://www.ubuntuopenbox.com/lessons/m34-essential-operating-system-applications/
       - title: "Chapter 5 - Essential operating system features"
-        url: https://www.ubuntuopenbox.com/lessons/m35-essential-operating-system-features/ 
+        url: https://www.ubuntuopenbox.com/lessons/m35-essential-operating-system-features/
+sidebar-module4:
   - title: "Module 4 - Eye Candy"
     children:
       - title: "Chapter 1 - Theme switchers"
@@ -51,7 +54,8 @@ sidebar-lesson:
       - title: "Chapter 4 - Icon theme for Ubuntu Openbox"
         url: https://www.ubuntuopenbox.com/lessons/m46-icon-themes-for-ubuntu-openbox/        
       - title: "Chapter 5 - Cursor theme for Ubuntu Openbox"
-        url: https://www.ubuntuopenbox.com/lessons/m45-cursor-theme/    
+        url: https://www.ubuntuopenbox.com/lessons/m45-cursor-theme/
+sidebar-module5:
   - title: "Module 5 - Apps"
     children:
       - title: "Chapter 1 - Internet Apps"
@@ -61,7 +65,8 @@ sidebar-lesson:
       - title: "Chapter 3 - Office Apps"
         url: https://www.ubuntuopenbox.com/lessons/m53-office-apps-for-ubuntu-openbox/
       - title: "Chapter 4 - Special apps that need PulseAudio Apps"
-        url: https://www.ubuntuopenbox.com/lessons/m54-special-apps-that-need-pulseaudio/    
+        url: https://www.ubuntuopenbox.com/lessons/m54-special-apps-that-need-pulseaudio/
+sidebar-module5:
   - title: "Module 6 - Insight"
     children:
       - title: "Chapter 1 - More about apt-get"

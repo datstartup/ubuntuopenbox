@@ -21,7 +21,7 @@ I will illustrate with a Openbox theme called Mistral.
 
 The author has posted it here:
 
-[http://phobi4n.deviantart.com/art/Mistral-Openbox-543910044](http://phobi4n.deviantart.com/art/Mistral-Openbox-543910044)
+[https://www.box-look.org/p/1169127/](https://www.box-look.org/p/1169127/)
 
 In this case, the theme is packed in a folder. Openbox themes also come with **.obt** extension and can be installed using Obconf (You can extract that **.obt** package to a folder using any of compression tool).
 
