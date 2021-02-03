@@ -24,28 +24,31 @@ sidebar-module1:
         url: https://www.ubuntuopenbox.com/lessons/m11-four-essential-commands/
       - title: "Chapter 2 - Virtualbox"
         url: https://www.ubuntuopenbox.com/lessons/m12-prerequisites-install-and-configure-virtualbox/
-        
       - title: "BACK TO LESSONS"
         url: https://www.ubuntuopenbox.com/lessons
         
 sidebar-module2:
   - title: "Module 2 - Ubuntu OS"
     children:
-      - title: "Chapter 1 - How to install Ubuntu Operating system without GUI"
+      - title: "Chapter 1 - Install Ubuntu OS without GUI"
         url: https://www.ubuntuopenbox.com/lessons/m20-install-ubuntu-os-without-gui/
+      - title: "BACK TO LESSONS"
+        url: https://www.ubuntuopenbox.com/lessons
 sidebar-module3:
   - title: "Module 3 - Openbox Window Manager"
     children:
-      - title: "Chapter 1 - Overview of the installation"
+      - title: "Chapter 1 - Overview"
         url: https://www.ubuntuopenbox.com/lessons/m31-overview-of-the-installation/
       - title: "Chapter 2 - Install and Configure Openbox"
         url: https://www.ubuntuopenbox.com/lessons/m32-install-and-configure-openbox/
-      - title: "Chapter 3 - Essential desktop environment Components"
+      - title: "Chapter 3 - Essential DE Components"
         url: https://www.ubuntuopenbox.com/lessons/m33-essential-desktop-environment-components/
-      - title: "Chapter 4 - Essential operating system application"
+      - title: "Chapter 4 - Essential OS application"
         url: https://www.ubuntuopenbox.com/lessons/m34-essential-operating-system-applications/
-      - title: "Chapter 5 - Essential operating system features"
+      - title: "Chapter 5 - Essential OS features"
         url: https://www.ubuntuopenbox.com/lessons/m35-essential-operating-system-features/
+      - title: "BACK TO LESSONS"
+        url: https://www.ubuntuopenbox.com/lessons
 sidebar-module4:
   - title: "Module 4 - Eye Candy"
     children:
@@ -55,10 +58,12 @@ sidebar-module4:
         url: https://www.ubuntuopenbox.com/lessons/m42-openbox-theme-for-ubuntu-openbox/
       - title: "Chapter 3 - GTK theme for the appearance of applications"
         url: https://www.ubuntuopenbox.com/lessons/m44-gtk-theme-for-ubuntu-openbox/
-      - title: "Chapter 4 - Icon theme for Ubuntu Openbox"
+      - title: "Chapter 4 - Icon theme"
         url: https://www.ubuntuopenbox.com/lessons/m46-icon-themes-for-ubuntu-openbox/        
-      - title: "Chapter 5 - Cursor theme for Ubuntu Openbox"
+      - title: "Chapter 5 - Cursor theme"
         url: https://www.ubuntuopenbox.com/lessons/m45-cursor-theme/
+      - title: "BACK TO LESSONS"
+        url: https://www.ubuntuopenbox.com/lessons
 sidebar-module5:
   - title: "Module 5 - Apps"
     children:
@@ -68,8 +73,10 @@ sidebar-module5:
         url: https://www.ubuntuopenbox.com/lessons/m52-multimedia-apps-for-ubuntu-openbox/
       - title: "Chapter 3 - Office Apps"
         url: https://www.ubuntuopenbox.com/lessons/m53-office-apps-for-ubuntu-openbox/
-      - title: "Chapter 4 - Special apps that need PulseAudio Apps"
+      - title: "Chapter 4 - Special apps with PulseAudio"
         url: https://www.ubuntuopenbox.com/lessons/m54-special-apps-that-need-pulseaudio/
+      - title: "BACK TO LESSONS"
+        url: https://www.ubuntuopenbox.com/lessons
 sidebar-module5:
   - title: "Module 6 - Insight"
     children:
@@ -77,5 +84,7 @@ sidebar-module5:
         url: https://www.ubuntuopenbox.com/lessons/m61-get-the-most-out-of-apt-get/
       - title: "Chapter 2 - Grub bootloader"
         url: https://www.ubuntuopenbox.com/lessons/m62-grub-bootloader/         
-      - title: "Chapter 3 - Maintaining your Debian/ Ubuntu operating system"
-        url: https://www.ubuntuopenbox.com/lessons/m63-maintaining-your-ubuntu-os/        
+      - title: "Chapter 3 - Maintaining Debian/ Ubuntu OS"
+        url: https://www.ubuntuopenbox.com/lessons/m63-maintaining-your-ubuntu-os/
+      - title: "BACK TO LESSONS"
+        url: https://www.ubuntuopenbox.com/lessons
