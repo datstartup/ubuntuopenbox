@@ -2,7 +2,7 @@
 layout: single
 permalink: /galery/
 title: "Galery"
-excerpt: "Screenshots of a Ubuntu Opebox after configured."
+excerpt: "Screenshots of a Ubuntu Openbox after configured."
 comments: true
 header:
   overlay_image: /images/markus-spiske-4W5WWKaxsKs-unsplash.jpg
