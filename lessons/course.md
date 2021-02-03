@@ -15,7 +15,7 @@ tags:
 
 This material used to be for my course on Udemy.
 
-# Section 3 – Install Ubuntu Operating System
+# Section 3 – Prerequisite knowledge
 
 ## 1. Repositories:
 
@@ -23,7 +23,7 @@ A repository is a server storing packages that are suitable to be installed righ
 
 `/etc/apt/source.list` file will have a list of repository addresses.
 
-PPA: A Personal Package Archives (PPA) is a repository maintained by an individual or an independent group; as oppose to the official repository maintained by Ubuntu.
+PPA: A Personal Package Archives (PPA) is a repository maintained by an individual or an independent group; as opposed to the official repository maintained by Ubuntu.
 
 ## 2. Update apt information (from source.list file)
 ```
@@ -51,13 +51,14 @@ sudo apt-get remove firefox
 ```
 sudo apt-get remove --purge firefox
 ```
+
 ## 5. Use nano to edit a text file
 ```
 sudo nano /directory/to/text/file
 ```
 Navigate through the text file using up/down/left/right keys.
 
-Userful shortcut keys: “Ctrl + X” to exit nano, “Y” to save and “N” to abort the saving.
+Useful shortcut keys: “Ctrl + X” to exit nano, “Y” to save and “N” to abort the saving.
 
 # Section 4 – Install Openbox And Configure It
 
@@ -70,7 +71,7 @@ Detail:
 
 * Xorg, the foundation of GUI: xorg
 
-If for any reason that “the startx command are not found”. Please install xinit package:
+If for any reason that “the startx command is not found”. Please install xinit package:
 ```
 sudo apt-get install xinit
 ```
@@ -90,7 +91,7 @@ For example: `gksu geany /directory/to/text/file` or `gksu thunar`
 
 * Install VboxGuestAdditions (For testing only. If you are installing on a real machine, this virtualbox guest additions package is not needed)
 
-Mount VboxGuestAdditions.iso file in to virtual machine.
+Mount VboxGuestAdditions.iso file into the virtual machine.
 ```
 sudo apt-get install build-essential module-assistant
 
@@ -115,7 +116,7 @@ cp -R /etc/xdg/openbox ~/.config/
 ```
 Note that because you are working on your home folder. You do not need to use sudo.
 
-Edit configureation files:
+Edit configuration files:
 ```
 geany ~/.config/openbox/rc.xml
 
@@ -139,15 +140,15 @@ sudo apt-get install thunar thunar-volman thunar-archive-plugin thunar-media-tag
 ```
 Detail:
 
-* File manager: `thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin humanity-icon-theme gnome-icon-theme-full gvfs gvfs-backends` 
+* File manager: `thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin humanity-icon-theme gnome-icon-theme-full gvfs gvfs-backends`
 
-* Archieve manager: `file-roller rar unrar p7zip zip unzip p7zip-full p7zip-rar`
+* Archive manager: `file-roller rar unrar p7zip zip unzip p7zip-full p7zip-rar`
 
 * Network manager: `wicd`
 
-* System mornitor: `htop`
+* System monitor: `htop`
 
-* Screen capture (Print Scrn): `scrot`
+* Screen capture (Print-Scrn key): `scrot`
 
 * Screen locker (Supper + L): `i3lock`
 
@@ -161,14 +162,13 @@ Detail:
 
 * Login manager: `lightdm`
 
-You can use `--no-install-recommends` flag to prevent unnecessary packages to be installed.
+You can use the `--no-install-recommends` flag to prevent unnecessary packages to be installed.
 ```
 sudo apt-get install lightdm lightdm-gtk-greeter --no-install-recommends
 ```
 For more information and instruction [https://wiki.archlinux.org/index.php/LightDM](https://wiki.archlinux.org/index.php/LightDM)
 
-
-* If you do not want to use login manager. Just plainly entering username and password.
+* If you do not want to use a login manager. Just plainly entering username and password.
 Add some lines into ~/.profile file in your home folder:
 ```
 geany ~/.profile
@@ -218,7 +218,7 @@ sudo dpkg -i [.deb package]
 
 The commands to install all of the packages for this section.
 ```
-sudo apt-get install alsa-base alsa-utils pavucontrol pulseaudio vlc audacious gimp shutter viewnior 
+sudo apt-get install alsa-base alsa-utils pavucontrol pulseaudio vlc audacious gimp shutter viewnior
 ```
 * Alsa sound cards driver: `alsa-base alsa-utils`
 
@@ -280,9 +280,9 @@ Note that by open it, I mean using terminal like this:
 $sh ./FoxitReader_version_Setup.run
 ```
 
-Why I tell you to use Foxit while there is some others in the repository? I want to show you a lot of abnormal way to install app.
+Why do I tell you to use Foxit while there are some others in the repository? I want to show you a lot of abnormal ways to install apps.
 
-These day I use Zathura because its flexibility color scheme (chose your own color scheme to view file) and the shortcut key. You will have to research a bit to know how to config it the way you like.
+These days I use Zathura because of its flexibility in color scheme (choose your own color scheme to view files) and the shortcut key. You will have to research a bit to know how to config it the way you like.
 
 ## Section 9 – Customize The Look
 
@@ -293,7 +293,7 @@ sudo apt-get install conky obconf lxappearance obconf
 ```
 Detail:
 
-## 1.Change the look of tint2 
+## 1.Change the look of tint2
 Tint2 config file:
 ```
 geany ./.config/tint2/tint2rc
@@ -310,7 +310,7 @@ User-specific themes can be installed in `~/.local/share/themes` or in `~/.theme
 
 Use the command `obconf` to open obconf, then change the theme.
 
-## 3. Chang Gtk theme, cursor theme
+## 3. Change Gtk theme, cursor theme
 
 
 Again, User-specific themes can be installed in `~/.local/share/themes` or in `~/.themes`. So, Openbox theme, Gtk theme, and cursor theme will go there.
@@ -340,4 +340,5 @@ sudo apt-get update
 sudo apt-get install vivacious-colors
 ```
 Use the command `lxappearance` to open lxappearance, then change the theme.
+
 
