@@ -6,6 +6,9 @@ toc: true
 toc_label: "Maintaining System"
 toc_icon: "cog"
 author_profile: false
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module6
 ---
 
 ### 1. Update your system frequently

@@ -8,6 +8,9 @@ toc_label: "Internet Applications"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module5
 ---
 Internet apps:
 + Firefox as web browser

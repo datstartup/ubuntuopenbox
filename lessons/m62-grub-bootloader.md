@@ -7,6 +7,9 @@ toc_label: "Grub Configuration"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module6
 ---
 
 >“A bootloader is the first program that runs when a computer starts. It is responsible for loading and transferring control to the Linux kernel. The kernel, in turn, initializes the rest of the operating system.”

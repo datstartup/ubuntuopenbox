@@ -7,6 +7,9 @@ toc_label: "Apt command"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module6
 ---
 
 Debian uses **Apt (Advanced Package Tool)** as its package manager (a tool that assist you on resolving dependencies when you need to install, upgrade, configure, and remove packages).

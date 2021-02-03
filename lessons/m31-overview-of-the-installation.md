@@ -7,6 +7,9 @@ toc_label: "Overview"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module3
 ---
 
 Objective: It will give you the full picture of how Openbox and other components are put together to form a complete Ubuntu Openbox system.

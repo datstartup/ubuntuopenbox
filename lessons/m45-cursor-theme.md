@@ -7,6 +7,9 @@ toc_label: "Cursor theme"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module4
 ---
 
 The cursor theme I use called **Breeze** - a series of beautiful cursor themes.

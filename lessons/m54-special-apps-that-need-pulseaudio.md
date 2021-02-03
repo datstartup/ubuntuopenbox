@@ -7,6 +7,9 @@ toc_label: "Apps require PulseAudio"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module5
 ---
 
 I have to give these programs a special place becase some people do not use PulseAudio.

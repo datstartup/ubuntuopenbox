@@ -7,6 +7,9 @@ toc_label: "Openbox Theme"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module4
 ---
 
 An openbox theme will define the look of the window (the border, the title bar) and the right click menu.

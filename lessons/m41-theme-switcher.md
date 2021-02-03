@@ -7,6 +7,9 @@ toc_label: "Theme manager"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module4
 ---
 
 You will need two programs to configure the look of an Openbox desktop:

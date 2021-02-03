@@ -7,6 +7,9 @@ toc_label: "Icon Theme"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module4
 ---
 
 In the below screenshot I use “AwOken” icon set (its name is really written like that, not a typo).

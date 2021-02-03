@@ -7,6 +7,9 @@ toc_label: "Configure Openbox"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module3
 ---
 
 Objective: Install the core packages & Configure Openbox

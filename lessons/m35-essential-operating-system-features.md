@@ -7,6 +7,9 @@ toc_label: "Common Features"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module3
 ---
 
 Essential features of a operating system

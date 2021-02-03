@@ -7,6 +7,9 @@ toc_label: "Office Apps"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module5
 ---
 
 Office applications:

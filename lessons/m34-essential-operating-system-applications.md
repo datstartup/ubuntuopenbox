@@ -7,6 +7,9 @@ toc_label: "System applications"
 toc_icon: "cog"
 author_profile: false
 comments: true
+sidebar:
+  title: "Ubuntu Openbox"
+  nav: sidebar-module3
 ---
 
 Essential operating system applications:
