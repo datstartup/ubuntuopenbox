@@ -24,6 +24,10 @@ sidebar-module1:
         url: https://www.ubuntuopenbox.com/lessons/m11-four-essential-commands/
       - title: "Chapter 2 - Virtualbox"
         url: https://www.ubuntuopenbox.com/lessons/m12-prerequisites-install-and-configure-virtualbox/
+        
+      - title: "BACK TO LESSONS"
+        url: https://www.ubuntuopenbox.com/lessons
+        
 sidebar-module2:
   - title: "Module 2 - Ubuntu OS"
     children:
