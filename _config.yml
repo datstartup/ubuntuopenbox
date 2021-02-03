@@ -295,7 +295,6 @@ defaults:
       comments: true
       share: true
       related: true
-      classes: wide
       toc: true
       toc_label: "TOC"
       toc_icon: "cog"
@@ -306,7 +305,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      classes: wide
+      related: true
 # Search
 search: true
 google:
