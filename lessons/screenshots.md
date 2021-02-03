@@ -39,7 +39,7 @@ gallery :
       alt: "cleanDesktopLxpanel"
       title: "Clean Desktop with Lxpanel and Tin2 (as pager)"
 
-gallery1 :
+gallery1 : 
     - url: /images/Galery/PolybarNeofetchGotop.jpg
       image_path: /images/Galery/PolybarNeofetchGotop.jpg
       alt: "With Polybar, neofetch and gotop"
