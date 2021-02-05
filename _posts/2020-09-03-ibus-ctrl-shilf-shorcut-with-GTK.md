@@ -7,9 +7,9 @@ tags:
   - ibus
 ---
 
-I always familiar with using `Ctrl + Shift` to switch between input mode (switch typing language).
+I am always familiar with using `Ctrl + Shift` to switch between input modes (switch typing language).
 
-The setting in `ibus-setup` cannot let me chose this setting (or this very likely is my fault).
+The setting in `ibus-setup` cannot let me choose this setting (or this very likely is my fault).
 
 After reading this thread: [https://forum.kde.org/viewtopic.php?f=17&t=162008](https://forum.kde.org/viewtopic.php?f=17&t=162008 "How can I make the Ctrl+Shift shortcut for iBus to use?").
 

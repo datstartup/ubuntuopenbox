@@ -7,9 +7,9 @@ tags:
   - bash
 ---
 
-In stead of having to type a frequenly used command, I can specify a "short word" (shortcut) to represent it. The "short word" is an alias.
+Instead of having to type a frequently used command, I can specify a "short word" (shortcut) to represent it. The "short word" is an alias.
 
-For example, to update my Debian system there is two commands to be typed, `sudo apt update`, then `sudo apt upgrade`. I can turn it into an alias of `aptuu`.
+For example, to update my Debian system there are two commands to be typed, `sudo apt update`, then `sudo apt upgrade`. I can turn it into an alias of `aptuu`.
 
 ```bash
 alias aptuu='sudo apt update && sudo apt upgrade'
@@ -17,7 +17,7 @@ alias aptuu='sudo apt update && sudo apt upgrade'
 
 The next time I need to update the system, I only have to type the command 'aptuu'.
 
-Please read further for more specific step.
+Please read further for more specific steps.
 
 ## 1. How to add a alias
 
@@ -33,7 +33,7 @@ Add a line with this syntax to `~/.bash_aliases` file:
 alias command_shortcut_word='Bash command go here'
 ```
 
-A very simple rule is that the shortcut word need to be "weird" and meaningful (to be easier to remmeber). It has to be "weird" so that there has not been any command with that word in the system (at the momemnt and in the future).
+A very simple rule is that the shortcut word needs to be "weird" and “meaningful”. It has to be "weird" so that there has not been any command with that word in the system (at the moment and in the future) and it has to be meaningful for easier to remember.
 
 * Step 3: Update Bash environment by the command `source ~/.bashrc`.
 

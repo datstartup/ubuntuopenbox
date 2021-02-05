@@ -4,6 +4,7 @@ title: OPENBOX THEME
 description: ""
 toc: true
 toc_label: "Openbox Theme"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -14,9 +15,9 @@ sidebar:
 
 An openbox theme will define the look of the window (the border, the title bar) and the right click menu.
 
-To install a theme, copy it to a specific theme folder, then use **obconf** to apply. 
+To install a theme, copy it to a specific theme folder, then use **obconf** to apply.
 
-I will illustrate with a Openbox theme called Mistral.
+I will illustrate with an Openbox theme called Mistral.
 
 ## Mistral Theme
 
@@ -26,7 +27,7 @@ The author has posted it here:
 
 [https://www.box-look.org/p/1169127/](https://www.box-look.org/p/1169127/)
 
-In this case, the theme is packed in a folder. Openbox themes also come with **.obt** extension and can be installed using Obconf (You can extract that **.obt** package to a folder using any of compression tool).
+In this case, the theme is packed in a folder. Openbox themes also come with **.obt** extension and can be installed using Obconf (You can extract that **.obt** package to a folder using any compression tool).
 
 After having the theme folder, move it into one of theme directories below:
 
@@ -35,7 +36,7 @@ After having the theme folder, move it into one of theme directories below:
 
 The theme will be instantly registered into **Obconf**.
 
-Open **Obconf**: 
+Open **Obconf**:
 ```bash
 obconf
 ```

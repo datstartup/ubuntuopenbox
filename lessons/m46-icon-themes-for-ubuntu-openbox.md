@@ -4,6 +4,7 @@ title: ICON THEME
 description: ""
 toc: true
 toc_label: "Icon Theme"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -12,7 +13,7 @@ sidebar:
   nav: sidebar-module4
 ---
 
-In the below screenshot I use “AwOken” icon set (its name is really written like that, not a typo).
+In the below screenshot I use the “AwOken” icon set (its name is really written like that, not a typo).
 
 [![busyDesktop]({{site.baseurl}}/images/busyDesktop.png)]({{site.baseurl}}/images/busyDesktop.png){:target="_blank"}
 
@@ -55,3 +56,9 @@ Here is how it looks on my system:
 ![awaken folder]({{site.baseurl}}/images/awokenfolder.png)
 
 ![awaken apps]({{site.baseurl}}/images/awokenapplications.png)
+
+**UPDATE 05 Feb 2021:**
+Note that, there is some awesome icon theme already in the repository, like `numix-icon-theme` which just needs a `apt install numix-icon-theme`. I also recommend this theme if you are just getting started. 
+
+What I show above still works fine though, the purpose of it is for you to install a package with PPA. AwOken is still a beautiful icon theme anyway.
+

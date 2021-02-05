@@ -4,6 +4,7 @@ title: MULTIMEDIA APPLICATIONS
 description: We will install a video player, a music player, a media converter, an image suite, an image viewer and a better screenshoter. We also install pavucontrol to easily select audio output.
 toc: true
 toc_label: "Multimedia Apps"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -26,7 +27,7 @@ Multimedia apps:
 
 [www.videolan.org](www.videolan.org)
 
-Vlc have it own codec pack, so you do not need to install any others. It will play any media format out of the box.
+Vlc has its own codec pack, so you do not need to install any others. It will play any media format out of the box.
 
 ```bash
 apt-get install vlc
@@ -36,7 +37,7 @@ apt-get install vlc
 
 [http://audacious-media-player.org/](http://audacious-media-player.org/)
 
-I love its lightweight and the ability to change sound card easily (I use an USB DAC/AMP).
+I love its lightweight and the ability to change sound cards easily (I use an USB DAC/AMP).
 ```bash
 apt-get install audacious
 ```
@@ -52,7 +53,7 @@ My **Audacious** with the theme:
 
 [https://cmus.github.io/](https://cmus.github.io/)
 
-Though we have a lot other options for GUI music players, I still want to introduce you to this text base (console) music player **CMUS** for its ability to manage large music library.
+Though we have a lot other options for GUI music players, I still want to introduce you to this text base (console) music player **CMUS** for its ability to manage a large music library.
 ```bash
 apt-get install cmus
 ```
@@ -62,16 +63,17 @@ It runs directly from your terminal emulator. To initiate it, in a terminal ente
 It uses keyboard shortcut to control, please go here to know more about it: [https://wiki.archlinux.org/index.php/Cmus#Adding_Music](https://wiki.archlinux.org/index.php/Cmus#Adding_Music)
 
 ### 4. Pavucontrol to specify audio output
+Note that you need to also install `pulseaudio`.
 
 To install:
 ```bash
-apt-get install pavucontrol
+apt-get install pavucontrol pulseaudio
 ```
 To select specific output for each programs:
 
 ![pavucontrol]({{site.baseurl}}/images/pavucontrol.png)
 
-This feature is essential for me because I want the audio to output to various ends - Usb soundcard, on board soundcard, HDMI, blootooth speaker...
+This feature is essential for me because I want the audio to output to various ends - Usb soundcard, on board sound card, HDMI, bluetooth speaker...
 
 ### 5. FFmpeg as movie/music converter
 
@@ -101,11 +103,11 @@ Viewnior is a very fast and competent image viewer.
 apt-get install viewnior
 ```
 
-### 8. Shutter for screen capture
+### 8. Shutter for screenshot tool
 
 [http://shutter-project.org/](http://shutter-project.org/)
 
-Shutter is powerful! It gives you a lot of options (which windows, which menu, which area of the screen..) to capture your screen and give you the tools to edit captured image. In fact, almost all images on this website are captured by Shutter.
+Shutter is powerful! It gives you a lot of options (which windows, which menu, which area of the screen..) to capture your screen and gives you the tools to edit captured images. In fact, almost all images on this website are captured by Shutter.
 ```bash
 apt-get install shutter
 ```
@@ -114,3 +116,6 @@ apt-get install shutter
 **UPDATE 27 Nov, 2019:**
 I found that Shutter was removed from Debian Buster because of an unsecured dependency [https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914183](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=914183). I have replaced it with Flameshot [https://www.ubuntuopenbox.com/apps/flameshot/](https://www.ubuntuopenbox.com/apps/flameshot/ "Flameshot as screenshot tool").
 {: notice--info}
+
+**UPDATE 05 Feb, 2021:**
+I also found a really good alternative: `ksnip`.

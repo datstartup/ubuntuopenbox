@@ -20,11 +20,11 @@ I find a program called *etcher* is extremely reliable and runs on multiplatform
 
 ### Set up wifi
 
-The purpose of this setup is for your Raspberry Pi can connect to a wifi network on its very first boot, saving you time to connect it to a LAN cable and edit the wifi interface file.
+The purpose of this setup is for your Raspberry Pi to connect to a wifi network on its very first boot, saving you time to connect it to a LAN cable and edit the wifi interface file.
 
 Add a *wpa_supplicant.conf* file to the /boot directory (the directory is in *fat32* format so it is easy to show up on Windows too).
 
-The content of the file: 
+The content of the file:
 ```bash
 country=US # Your 2-digit country code
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
@@ -37,7 +37,7 @@ network={
 
 Raspbian will move it to the proper place at /etc/wpa_supplicant/ at the first boot and automatically connect to the wifi specified in the file.
 
-*Note:* It is not me to invent the method, I read it somewhere on stackexchange when my HDMI cable broke and could not access to a LAN port. Have been using it successfully ever since from Stretch to Buster.
+*Note:* It is not me who found the method, I read it somewhere on stackexchange when my HDMI cable broke and could not access a LAN port. Have been using it successfully ever since from Stretch to Buster.
 {: .notice--info}
 
 ### Enable SSH
@@ -50,7 +50,7 @@ Raspbian will detect it during the first boot and enable SSH.
 
 ### Scan for Raspberry Pi's IP on your network
 
-I have setup fix IPs for every of my Raspberry Pi depending on their Mac addresses or have them send me their IP to my email everytime they connected to a new network as in this post:[Use mutt email manager/](https://www.ubuntuopenbox.com/raspberry-pi/debian/ubuntu/command-line/use-mutt-email-manager/). So this is only for the first time use.
+I have setup fix IPs for every of my Raspberry Pi depending on their Mac addresses or have them send me their IP to my email every time they connected to a new network as in this post:[Use mutt email manager/](https://www.ubuntuopenbox.com/raspberry-pi/debian/ubuntu/command-line/use-mutt-email-manager/). So this is only for the first time.
 
 I am using **nmap** to scan the IPs in my network with this command:
 

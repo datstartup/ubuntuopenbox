@@ -26,7 +26,7 @@ It's important to know the differences between a window manager and a desktop en
 
 from: [Debian wiki](https://wiki.debian.org/Openbox/ "Openbox documentation on Debian's wiki")
 
-In short, what Openbox give you are just the "boxes" in which the programs are run. 
+In short, what Openbox gives you are just the "boxes" in which the programs are run.
 
 This modesty is the reason why people love Openbox. You will have the freedom to deeply configure the GUI.
 
@@ -34,24 +34,24 @@ This modesty is the reason why people love Openbox. You will have the freedom to
 
 1. Step 1: Install the base Ubuntu OS without any GUI.
 
-	This step only install Ubuntu to the point of having a functional OS (as a headless server), on top of this base, I will build my Openbox and other desktop components.
+    This step only installs Ubuntu to the point of having a functional OS (as a headless server), on top of this base, I will build my Openbox and other desktop components.
 
 2. Step 2: Install Xorg, the foundation of GUI.
 
-	Xorg will install graphic driver and other requisites for the GUI.
+    Xorg will install a graphic driver and other requisites for the GUI.
 
-3. Step 3: Install Openbox and other components of a desktop environment (file manager, network manager, notification, taskbar...).  	
+3. Step 3: Install Openbox and other components of a desktop environment (file manager, network manager, notification, taskbar...).      
 
-	After this step, I will have a complete desktop.
+    After this step, I will have a complete desktop.
 
 4. Step 4: Install necessary applications for day to day use.
 
-	I group these applications into some major ones based on their general usage: Internet applications (web browser, email client, torrent client), Office applications (Libre office suite), Multimedia applications (VLC, SMplayer...)...
+    I group these applications into some major ones based on their general usage: Internet applications (web browser, email client, torrent client), Office applications (Libre office suite), Multimedia applications (VLC, SMplayer...)...
 
-	The main point of this step is to show you **my** choice as a reference. Please feel free to choose any alternative suited you.
+    The main point of this step is to show you **my** choice as a reference. Please feel free to choose any alternative suited to you.
 
 5. Step 5: Customize the look and feel of your new OS.
-  Customize my own Openbox is a fun and exciting experience.
+  Customizing my own Openbox is a fun and exciting experience.
 
 ## Core packages:
 
@@ -66,7 +66,7 @@ sudo apt-get install xorg openbox openbox-themes openbox-xdgmenu suckless-tools 
 I can install one by one as explaining here:
 
 1. Xorg as the requisite of GUI.
-:	Packages: **`xorg`**
+:    Packages: **`xorg`**
 
 2. Openbox.
 : Package: **`openbox openbox-themes openbox-xdgmenu suckless-tools obmenu lxappearance`**
@@ -80,7 +80,7 @@ I can install one by one as explaining here:
 5. Lxpanel for taskbar.
 : Package: **`lxpanel`**
 
-6. Thunar and its plug-ins for file manager.
+6. Thunar and its plug-ins for file managers.
 : Packages: **`thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin gvfs gvfs-backends`**
 
 7. An icon set:
@@ -89,19 +89,20 @@ I can install one by one as explaining here:
 8. Nitrogen for setting wallpapers.
 : Package: **`nitrogen`**
 
-9. Alsa for sound driver.
+9. Alsa for sound drivers.
 : Packages: **`alsa-base alsa-utils`**
 
 10. Additional utilities.
 : Package: **`numlockx light-locker lxpolkit`**  
 
-	* **`numlockx`** is for enable the numlock at start up.
-	* **`light-locker`** is for locking screen.  
-	* **`lxpolkit`** is an policykit authentication agent, help with permissions.
-	* **`xfce4-notifyd`** is for notification mechanism for other programs (new email received, download completed or battery fully charged...)
+    * **`numlockx`** is to enable the numlock at startup.
+    * **`light-locker`** is for locking the screen.  
+    * **`lxpolkit`** is a policykit authentication agent, help with permissions.
+    * **`xfce4-notifyd`** is for notification mechanism for other programs (new email received, download completed or battery fully charged...)
 
 11. Network manager.
 : Package: **`wicd`**
 
 12. Login manager.
 : Package: **`lightdm`**
+

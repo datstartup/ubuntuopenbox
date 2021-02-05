@@ -29,7 +29,7 @@ deb http://ftp.tw.debian.org/debian/ buster-updates main #Taiwan
 ```
 (CTRL + X and "Y" to save the file).
 
-Because mine uses Taiwan server, it is not necessary that you have to, please choose a nearest mirror for the best downloading speed.
+Because mine uses a Taiwan server, it is not necessary that you have to, please choose a nearest mirror for the best downloading speed.
 {: .notice--info}
 
 ### Upgrade by running these commands in sequence:
@@ -55,10 +55,10 @@ My output:
 
 ```
 No LSB modules are available.
-Distributor ID:	Debian
-Description:	Debian GNU/Linux 10 (buster)
-Release:	10
-Codename:	buster
+Distributor ID:    Debian
+Description:    Debian GNU/Linux 10 (buster)
+Release:    10
+Codename:    buster
 ```
 
 **ISSUE:** On my notebook, the upgrade had only one glitch. The obmenu-generator said it needed a Perl module, called "Linux::DesktopFiles". Installed the module and everything went smoothly.
@@ -85,15 +85,17 @@ My right-click **Send to >> Mail Recipient** of Thunar throw a error:
 "Fail to execute child process "/usr/lib/x86_64-linux-gnu/xfce4/exo-compose-mail-1" (file or directory not found)"
 {: .notice--danger}
 
-A quick search turned out that I had the file in the system, just not in the directory it supposed to be.
+A quick search turned up that I had the file in the system, just not in the directory it was supposed to be.
 
 ```bash
 $ dpkg -S exo-compose-mail-1
 libexo-helpers: /usr/share/xfce4/exo-1/exo-compose-mail-1
 ```
 
-So I created a symlink as a workaround and was able to send attachment again.
+So I created a symlink as a workaround and was able to send the attachment again.
 
 ```bash
 sudo ln -s /usr/share/xfce4/exo-1/exo-compose-mail-1 /usr/lib/x86_64-linux-gnu/xfce4/exo-1/
 ```
+
+

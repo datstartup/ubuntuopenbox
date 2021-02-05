@@ -21,11 +21,11 @@ Open it using command `arandr`
 
 [![arandr]({{site.baseurl}}/images/arandr.png)]({{site.baseurl}}/images/arandr.png){:target="_blank"}
 
-Usually all plugged monitors are appeared here. In case any of them is not, I have to go to `Outputs` menu and `Active` it.
+Usually all plugged monitors appear here. In case any of them is not, I have to go to the `Outputs` menu and `Active` it.
 
-The best thing about Arandr is that it gives me the ability to drag around display to choose the best layout I want (which going left - right/ above - under...). Then press apply.
+The best thing about Arandr is that it gives me the ability to drag around the display to choose the best layout I want (which goes left - right/ above - under...). Then press apply.
 
-After I get the layout I want, I can save the layout as a bash script to easly activate it later. The script will be save in `$HOME/.screenlayout`.
+After I get the layout I want, I can save the layout as a bash script to easily activate it later. The script will be saved in `$HOME/.screenlayout`.
 
 # 2. How to set random separate wallpaper for each monitor using Nitrogen.
 
@@ -77,7 +77,7 @@ fi
 
 ```
 
-I use `polybar` and only want to add it to just my laptop's monitor (I use another one for just pure display for my web dev task). I get the monitor name from Arandr.
+I use `polybar` and only want to add it to just my laptop's monitor (I use another one for just pure display for my web dev task). I got the monitor name from Arandr.
 
 ```bash
 [bar/example]
@@ -97,3 +97,4 @@ Terminal=False
 Type=Application
 Version=1.0
 ```
+

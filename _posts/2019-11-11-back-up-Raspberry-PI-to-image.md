@@ -8,8 +8,7 @@ tags:
   - Raspberry-Pi
   - Backup
 ---
-
-### After install and configure many things on my Raspbery Pi, it will be too much if I have to do it again. Backing it up is really a good idea.
+### After installing and configuring many things on my Raspberry Pi, it will be too much if I have to do it again. Backing it up is really a good idea.
 
 #### I need A SD card reader and a computer with Linux on it. Insert the card into the card reader, plug it into the computer. Find out where the id of the SD card using this command:
 ```bash
@@ -25,5 +24,5 @@ Navigate to where you want to save the image, then:
 sudo dd bs=4M if=/dev/sdb | gzip > rasbian.img.gz
 ```
 
-Note: **gzip** is for compressing the image to a managable size.
+Note: **gzip** is for compressing the image to a manageable size.
 {: .notice--info}

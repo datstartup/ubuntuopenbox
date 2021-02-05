@@ -4,6 +4,7 @@ title: ESSENTIAL DESKTOP ENVIRONMENT COMPONENTS
 description: install taskbar, file manager, wallpaper manager, network manager and power manager.
 toc: true
 toc_label: "Desktop components"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -28,7 +29,7 @@ Although I understand the completeness and quick set-up of **lxpalnel**, **tint2
 **Please try both and decide for yourself!**
 
 #### **LXPANEL**:
-Lxpanel is a lightweight yet fully equipped with all the necessary plugins (system tray, menu...)
+Lxpanel is lightweight yet fully equipped with all the necessary plugins (system tray, menu...)
 
 [![lxpanel]({{site.baseurl}}/images/lxpanel.png)]({{site.baseurl}}/images/lxpanel.png){:target="blank"}
 
@@ -98,7 +99,7 @@ sudo apt-get install gsimplecal volti
 
 The battery icon on your system tray will come from a power manager application. My current one is from **mate-power-manager**. *Please go to the [Power Manager](https://www.ubuntuopenbox.com/lessons/m33-essential-desktop-environment-components/#6-power-manager) section of this page to know more about it.*
 
-There are also some scripts that can monitor your battery and place an icon on system tray (to name a few: cbatticon, tidybattery...), but they often need to be compiled from source. I want to recommend a safe and easy to be installed system, so a power manager is an obvious choice.
+There are also some scripts that can monitor your battery and place an icon on the system tray (to name a few: cbatticon, tidybattery...), but they often need to be compiled from source. I want to recommend a safe and easy to be installed system, so a power manager is an obvious choice.
 
 ### 2. File manager (with achieve manager)
 
@@ -108,7 +109,7 @@ There are also some scripts that can monitor your battery and place an icon on s
 sudo apt-get install thunar thunar-volman thunar-archive-plugin thunar-media-tags-plugin humanity-icon-theme gvfs gvfs-backends
 ```
 
-You have to install some more packages along with **thunar** for it can have enough features (the additional features: add thumbnails, add achieve entries to Thunar menu, add sharing file accessibility...)
+You have to install some more packages along with **thunar** for it can have enough features (the additional features: add thumbnails, add archive entries to Thunar menu, add sharing file accessibility...)
 
 [![thunar]({{site.baseurl}}/images/Panel Preferences_Systemtheme.png)]({{site.baseurl}}/images/Panel Preferences_Systemtheme.png){:target="_blank"}
 
@@ -123,7 +124,7 @@ sudo apt-get install catfish
 
 _**To integrate it into Thunar**_
 
-In **Thunar** > **Edit** > **Configure custom action** > **Edit action** to edit both of the tabs as showing bellow:
+In **Thunar** > **Edit** > **Configure custom action** > **Edit action** to edit both of the tabs as shown below:
 
 ```bash
 catfish --path=%f
@@ -151,7 +152,7 @@ After installing these packages, you will have full compressing/decompressing po
 
 ### 4. App for setting wallpaper
 
-I chose Nitrogen for wallpaper manager because of its simple and straightforward manner of manage wallpapers.
+I chose Nitrogen for wallpaper manager because of its simple and straightforward manner of managing wallpapers.
 
 ```bash
 sudo apt-get install nitrogen
@@ -169,7 +170,7 @@ In my **menu.xml** the entry for **Nitrogen**:
 <item label="Choose Wallpaper">
   <action name="Execute">
     <command>nitrogen ~/Wallpapers/</command>
-	</action>
+    </action>
 </item>
 ```
 

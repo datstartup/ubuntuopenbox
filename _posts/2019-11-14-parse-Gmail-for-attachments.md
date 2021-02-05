@@ -16,7 +16,7 @@ tags:
 
 I needs:
 
-* *fetchmail*: for retrieve emails and their attachments.
+* *fetchmail*: to retrieve emails and their attachments.
 * *procmail*: for filtering, sorting and storing email.
 * *uudeview*: for decoding attachments.
 
@@ -26,7 +26,7 @@ To install all of them:
 sudo apt-get install fetchmail procmail uudeview
 ```
 
-### uudeview 
+### uudeview
 It is a command, I will use it like any other in Linux.
 
 ### procmail
@@ -81,7 +81,7 @@ mda '/usr/bin/procmail -d %T'
 
 NOTE: **postmaster "username"** is the current user, mine is "pi". **'email_to_fetch'** is the username of the Gmail as in username@gmail.com. **'password_of_the_email'** is the one of the Gmail {: .notice--info}
 
-To test fetchmail, have emails with .epubs attatchments send to the Gmail. The command below should run smoothly and .epubs files are properly downloaded, decoded and sorted to the $HOME/epub_attachments directory.
+To test fetchmail, have emails with .epubs attachments sent to Gmail. The command below should run smoothly and .epubs files are properly downloaded, decoded and sorted to the $HOME/epub_attachments directory.
 ```bash
 fetchmail -d0 -vk pop.gmail.com
 ```

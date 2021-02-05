@@ -12,11 +12,12 @@ tags:
   - Mutt
 ---
 
-### I have been using kindle for several years and used the GUI version of Calibre to convert ebook then using Thunderbird to send the converted ebook to my kindle account. 
+
+### I have been using kindle for several years and used the GUI version of Calibre to convert ebooks then using Thunderbird to send the converted ebook to my kindle account.
 
 After using mutt, I write a script on my Debian Laptop to convert and send ebook to my kindle on the spot.
 
-* Debian 
+* Debian
 * Mutt with Gmail
 * Calibre
 
@@ -35,7 +36,7 @@ The command to convert an ".epub" ebook to ".mobi":
 ```bash
 ebook-convert myebook.epub myebook.mobi"
 ```
-#### Bash sript that can convert and send epub to my kindle on the spot
+#### Bash script that can convert and send epub to my kindle on the spot
 
 ```bash
 nano /home/pi/convertAndSend.sh
@@ -52,7 +53,7 @@ raw_file=${s%.epub}
 current_file=$(echo $raw_file | tr ' ' '_')
 
 #remove spaces
-#mv $raw_file".epub" `echo $current_file".epub" | tr ' ' '_'` 
+#mv $raw_file".epub" `echo $current_file".epub" | tr ' ' '_'`
 mv "$raw_file".epub"" "$current_file".epub""
 
 #convert all epub file and send it to kindle

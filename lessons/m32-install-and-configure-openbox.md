@@ -4,6 +4,7 @@ title: CONFIGURE OPENBOX
 description: "configure three most important configuration files of Openbox: menu.xml, rc.xml and autostart."
 toc: true
 toc_label: "Configure Openbox"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -20,12 +21,12 @@ Objective: Install the core packages & Configure Openbox
 sudo apt-get install xorg openbox suckless-tools terminator lxpanel thunar lightdm wicd firefox geany
 ```
 I will have a bare frame of a operating system with:
- * Xorg as the prerequisite of GUI and video driver, 
- * Lightdm as the login manager, 
- * Openbox as the windows manager, 
- * Thunar as the file manager, Lxpanel as taskbar, 
- * Wicd as the network manager, 
- * Terminator as the the terminal emulator, 
+ * Xorg as the prerequisite of GUI and video driver,
+ * Lightdm as the login manager,
+ * Openbox as the windows manager,
+ * Thunar as the file manager, Lxpanel as taskbar,
+ * Wicd as the network manager,
+ * Terminator as the the terminal emulator,
  * Geany as the text editor, and
  * Firefox as the web browser.
 
@@ -33,7 +34,7 @@ From this frame, we will develop them into a fully functional OS.
 
 ### 2. Configure Openbox:
 
-Let's reboot and login for the first time. 
+Let's reboot and login for the first time.
 ```bash
 sudo reboot
 ```
@@ -44,21 +45,21 @@ A grayish screen should be there to greet (with a mouse point). The Openbox syst
 
 Note: You might expect that you can click a shortcut (icon) on your desktop to call an application. There will be no such thing in this Openbox system.
 
-The feature is redundant and unnecessary with Openbox. I find right-click menu and the shortcut keys to call apps/ tasks are superior over finding an icon on your desktop.
+The feature is redundant and unnecessary with Openbox. I find the right-click menu and the shortcut keys to call apps/ tasks are superior over finding an icon on your desktop.
 
-(I can have desktop icon with Openbox though. The job of creating icon on your desktop is called ***"managing desktop"*** and it is the service providing by a file manager (for example: PCManFM can!)).
+(I can have a desktop icon with Openbox though. The job of creating icon on your desktop is called ***"managing desktop"*** and it is the service provided by a file manager (for example: PCManFM can!)).
 
 * ***Right-click menu:***
 
-By right clicking your mouse, there is a menu. Click a entry to call a program. At the moment, I can call Terminator (the terminal entry) or Firefox browser (the Web browser entry).
+By right clicking your mouse, there is a menu. Click an entry to call a program. At the moment, I can call Terminator (the terminal entry) or Firefox browser (the Web browser entry).
 
 * ***Shortcut keys:***
 
 Pressing the Windows key (the key that have “Microsoft Icon” on it) and the key T: **Windows + T**, the Terminator terminal is called.
 
-Openbox let you choose shortcut keys freely. In later part of this guide I will create my own shortcut keys.
+Openbox lets you choose shortcut keys freely. In the later part of this guide I will create my own shortcut keys.
 
-The current GUI has no taskbar, no wallpaper, no volume control, no terminal emulation, no file manager, no power manager, no network manager… Even worse, a fully functional operation system should not worry us user about some basic tasks such as: shutdown/restart, system monitor, etc. The system is now lacking all of that!
+The current GUI has no taskbar, no wallpaper, no volume control, no terminal emulation, no file manager, no power manager, no network manager… Even worse, a fully functional operation system should not worry us users about some basic tasks such as: shutdown/restart, system monitor, etc. The system is now lacking all of that!
 
 
 **2.1. Open this guide on Firefox browser:**
@@ -71,7 +72,7 @@ Right-click, then choose “Web Browser” to start Firefox browser, go to [http
 
 The configuration of Openbox is defined within three files: **rc.xml**, **menu.xml**, **autostart**.
 
-At default, there are no configuration files for normal user, and Openbox is using the global configuration files stored at **/etc/xdg/openbox**. 
+At default, there are no configuration files for normal user, and Openbox is using the global configuration files stored at **/etc/xdg/openbox**.
 
 Type below command as normal user (without **sudo**) to copy global files over home folder:
 ```bash
@@ -93,14 +94,14 @@ I will replace the content of the seed files one by one:
 
 _**menu.xml**_:
 
-I will show you how to manually manage it in this part of the guide. I recommend Obmenu-generator for auto create the menu later.
+I will show you how to manually manage it in this part of the guide. I recommend Obmenu-generator to auto-create the menu later.
 
 We will use my current configuration here: [https://pastebin.com/5Cixsqpa](https://pastebin.com/5Cixsqpa){:target="_blank"}.
 Then replace the current content of **menu.xml** with mine:
 ```bash
 geany ~/.config/openbox/menu.xml
 ```
-![geanymenu]({{site.baseurl}}/images/geanymenu.png)
+![geany menu]({{site.baseurl}}/images/geanymenu.png)
 
 then Save
 
@@ -108,7 +109,7 @@ _**autostart**_
 
 Programs or commands in Openbox **need** to be instructed specifically to auto-run at the startup.
 
-You can set timing to start those programs chronologically. 
+You can set timing to start those programs chronologically.
 
 Fortunately, the job is fairly easy. All you need to do is put a line of command in the **autostart** file.
 
@@ -126,7 +127,7 @@ geany ~/.config/openbox/autostart
 
 _**rc.xml**_
 
-This file holds the configuration for all the shortcut-keys and define how an application will appear on the screen. Below is a typical entry:
+This file holds the configuration for all the shortcut-keys and defines how an application will appear on the screen. Below is a typical entry:
 
 ```bash
 <keybind key="W-t">
@@ -155,7 +156,7 @@ To open the **rc.xml** file with Geany:
 geany ~/.config/openbox/rc.xml
 ```
 
-Restart Openbox for all the change to take effect.
+Restart Openbox for all the changes to take effect.
 
 ```bash
 openbox --restart
@@ -163,7 +164,7 @@ openbox --restart
 
 ### 3. Using **Obmenu** to edit menu:
 
-Although edit the **menu.xml** text file directly is easy, I can also use a program called **Obmenu** to edit the file using GUI. The program is intuitively to use, hope you can manage on your own.
+Although edit the **menu.xml** text file directly is easy, I can also use a program called **Obmenu** to edit the file using GUI. The program is intuitively to use, and I hope you can manage on your own.
 
 To install:
 ```
@@ -177,6 +178,7 @@ obmenu
 
 ### 4. Using **obmenu-generator** to generate menu:
 
-To assist you in the task of generating a menu with icon, there is an app called obmenu-generator.
+To assist you in the task of generating a menu with icons, there is an app called obmenu-generator.
 
 I have written a post about it here here: [https://www.ubuntuopenbox.com/apps/obmenu-generator/](https://www.ubuntuopenbox.com/apps/obmenu-generator/).
+

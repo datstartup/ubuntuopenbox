@@ -10,13 +10,13 @@ tags:
   - Autostart file
 ---
 
-When using Raspberry as headless server, eventually I will need to run some commands or apps at start up.
+When using Raspberry as a headless server, eventually I will need to run some commands or apps at start up.
 
 Although there are various ways to get the task done (one is My crontab guide here: [Crontab post](https://www.ubuntuopenbox.com/tips/crontab-basic/)), I have found a way that I think very flexible and robust.
 
 The method is to create an **autostart.sh** script storing commands, then run the script at boot by adding it to **/etc/rc.local** file.
 
-This way you can add as many commands as you want to the **autostart.sh** script and only focus to maintain this file. It also can run command that are need `sudo`  at startup without password.
+This way you can add as many commands as you want to the **autostart.sh** script and only focus to maintain this file. It also can run commands that need `sudo`  at startup without a password.
 
 ### 1. Add an **autostart.sh** script
 
@@ -37,15 +37,15 @@ sudo -u pi /usr/bin/python3 TFLite_detection_webcam_person.py --modeldir=Sample_
 cd /
 ```
 
-* `cd` command are for navigate to the directory containing script. This is particular useful when running python module. 
+* `cd` commands are for navigating to the directory containing the script. This is particularly useful when running python module.
 
-* `sudo -u pi` are for instructing that a specific user should run the command. 
+* `sudo -u pi` are for instructing that a specific user should run the command.
 
 You can add many commands at you want and if you want to delay their running, put the **sleep 3s** (as many seconds as you want, I just use 3 here) above it.
 
 ### 2. Edit rc.local file
 
-*Note:* Please keep in mind that all commands put in this file are run with root power at startup. So it can run `sudo` command without a password. 
+*Note:* Please keep in mind that all commands put in this file are run with root power at startup. So it can run the `sudo` command without a password.
 {: .notice--info}
 
 
@@ -54,7 +54,7 @@ You can add many commands at you want and if you want to delay their running, pu
 sudo nano /etc/rc.local
 ```
 
-Add this line to the end of the file but **above** the **exit 0** line. At the end because you do not want to intefere with the default starting programs sequence.
+Add this line to the end of the file but **above** the **exit 0** line. At the end because you do not want to interfere with the default starting programs sequence.
 
 ```bash
 /home/pi/autostart.sh

@@ -4,6 +4,7 @@ title: OFFICE APPLICATIONS
 description: We will install a word processor, a spreedsheet, a pdf reader and an e-book reader.
 toc: true
 toc_label: "Office Apps"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -24,7 +25,7 @@ For normal use of office work, LibreOffice is competent enough:
 
 [https://www.libreoffice.org/](https://www.libreoffice.org/)
 
-You can either install entire of this office suite or pick out only what you need. I only use two of the modules:
+You can either install the entire of this office suite or pick out only what you need. I only use two of the modules:
   * Calc: spreadsheet application.
   * Writer: word processing application.
 
@@ -32,7 +33,7 @@ You can either install entire of this office suite or pick out only what you nee
 apt-get install libreoffice-calc libreoffice-writer libreoffice-gtk
 ```
 
-The **libreoffice-gtk** package is for **Libreoffice** can integrate nicely with the system gtk theme (other wise it will look urgly).
+The **libreoffice-gtk** package is for **Libreoffice** can integrate nicely with the system gtk theme (otherwise it will look urgly).
 
 You can choose one from several icon sets. In the screenshot below I am using the **“sifr”** icon sets:
 ```bash
@@ -45,7 +46,7 @@ To enable the ability to remember the last working place in your document, you n
 
 If there is no user identified, every time you open a document, LibreOffice will assume it is a new user and direct you to the beginning.
 
-As a die hard user of spreadsheets, I only use Calc for "lite" spreadsheet work only. I am intensively depending on VBA/ GAS scripts (Visual Basic for Applications come with MS office & Google Apps Script come Google Apps). Only Microsoft Excel or Google Sheet can meet my requirement.
+As a die hard user of spreadsheets, I only use Calc for "lite" spreadsheet work only. I am intensively depending on VBA/ GAS scripts (Visual Basic for Applications come with MS office/ Google Apps Script come with Google Apps). Only Microsoft Excel or Google Sheet can meet my requirements.
 
 **LibreOffice Calc**
 
@@ -58,7 +59,7 @@ As a die hard user of spreadsheets, I only use Calc for "lite" spreadsheet work 
 **UPDATE 26 Nov 2019:** I have been using Google Docs, Spreadsheet, Mail, Calendar, Drive, Form... as my productivity tools for over two full years. In fact, the contact form of this website is a Google form. I cannot express how awesome they are enough. Please give them a try!
 {: notice--info}
 
-**UPDATE 18 Dec 2019:** Today I used Calc the fist time since updating to Debian 10 Buster and I noticed that the display is not compatiple with the gtk3 theme (small font...). I need to installed **libreoffice-gtk3** package to fix the problem.
+**UPDATE 18 Dec 2019:** Today I used Calc the first time since updating to Debian 10 Buster and I noticed that the display is not compatible with the gtk3 theme (small font...). I need to installed **libreoffice-gtk3** package to fix the problem.
 {: notice--info}
 
 ```bash
@@ -79,7 +80,7 @@ In the old version of this website, I recommended Foxit reader (very good indeed
 ```bash
 apt-get install Fbreader
 ```
-"Supports popular ebook formats: ePub, fb2, mobi, rtf, html, plain text, and a lot of other formats" (From its website!). 
+"Supports popular ebook formats: ePub, fb2, mobi, rtf, html, plain text, and a lot of other formats" (From its website!).
 
 ![fbreader]({{site.baseurl}}/images/fbreader.png)
 

@@ -7,9 +7,9 @@ tags:
   - terminator, alacrity
 ---
 
-I want to experiment a bit with other terminal emulator as I have always used Terminator.
+I want to experiment a bit with other terminal emulators as I have always used Terminator.
 
-I choose Alacrity and find that there are some obstacles to change system default terminal.
+I choose Alacrity and find that there are some obstacles to changing the system default terminal.
 
 Here are those troubles and how I have solved them.
 
@@ -19,17 +19,18 @@ Because I install it manually, I have to add it to the list myself.
 
 ```sh
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/alacritty 50
-``` 
+```
 
-Then switch default termianl to Alacrity.
+Then switch default terminal to Alacrity.
 
 ```sh
 sudo update-alternatives --config x-terminal-emulator
 ```
 
-Often, just this command will work globally, but some reasons below, there is still more thing need to do.
+Often, just this command will work globally, but for some reasons below, there is still more that I need to do:
 
-I find Thunar need manual change xfce4 helper.rc file; Obmenu generator as I use other terminal as default, I need to hard code it to the schema, same reason for Openbox shortcut key.
+* Thunar needs manual change to the xfce4 helper.rc file.
+* Obmenu-generator needs to modify its schema, same reason for Openbox shortcut key ( as I use other terminals as default).
 
 
 ## 2. Thunar

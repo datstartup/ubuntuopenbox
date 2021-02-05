@@ -4,6 +4,7 @@ title: FOUR ESSENTIAL COMMANDS
 description: learn about APT and apt-get.
 toc: true
 toc_label: "Four essential commands"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -23,9 +24,9 @@ They will be used frequently in this guide as well as your day to day usages.
 This may be the most boring chapter of this series, but arguably the most important one.
 
 ### What is Command-line?
-Command-line is a environment acting as the mediator between you human and your operating system.
+Command-line is an environment acting as the mediator between you human and your operating system.
 
-A command is text written in a specific syntax (to assure computer can understand what users want). 
+A command is text written in a specific syntax (to assure the computer can understand what users want).
 
 After entering a command into a terminal, the shell of your OS passes it to the OS to execute.
 
@@ -34,7 +35,7 @@ Some commands only available for power user. You will need to be the **root** us
 REMEMBER: **sudo** means to borrow the omnipotent power of the root user. <span style="color:red">It does not mean "try harder"!</span>
 {: .notice--danger}
 
-Why do we use command-line a lot in this tutorial? Because if you are building a operating system from the ground up, most of the time you do not have the luxury of GUI.
+Why do we use command-line a lot in this tutorial? Because if you are building an operating system from the ground up, most of the time you do not have the luxury of GUI.
 
 As a plus, command-line is actually a powerful tool on every aspect of Linux.
 
@@ -84,7 +85,7 @@ sudo apt-get remove --purge firefox
 ```
 
 #### 4. Edit text file using Nano editor
-**Nano** helps you edit text file directly from the terminal. It is very handy because you can say all Linux configuration files are text.
+**Nano** helps you edit text files directly from the terminal. It is very handy because you can say all Linux configuration files are text.
 To edit a text:
 ```
 sudo nano /directory/configuration_file
@@ -92,3 +93,4 @@ sudo nano /directory/configuration_file
 The direction keys (up/ down/ left/ right arrows) will help you to navigate through the file and edit it.
 
 After making changes, **Ctrl + S** to save, and **Ctrl + X** to exit.
+

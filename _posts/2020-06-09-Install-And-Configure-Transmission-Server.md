@@ -10,7 +10,7 @@ tags:
 
 Why another Transmission guide:
 1. This is my seft-note.
-2. This guide focus on giving more comprehensive information about permission.
+2. This guide focuses on giving more comprehensive information about permission.
 
 ### Installation
 
@@ -20,11 +20,11 @@ Run `sudo apt install transmission-daemon`.
 
 1. The configuration will give the permission to the `pi` user because I use this transmission configuration for my Raspberry Pi.
 
-2. The principle of this configuration is all the right to access downloading folders will be given to the user `pi` and the group `debian-transmission`.
+2. The principle of this configuration is that all the right to access downloading folders will be given to the user `pi` and the group `debian-transmission`.
 
 3. Add a log.
 
-### Prequisites
+### Prerequisites
 Need these two folder availables:
 
 * In-progress files storage: `/home/pi/torrent/incomplete`
@@ -48,9 +48,9 @@ Start the transmission-daemon
 `sudo service transmission-daemon start`
 
 
-The transmission folder should be also created for user `pi` at `/home/pi/.config/transmission-daemon/`. You can manually creat one if the task is not done automatically.
+The transmission folder should be also created for user `pi` at `/home/pi/.config/transmission-daemon/`. You can manually create one if the task is not done automatically.
 
-* Add log 
+* Add log
 
 Run `sudo nano /lib/systemd/system/transmission-daemon.service`.
 
@@ -66,7 +66,7 @@ Note: the line `ExecStart=/usr/bin/transmission-daemon -f --log-debug --logfile 
 
 Reload the systemd daemon:
 
-`sudo systemctl daemon-reload` 
+`sudo systemctl daemon-reload`
 
 ### Configuration
 
@@ -98,8 +98,8 @@ Change these lines:
 ```
 
 **Note**
-* `"rpc-whitelist": "127.0.0.1,192.168.*.*"` I have remove the local host "127.0.0.1" because I only use it remotely.
-* `"umask": 2` translates to permissions of `774`, or `rwxrwxr--`, which means full access for owner and group. Everyone else, not in user's group, can only read.
+* `"rpc-whitelist": "127.0.0.1,192.168.*.*"` I have removed the local host "127.0.0.1" because I only use it remotely.
+* `"umask": 2` translates to permissions of `774`, or `rwxrwxr--`, which means full access for the owner and group. Everyone else, not in the user's group, can only read.
 
 Entire config file of mine, just copy-paste if you want.
 ```bash
@@ -241,9 +241,8 @@ Check the status.
 
 ### Send complete torrent notification:
 
-1. Via Email
+* 1. Via Email
 To be updating...
 
-2. Via Telegram
+* 2. Via Telegram
 To be updating...
-

@@ -4,6 +4,7 @@ title: GET THE MOST OUT OF APT-GET
 description: introduce some other apt-get commands.
 toc: true
 toc_label: "Apt command"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -12,9 +13,9 @@ sidebar:
   nav: sidebar-module6
 ---
 
-Debian uses **Apt (Advanced Package Tool)** as its package manager (a tool that assist you on resolving dependencies when you need to install, upgrade, configure, and remove packages).
+Debian uses **Apt (Advanced Package Tool)** as its package manager (a tool that assists you on resolving dependencies when you need to install, upgrade, configure, and remove packages).
 
-Through out this guide, we had used the command **apt-get install**. In this lesson, I will show you how to get the most out of **Apt** package manger.
+Throughout this guide, we had used the command **apt-get install**. In this lesson, I will show you how to get the most out of **Apt** package manager.
 
 ### It all starts with update repositories
 ```bash
@@ -31,7 +32,7 @@ Although named **"upgrade"**, the command is only for update packages that are a
 ```bash
 apt-get install [package name]
 ```
-The command also update that package if it has already installed.
+The command also updates that package if it has already been installed.
 
 ### To install a package without its recommends
 This is often the case of installing a minimal Ubuntu/Debian desktop.
@@ -59,11 +60,11 @@ For instance, you can search for the key word “image viewer” to find all  th
 ```bash
 apt-cache search “image viewer”
 ```
-The output should be the list of packages that are related to image viewer.
+The output should be the list of packages that are related to the image viewer.
 
 ### To list dependencies and recommends of a packages
 
-It's very useful when you are trying to install a minimal Ubuntu system (mostly by using the **"--no-install-recommends"** flag). Sometimes you will get yourself into a difficult situation where a application lacks the feature you need (the solution is you need to installs some more of it recommends).
+It's very useful when you are trying to install a minimal Ubuntu system (mostly by using the **"--no-install-recommends"** flag). Sometimes you will get yourself into a difficult situation where an application lacks the features you need. The solution is you need to install some more of its dependencies.
 ```bash
 apt-cache depends [package name]
 ```
@@ -76,7 +77,7 @@ apt-cache policy [package-name]
 apt-cache show [package-name]
 ```
 ### dpkg
-I find the **dpkg** is a essential command to supplement to apt features.
+I find the **dpkg** is an essential command to supplement apt features.
 ```bash
 dpkg -s [package name]
 ```
@@ -85,3 +86,4 @@ The command is equivalent to apt-cache show/policy.
 ```bash
 dpkg -l [package-name]
 ```
+

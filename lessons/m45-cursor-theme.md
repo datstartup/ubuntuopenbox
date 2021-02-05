@@ -4,6 +4,7 @@ title: CURSOR THEME
 description: ""
 toc: false
 toc_label: "Cursor theme"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true

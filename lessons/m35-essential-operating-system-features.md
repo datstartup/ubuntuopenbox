@@ -4,6 +4,7 @@ title: ESSENTIAL OPERATING SYSTEM FEATURES
 description: Common features of an Operating System
 toc: true
 toc_label: "Common Features"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -36,7 +37,7 @@ sudo apt-get install lightdm lightdm-gtk-greeter
 
 <span style="color:blue">***The below is totally unnecessary, but it is nice to have another option:***</span>
 
-**There was a choice of not using any loggin manager:**
+**There was a choice of not using any logging manager:**
 
 Edit **~/.profile** file in your home folder:
 ```bash
@@ -63,7 +64,7 @@ To configure how would the notification will be like:
 ```bash
 xfce4-notifyd-config
 ```
-These nofification are in a form of bubbles popping out on the desktop (with sound).
+These notification are in a form of bubbles popping out on the desktop (with sound).
 
 ![notification bubble]({{site.baseurl}}/images/xfce4-notifyd-fullwindow.png){:target="_blank"}
 
@@ -78,7 +79,7 @@ I recommend to use them both on your system. I used to hate PulseAudio because o
 sudo apt-get install alsa-base alsa-utils pulseaudio pavucontrol
 ```
 
-In your terminal using the command **alsamixer** to open the mixer and using "SPACE" key to unmute any muted chanel.
+In your terminal using the command **alsamixer** to open the mixer and use the "SPACE" key to unmute any muted channel.
 ```bash
 alsamixer
 ```
@@ -105,7 +106,7 @@ scrot -d 5 -c
 ```
 ![taking_screenshot]({{site.baseurl}}/images/taking_screenshot.jpg){:target="_blank"}
 
-It will take a screen shot after 5 seconds and display the countdown (-d for delaying and -c for displaying the countdown).
+It will take a screenshot after 5 seconds and display the countdown (-d for delaying and -c for displaying the countdown).
 
 The captured image will be saved in your home folder.
 
@@ -118,7 +119,7 @@ This **scrot** command can be bound to the **PRINT SCREEN** key on your keyboard
 </keybind>
 ```
 
-Note: **-e 'mv $f ~/Pictures/Screenshots/'**, this part is for the screenshots saved into my preferred folder. 
+Note: **-e 'mv $f ~/Pictures/Screenshots/'**, this part is for the screenshots saved into my preferred folder.
 {: .notice--danger}
 
 ### 6. light-locker for locking screen
@@ -154,7 +155,7 @@ To install:
 sudo apt-get install gmrun
 ```
 In my my **rc.xml** file, the **gmrun** have been bound into **“Windows key + R”**.
-Press these combination keys and **gmrun** window should be ready.
+Press these combination keys and the **gmrun** window should be ready.
 
 Here is how the key binding entry for **gmrun** looks like in my **rc.xml**:
 ```bash
@@ -169,3 +170,4 @@ Here is how the key binding entry for **gmrun** looks like in my **rc.xml**:
   </action>
 </keybind>
 ```
+

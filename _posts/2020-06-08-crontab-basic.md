@@ -16,16 +16,16 @@ Cron is for scheduling tasks.
 
 ## 2. How to add/ edit a cron task
 
-Although there are a system wide cron file `/etc/crontab`. You can take a look by using `cat /etc/crontab`. I instinctively left it alone after seeing its content (mostly because I was scare). 
+Although there is a system wide cron file `/etc/crontab`. You can take a look by using `cat /etc/crontab`. I instinctively left it alone after seeing its content (mostly because I was scared).
 
-Either using `sudo crontab -e` to edit root account crontab file or 
+Either using `sudo crontab -e` to edit root account crontab file or
 
-`crontab -e` to edit user account crontab file. 
+`crontab -e` to edit user account crontab file.
 
-I have intensively used Debian for a long time and find that `crontab -e` for normal user is enough for me.
+I have intensively used Debian for a long time and find that `crontab -e` for normal users is enough for me.
 
 ## 3. A task pattern in crontab file
-For system wide task in `/etc/crontab`. Notice the `user-name` argument.
+For system wide tasks in `/etc/crontab`. Notice the `user-name` argument.
 ```bash
 *  *  *  *  * user-name  command to be executed
 ```
@@ -45,7 +45,7 @@ Note: I get this guide from the file `/etc/crontab`
 # |  |  |  |  |
 # *  *  *  *  * user-name command to be executed
 ```
-Because I rarely write one myself, I cannot affort to re-learn it every time I need one - I often just Google it.
+Because I rarely write one myself, I cannot afford to re-learn it every time I need one - I often just Google it.
 
 ## 4. Reload/ restart service after edit
 ```bash
@@ -53,7 +53,7 @@ sudo service cron restart
 ```
 **NOTE:**
 
-* `sudo service cron reload` also work. It is always safer to use `restart` because `reload` sometime do not exist for a service.
+* `sudo service cron reload` also works. It is always safer to use `restart` because `reload` sometime do not exist for a service.
 
 * More:
    * `restart = stop + start`  
@@ -70,12 +70,12 @@ sudo service cron status
 ```
 
 ## 6. System log
-A cron task is often need trouble-shooting, especially right after being set up.
+A cron task often needs trouble-shooting, especially right after being set up.
 
-Cron logs its actions via syslog, which (depending on your Linux distro) often go to `/var/log/cron` or `/var/log/syslog`.
+Cron logs its actions via syslog, which (depending on your Linux distro) often goes to `/var/log/cron` or `/var/log/syslog`.
 
 ```bash
-sudo grep CRON /var/log/syslog 
+sudo grep CRON /var/log/syslog
 ```
 ## 7.Create your own logs
 I find the system log messy (the system-wide cron tasks also logged here) and not give enough information for a specific command, I like to log it myself.
@@ -88,15 +88,15 @@ Mine (with date added): The task is for changing my wallpaper every 20 minutes.
 */20 * * * * (/bin/date && /home/dat/Custom/nitrogenSlideShow.py) > /tmp/mycommand.log 2>&1
 ```
 
-**Note:** 
-`>>` is appended; `>` is overriten.
+**Note:**
+`>>` is appended; `>` is overwritten.
 
 ## 8.Check if cron is running in system:
 ```bash
 ps -ef | grep cron
 ```
 **Note:**
-`ps` (processes status) is a command to view a selection of running processes. It get the info from `/proc`.
+`ps` (processes status) is a command to view a selection of running processes. It gets the info from `/proc`.
 
 
 Mine here:

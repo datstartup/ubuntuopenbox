@@ -4,6 +4,7 @@ title: GTK THEME
 description: ""
 toc: true
 toc_label: "GTK Theme"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -35,9 +36,9 @@ Then, move extracted **Flatstudio** theme folder into **~/.theme** folder.
 In Linux, every file/folder with its name begin with a period (.) is >hidden.The **"~/.theme"** folder is often hidden and we need to unhide it: Using Thunar > View > Check “Show Hidden File”.
 {: notice--info}
 
-Now **~/.theme** folder is visible and you can move Flatstudio folder to it.
+Now **~/.theme** folder is visible and you can move the Flatstudio folder to it.
 
-You need theme engines to render the theme as it supposed to. As with this theme, the author have instructed us to install **unico-engine** & **gtk2-engines-murrine**.
+You need theme engines to render the theme as it is supposed to. As with this theme, the author have instructed us to install **unico-engine** & **gtk2-engines-murrine**.
 
 ```bash
 sudo apt-get install unico-engine gtk2-engines-murrine
@@ -46,4 +47,9 @@ Open **Lxappearance** (by the command **lxappearance**) > Under the **Widget** t
 
 ![flatstudio]({{site.baseurl}}/images/flatstudio.jpg)
 
-And Voila! All should look good now.
+And Voilà! All should look good now.
+
+**UPDATE 05 Feb 2021:**
+Note that, there is some awesome gtk theme already in the repository, like `numix-gtk-theme` which just needs a `apt install numix-gtk-theme`. I also recommend this theme if you are just getting started. 
+
+What I show above still works fine though, the purpose of it is for you to install a package with PPA.

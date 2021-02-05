@@ -4,6 +4,7 @@ title: ESSENTIAL OPERATING SYSTEM APPLICATIONS
 description: install terminal emulator, text editor, GUI package manager, task manager.
 toc: true
 toc_label: "System applications"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 comments: true
@@ -21,9 +22,9 @@ Essential operating system applications:
 
 ### 1.Terminator - Terminal emulator
 
-Using Linux you will need a terminal. 
+Using Linux you will need a terminal.
 
-Terminator is a good terminal emulator with tab support (several tabs in one window) and can be split into some terminal portions from the original, both horizontally and vertically.
+`Terminator` is a good terminal emulator with tab support (several tabs in one window) and can be split into some terminal portions from the original, both horizontally and vertically.
 ```bash
 sudo apt-get install terminator
 ```
@@ -39,7 +40,7 @@ Some useful keyboard shortcuts:
 
 All configuration files of Linux are text.
 
-I was familiar with Geany because it came as default with Crunchbang, my beloved distro. 
+I was familiar with Geany because it came as default with Crunchbang, my beloved distro.
 
 ```
 sudo apt-get install geany
@@ -54,7 +55,7 @@ sudo apt-get install geany
 gksudo geany /etc/fstab #to edit fstab file
 ```
 
-Just remember this rule: **sudo** are for applications in terminal. For Graphical ones, you need to use **gksudo** instead.
+Just remember this rule: **sudo** are for applications in the terminal. For Graphical ones, you need to use **gksudo** instead.
 {: .notice--success}
 
 ![geany]({{site.baseurl}}/images/Geany.png)
@@ -62,7 +63,7 @@ Just remember this rule: **sudo** are for applications in terminal. For Graphica
 ### 3. Synaptic - GUI package manager
 
 There is another way to install them via a GUI package using Synaptic.
-It is especially useful when I need to find a recommended packages for a specific need. 
+It is especially useful when I need to find a recommended package for a specific need.
 
 ```
 sudo apt-get install synaptic
@@ -75,7 +76,7 @@ Here is how the status of Firefox and its recommends are showing in Synaptic:
 
 ### 4. Gdebi - installer of .deb package
 
-Gdebi is a nice program to handle .deb files - the standard package type in Debian. 
+Gdebi is a nice program to handle .deb files - the standard package type in Debian.
 
 After having Gdebi installed, whenever you want to install a .deb file, just choose to open that file with Gdebi.
 
@@ -94,15 +95,15 @@ sudo dpkg -i deb_package #(to remove: sudo dpkg -r deb_package)
 
 ### 5. htop - Task manager (System monitor)
 
-Htop is a lightweight program and do the job just fine.
+Htop is a lightweight program and does the job just fine.
 ```bash
 sudo apt-get install htop
-``` 
+```
 In your terminal emulator, type **htop**, it will display all the running processes and the resources being used in real time.
 
 ![htop]({{site.baseurl}}/images/htop.png)
 
-As you can see here, with an Ubuntu 64bit the amount of RAM it took on my system was just 390MB. It is actually great comparing with other desktop environment.
+As you can see here, with an Ubuntu 64bit the amount of RAM it took on my system was just 390MB. It is actually great compared with other desktop environments.
 
 Here is how to bind the "familiar" combination keys **Ctrl + Alt + Del** to **htop** in my Openbox **rc.xml** configuration file:
 ```
@@ -116,3 +117,4 @@ Here is how to bind the "familiar" combination keys **Ctrl + Alt + Del** to **ht
   </action>
 </keybind>
 ```
+

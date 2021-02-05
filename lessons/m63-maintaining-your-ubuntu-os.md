@@ -4,6 +4,7 @@ title: MAINTAIN YOUR UBUNTU/ DEBIAN SYSTEM
 description: introduce some "house keeping" tasks for a Debian system.
 toc: true
 toc_label: "Maintaining System"
+toc_sticky: true
 toc_icon: "cog"
 author_profile: false
 sidebar:
@@ -18,7 +19,7 @@ sudo apt-get update
 ```
 To update the information **apt** is having from all repositories - the ones which their addresses are stated in **/etc/apt/source.list** file.
 
-This command does not install package, just update information.
+This command does not install packages, just update information.
 {: notice--info}
 The following command will actually install newest version of any package that has been **already** installed in your system.
 ```bash
@@ -95,13 +96,11 @@ Disk Usage Analyzer
 
 ### 4. Monitor your system
 
-If suddenly your fan run fast, your computer was slow down…
-
-A problem like this often happens if there is a program requiring resources beyond the capability of the system or there is something not configured correctly.
+If suddenly your fan runs fast, your computer will slow down… these problems often happen if there is a program requiring resources beyond the capability of the system or there is something not configured correctly.
 
 A system monitor program, like **htop**, is needed to track the culprit.
 
-You may need to **kill** that process (to terminate it) for further step can be taken.
+You may need to **kill** that process (to terminate it) for further steps can be taken.
 
 To ***kill*** a running program (to force it to close):
 
