@@ -307,7 +307,10 @@ defaults:
       layout: single
       author_profile: false
       related: true
+      toc: true
+      toc_label: "Content"
       toc_sticky: true
+      toc_icon: "cog"
 # Search
 #search: true
 #google:
