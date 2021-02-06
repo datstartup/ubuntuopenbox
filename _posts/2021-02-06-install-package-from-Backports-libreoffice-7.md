@@ -32,6 +32,6 @@ I have show how to install Libreoffice here on this website: [Libre Office as of
 
 The process is the same.
 ```shell
-sudo apt-get install libreoffice-calc libreoffice-writer libreoffice-gtk3 libreoffice-style-sifr
+sudo apt -t buster-backports install libreoffice-calc libreoffice-writer libreoffice-gtk3 libreoffice-style-sifr
 ```
 It will update my libreoffice packages on my system. 
