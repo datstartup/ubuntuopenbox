@@ -14,6 +14,8 @@ The risk of backports is actually slightly greater than using testing and Sid si
  
 I was eager to try out the Libreoffice 7 on my Debian and I know that the sort of “newest" apps will be in the backports repository.
 
+I use Libreoffice as a demonstration, you could apply these steps for any app.
+
 ## 1. Add Buster Backport source
 
 Add this line to my Debian `sources.list` file
@@ -25,6 +27,7 @@ Then
 sudo apt update
 ```
 ## 2. Install Libreoffice on Debian
+
 I have show how to install Libreoffice here on this website: [https://www.ubuntuopenbox.com/lessons/m53-office-apps-for-ubuntu-openbox/#1-libreoffice-as-office-suite](https://www.ubuntuopenbox.com/lessons/m53-office-apps-for-ubuntu-openbox/#1-libreoffice-as-office-suite)
 
 The process is the same.
