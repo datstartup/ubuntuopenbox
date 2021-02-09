@@ -10,7 +10,7 @@ tags:
 ---
 Backports are repositories that have packages from newer sources (Testing and Sid) compiled so that it can work on older Debian versions.
 
-Using backports is actually quite risky since the packages are just not going through enough tests and it might break a Debian stable.
+Using backports is actually quite risky since the packages are just not going through enough tests and it might break a Debian stable. However, it should be the first place to go for newer version of any packages; at least they are compiled to target Debian Stable.
  
 I was eager to try out the Libreoffice 7 on my Debian and I know that the sort of “newest" apps will be in the backports repository.
 

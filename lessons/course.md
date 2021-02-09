@@ -310,24 +310,19 @@ User-specific themes can be installed in `~/.local/share/themes` or in `~/.theme
 
 Use the command `obconf` to open obconf, then change the theme.
 
-## 3. Change Gtk theme, cursor theme
+## 3. Change Gtk theme
 
-
-Again, User-specific themes can be installed in `~/.local/share/themes` or in `~/.themes`. So, Openbox theme, Gtk theme, and cursor theme will go there.
+Again, User-specific themes can be installed in `~/.local/share/themes` or in `~/.themes`. So, Openbox theme, and Gtk theme will go there.
 
 Gtk theme: Breeze-gtk
 
 Download at: [https://github.com/dirruk1/gnome-breeze](https://github.com/dirruk1/gnome-breeze)
 
-Cursor theme: Breeze
-
-Download at: [http://gnome-look.org/content/show.php/Breeze+Serie?content=169316](http://gnome-look.org/content/show.php/Breeze+Serie?content=169316)
-
 Use the command `lxappearance` to open lxappearance, then change the theme.
 
-## 4. Change Icon theme
+## 4. Change icon theme and cursor theme
 
-Icon themes are either install via PPAs or copy (the extracted) icon folder directly to `/usr/share/icons` or `~/.icons`
+Icon themes and cursor themes are either install via PPAs or copy (the extracted) icon folder directly to `/usr/share/icons` or `~/.icons`
 
 Icon Theme: Vivacious-colors
 
@@ -339,6 +334,10 @@ sudo add-apt-repository ppa:ravefinity-project/ppa
 sudo apt-get update
 sudo apt-get install vivacious-colors
 ```
+Cursor theme: Breeze
+
+Download at: [http://gnome-look.org/content/show.php/Breeze+Serie?content=169316](http://gnome-look.org/content/show.php/Breeze+Serie?content=169316)
+
 Use the command `lxappearance` to open lxappearance, then change the theme.
 
 
