@@ -2,7 +2,7 @@
 layout: single
 title: "QUICK UBUNTU OPENBOX INSTALLION GUIDE"
 toc: true
-toc_label: "Maintaining System"
+toc_label: "Content"
 toc_icon: "cog"
 author_profile: false
 categories:
