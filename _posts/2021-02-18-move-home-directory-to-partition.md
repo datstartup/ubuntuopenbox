@@ -101,7 +101,7 @@ sudo mkdir /home
 ### 2. Mount the new home
 
 #### 2.1 Manually mount for test
-I find this step is unnecessary but I show it here anyways in case you are curious.
+I find this step unnecessary but I show it here anyways in case you are curious.
 
 You can test the new home by manually mounting it after you delete/ move the old home.
 
