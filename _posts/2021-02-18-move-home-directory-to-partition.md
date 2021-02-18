@@ -9,6 +9,8 @@ tags:
 
 I always manage to fill up my `/home` folder with all kinds of unknown things and the act will make the whole system starved of space. Moving `home` to another partition is a rational solution for me.
 
+This guide assume that you already have a free partition ready to be used as `home`.
+
 Essentially it includes two tasks:
 
 * Task 1: Copy old data from `/home` directory to the new partition.
@@ -38,13 +40,13 @@ sda                 232.9G
 ├─sda1 ntfs   OS      132G 
 ├─sda2 ntfs           852M 
 ├─sda3                  1K 
-├─sda4 ext4          49.9G      #<==  Now I know its name (sda5)
+├─sda4 ext4          49.9G      #<==  Now I know its name (sda4)
 ├─sda5 ext4          28.3G /              
 └─sda6 swap           1.5G [SWAP]
 
 ```
 
-Find the UUID
+Find its UUID
 ```
 sudo blkid
 ```
@@ -58,7 +60,7 @@ Mine:
 /dev/sda6: UUID="72cb4892-2ada-4ae2-ba2c-8df7531bf617" TYPE="swap" PARTUUID="67174a59-06"
 
 ```
-Create a mount point - a mount point is simply just a directory:
+Create a temporary mount point (a mount point is simply a directory):
 ```
 mkdir /media/newhome/
 ```
@@ -69,7 +71,7 @@ sudo mount /dev/sda4 /media/newhome/
 
 #### 1.2 Copy data from old home to new home
 
-I choose `rsync` because I am more proficient with it than `cp` as I want to preserve file parameters (I know that `cp` can do it though, just do not know how).
+I use `rsync` because I am more proficient with it than `cp` for preserving file parameters (I know that `cp` can do it though, just do not know how).
 
 ```
 sudo rsync -av -A -X /home/* /media/newhome/
