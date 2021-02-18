@@ -31,11 +31,15 @@ To make the mount command not require `sudo` power, we have to add this entry to
 //192.168.1.242/removable_sdcard/ /home/dat/mnt  cifs username=<username>,password=<username>,noauto,user,vers=1.0 0 0
 ```
 Reboot the system and test it with
-```
+```shell
 mount /home/<user>/mnt
-```
+```shell
 The shared folder should be mounted.
-
+```
+To unmount manually, note that it is `umount`, not unmount:
+```shell
+umount /home/<user>/mnt
+```
 ## Use python script
 I tend to use a python script mixed with bash commands these days instead of pure bash script as I find it is easier.
 
