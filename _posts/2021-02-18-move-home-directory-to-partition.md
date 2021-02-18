@@ -7,12 +7,12 @@ tags:
   - linux
 ---
 
-I always manage to fill up my `home` folder with all kinds of unknown things and the act will make the whole system starved of space. Moving `home` to another partition is a rational solution for me.
+I always manage to fill up my `/home` folder with all kinds of unknown things and the act will make the whole system starved of space. Moving `home` to another partition is a rational solution for me.
 
 The task is fairly simple. Essentially it is in two tasks:
 
-* Task 1: Copy old data from `\home` directory to the new partition.
-* Task 2: Edit `fstab` to mount the new partition to `\home` directory at boot.
+* Task 1: Copy old data from `/home` directory to the new partition.
+* Task 2: Edit `fstab` to mount the new partition to `/home` directory at boot.
 
 ### 1. Copy data to new partition
 
