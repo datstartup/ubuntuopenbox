@@ -16,6 +16,15 @@ header:
 
 If you have any suggestion to make the website better, please send me a message!
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTRMJ2f0IHmRTdNzXZkz0bg8G-nF0XP0zJllWn_oHl48O5bQ/viewform?embedded=true" width="100%" height="795" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-<iframe width='100%' height='1400' frameborder='0' src='https://docs.google.com/spreadsheets/d/1ZPlmCIu93v192g66ZWBI3oMhBFfghxqMPmVumGMn6tc'></iframe>
+<html><head>
+  <title>My App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <frameset rows="100%">
+  <frame src="https://script.google.com/macros/s/AKfycbyFD1ap9bdDeQwDZGJ4DEqTYPYFMSbR5yNUuAisTmcdwF_Go54/exec" 
+         title="My App" 
+         frameborder="0" 
+         noresize="noresize">
+  </frameset>
+</html>
