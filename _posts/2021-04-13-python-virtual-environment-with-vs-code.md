@@ -59,3 +59,10 @@ pip install wheel # need this package to install others
 pip install -r requirements.txt
 pip list
 ```
+# NOTE
+
+This is all in the command line, and in the project folder.
+
+After you activate the virtual environment, the prompt will be in the project folder.
+
+You can completely ignore the virtual environment folder now and use everything as normal (Create files or run python commands in the main project folder...)
