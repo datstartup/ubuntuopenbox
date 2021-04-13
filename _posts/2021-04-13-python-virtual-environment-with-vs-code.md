@@ -18,7 +18,7 @@ python3 -m venv ./.venv
 ```
 # Activate virtual environment
 ```
-source project_env/bin/activate
+source .venv/bin/activate
 ```
 # Deactivate the environment
 ```
@@ -54,7 +54,7 @@ rm -rf .venv
 # My real-life practice
 ```
 python3 -m venv ./.venv
-source .venv/venv/bin/activate
+source .venv/bin/activate
 pip install wheel # need this package to install others
 pip install -r requirements.txt
 pip list
