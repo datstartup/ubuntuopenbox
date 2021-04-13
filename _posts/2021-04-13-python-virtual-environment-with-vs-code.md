@@ -14,7 +14,7 @@ These are notes for my own use. If it helps you in any way it is great!
 # Create virtual environment with python 3
 Go to the project folder, create a virtual environment with the folder name `.venv` (leading with "dot" as a hidden folder)
 ```
-python3 -m venv ./.venv
+python3 -m venv .venv
 ```
 # Activate virtual environment
 ```
@@ -53,7 +53,7 @@ rm -rf .venv
 ```
 # My real-life practice
 ```
-python3 -m venv ./.venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install wheel # need this package to install others
 pip install -r requirements.txt
