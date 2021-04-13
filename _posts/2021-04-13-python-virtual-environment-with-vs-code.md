@@ -30,7 +30,7 @@ which python
 ```
 # pip or pip3
 
-In a virtual environment `pip` will automatically point to `pip3` because the virtual environment is created from a specific version of Python. So just `pip` is enough.
+In a virtual environment, `pip` will automatically point to `pip3` because the virtual environment is created from a specific version of Python. So just `pip` is enough.
 
 # List all packages installed
 In the virtual environment.
@@ -55,7 +55,7 @@ rm -rf .venv
 ```
 python3 -m venv ./.venv
 source .venv/venv/bin/activate
-pip install wheel # need this packages to install others
+pip install wheel # need this package to install others
 pip install -r requirements.txt
 pip list
 ```
