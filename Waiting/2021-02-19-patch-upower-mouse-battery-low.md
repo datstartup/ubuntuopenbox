@@ -11,7 +11,7 @@ tags:
 
 In the past I was annoyed by the system notification about "mouse battery low" to the point that I just changed a still-good battery to get over it.
 
-This time I decided to tackle it once and for good.
+This time I decided to tackle it once and for all.
 
 I found this post [https://wrgms.com/disable-mouse-battery-low-spam-notification/](https://wrgms.com/disable-mouse-battery-low-spam-notification/). **All the credit go to the author**
 
@@ -40,7 +40,7 @@ and
 upower  
 ```
 Next we will back up the originals and replace them with these instead.
-## 2. You need to know the path to upower
+You need to know the path to upower
 `upowerd` path
 ```
 /usr/lib/upower

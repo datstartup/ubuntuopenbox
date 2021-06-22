@@ -8,11 +8,9 @@ tags:
   - youtube-dl
 ---
 
-Remove the title bar to get more screen space (like in Chrome).
+## 1. Install 
 
-### 1. Install 
-
-youtube-dl 
+### youtube-dl 
 
 ```bash	
 sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
@@ -33,14 +31,12 @@ youtube-dl -U
 *Note:* I have to install youtube-dl from source instead off from the repository (and update it as I wish) because it is **essential** to have the lastest version of the script. Youtube changes and the developer adapts.
 {: .notice--info}
 
-ffmpeg
+### ffmpeg
 ```bash
 sudo apt install ffmpeg
 ```
 
-### 2. My usage
-
-A. Download audio:
+### Download audio
 
 To extract audio from a youtube video
 
@@ -48,7 +44,7 @@ To extract audio from a youtube video
 youtube-dl -x https://www.youtube.com/watch?v=bllKLAiLo6g
 ```
 
-B. Download video (and/or audio too):
+### Download video (and/or audio too):
 list all formats available
 ```bash
 youtube-dl -F https://www.youtube.com/watch?v=bllKLAiLo6g
@@ -82,11 +78,7 @@ format code  extension  resolution note
 248          webm       1920x1080  1080p  992k , vp9, 30fps, video only, 30.94MiB
 18           mp4        640x360    360p  356k , avc1.42001E, mp4a.40.2@ 96k (44100Hz), 14.15MiB (best)
 ```
-I will choose the the **18**.
 
-```bash
-youtube-dl -f 18 https://www.youtube.com/watch?v=bllKLAiLo6g
-```
 Notice that most of the format above either a video or audio only, I can create the **.mp4** video you want by combining the audio and video only format like this:
 
 ```bash
