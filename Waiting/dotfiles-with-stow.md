@@ -30,7 +30,7 @@ Note that `config` and `lauch.sh` are empty files.
 Stow is the command to create sym link that reflect the 
 ```
 stow -nvt ~ *
-
+```
 #OR
 
 stow -nvt ~
@@ -50,8 +50,23 @@ stow --adopt -vt ~ htop
 
 ```
 #Unlink the folder
-stow -vDt ~ bash
 
+```
+stow -vDt ~ bash
 ```
 
 # Restore the stow/ replica the system with the dotfiles
+
+
+# To add file to a folder and update its stow
+unlink it first
+```
+stow -vDt rofi
+```
+
+add files then link back
+```
+stow -nvt ~ rofi
+```
+(n is 'no'/ stimulation, then again with out the flag n)
+

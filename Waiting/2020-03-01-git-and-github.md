@@ -16,7 +16,12 @@ A. Create a new project on github then clone
 
 Step 1: Create a new Github repo
 
-Step 2: 
+Step 2: Clone
+```
+git clone repo_address
+```
+
+
 
 
 
