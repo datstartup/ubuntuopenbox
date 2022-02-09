@@ -46,5 +46,28 @@ Switch its parameter to `true`.
 .tab-line[selected="true"] {
     background-color : red !important;
 }
+
+
+/* text color of NOT selected tab */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.tabbrowser-tab:not([selected]) {
+  color: red !important;
+}
  
+```
+
+My current
+
+```
+.tab-background[selected="true"] {
+    background-color: #458588 !important;
+    
+    background-image: none !important;
+}
+
+#TabsToolbar .tabbrowser-tab[selected] {
+    color: #f0f0f0 !important;
+    font-weight: bold !important;
+}
 ```

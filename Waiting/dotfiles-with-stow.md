@@ -70,3 +70,5 @@ stow -nvt ~ rofi
 ```
 (n is 'no'/ stimulation, then again with out the flag n)
 
+
+
