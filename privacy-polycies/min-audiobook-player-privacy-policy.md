@@ -1,6 +1,7 @@
 ---
+layout: single
 title: "Min Audiobook Player: Privacy policy"
-header:
+toc: false
 categories:
   - private
 tags:
