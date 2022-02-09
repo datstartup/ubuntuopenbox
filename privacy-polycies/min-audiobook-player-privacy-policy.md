@@ -11,6 +11,7 @@ tags:
 
 Welcome to the Min Audiobook Player app!
 
+
 This is an Android app developed by Dat Nguyen. The app is also available on Google Play.
 
 As an internet user, I take privacy very seriously. This app does not collect any of your data. The only permission it asks you is for accessing the folder storing your audiobooks.
@@ -21,7 +22,9 @@ If you find any security vulnerability that has been inadvertently caused by me,
 
 Yours sincerely,
 
-Dat Nguyen.
-Viet Nam.
+Dat Nguyen
+
+Viet Nam
+
 datnguyen.appsdeveloper@gmail.com
 
