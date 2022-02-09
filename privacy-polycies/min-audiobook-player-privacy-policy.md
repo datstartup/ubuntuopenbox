@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Min Audiobook Player: Privacy policy"
+title: "Min Audiobook Player - Privacy policy"
 toc: false
 categories:
   - private
