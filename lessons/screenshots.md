@@ -14,6 +14,18 @@ tags:
   - galery
 
 gallery :
+    - url: /images/Galery/2022-02-21_08-25.jpg
+      image_path: /images/Galery/2022-02-21_08-25.jpg
+      alt: "With Polybar, neofetch and gotop"
+      title: "With Polybar, neofetch and gotop"    
+    - url: /images/Galery/2021-07-15_09-47.jpg
+      image_path: /images/Galery/2021-07-15_09-47.jpg
+      alt: "With Polybar, neofetch and Thunar"
+      title: "With Polybar, neofetch and Thunar"
+    - url: /images/Galery/PolybarNeofetchGotop.jpg
+      image_path: /images/Galery/PolybarNeofetchGotop.jpg
+      alt: "With Polybar, neofetch and gotop"
+      title: "With Polybar, neofetch and gotop"
     - url: /images/Galery/conkywithplank.jpg
       image_path: /images/Galery/conkywithplank.jpg
       alt: "With conky and plank"
@@ -40,10 +52,10 @@ gallery :
       title: "Clean Desktop with Lxpanel and Tin2 (as pager)"
 
 gallery1 : 
-    - url: /images/Galery/PolybarNeofetchGotop.jpg
-      image_path: /images/Galery/PolybarNeofetchGotop.jpg
-      alt: "With Polybar, neofetch and gotop"
-      title: "With Polybar, neofetch and gotop"
+    - url: /images/Galery/2022-02-21_08-28.jpg
+      image_path: /images/Galery/2022-02-21_08-28.jpg
+      alt: "With Polybar, Firefox and Thunar"
+      title: "With Polybar, Firefox and Thunar"
 ---
 ### Screenshots of an Ubuntu/ Debian Openbox in action.
 ### (Click the image to enlarge)
