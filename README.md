@@ -1,6 +1,6 @@
 # [Ubuntu/Debian Openbox guide](https://ubuntuopenbox.com)
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://choosealicense.com/licenses/mit/)]
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://choosealicense.com/licenses/mit/)
 
 [![UbuntuOpenbox live][2]][1]
 
