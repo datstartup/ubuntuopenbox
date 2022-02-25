@@ -1,8 +1,8 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# [Ubuntu/Debian Openbox guide](https://ubuntuopenbox.com)
 
 [![LICENSE](https://choosealicense.com/licenses/mit/)
 
-[![Minimal Mistakes live preview][2]][1]
+[![UbuntuOpenbox live][2]][1]
 
 [1]: https://www.ubuntuopenbox.com/gallery/
 [2]: https://www.ubuntuopenbox.com/gallery/ (live preview)
@@ -28,14 +28,6 @@ This theme comes in nine different skins (including the default one).
 | `air` | `contrast` | `dark` |
 | --- | --- | --- |
 | ![air skin](https://github.com/datstartup/ubuntuopenbox/blob/master/images/Galery/2022-02-21_08-28.jpg) | ![contrast skin](https://github.com/datstartup/ubuntuopenbox/blob/master/images/Galery/2022-02-21_08-25.jpg) | ![dark skin](https://github.com/datstartup/ubuntuopenbox/blob/master/images/Galery/conkywithplank.jpg) |
-
-| `dirt` | `mint` | `sunrise` |
-| --- | --- | --- |
-| ![dirt skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive.png) | ![mint skin](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive.png) | ![sunrise skin](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive.png) |
-
-| `aqua` | `neon` | `plum` |
-| --- | --- | --- |
-| ![aqua skin](https://mmistakes.github.io/minimal-mistakes/assets/images/aqua-skin-archive.png) | ![neon skin](https://mmistakes.github.io/minimal-mistakes/assets/images/neon-skin-archive.png) | ![plum skin](https://mmistakes.github.io/minimal-mistakes/assets/images/plum-skin-archive.png) |
 
 ## Main pages
 
