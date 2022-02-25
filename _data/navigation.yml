@@ -4,8 +4,8 @@ main:
   #  url: /
   - title: "Lessons"
     url: /lessons/
-  - title: "Galery"
-    url: /galery/
+  - title: "Gallery"
+    url: /gallery/
   - title: "Posts"
     url: /year-archive/
   #- title: "Collections"
