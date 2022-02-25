@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /galery/
+permalink: /gallery/
 title: "Galery"
 excerpt: "Screenshots of a Ubuntu Openbox after configured."
 comments: true
@@ -11,7 +11,7 @@ header:
 tags:
   - screenshots
   - images
-  - galery
+  - gallery
 
 gallery :
     - url: /images/Galery/2022-02-21_08-25.jpg
@@ -28,7 +28,7 @@ gallery :
       title: "With Polybar, neofetch and gotop"
     - url: /images/Galery/conkywithplank.jpg
       image_path: /images/Galery/conkywithplank.jpg
-      alt: "With conky and plank"
+      alt: "With conky and plank"   
       title: "With conky and plank"
     - url: /images/cleanDesktopTin2.jpg
       image_path: /images/cleanDesktopTin2.jpg
