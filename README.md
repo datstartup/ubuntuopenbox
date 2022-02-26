@@ -7,50 +7,47 @@
 [1]: https://www.ubuntuopenbox.com/gallery/
 [2]: https://www.ubuntuopenbox.com/gallery/ (live preview)
 
+## Why Ubuntu?
 
-## Notable features
+Because it is one of the most recognizable name in Operating System world (also a big name in Linux world). Although eventually, I recommend Debian for its stability.
 
-- Bundled as a "theme gem" for easier installation/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman](https://staticman.net/), and [utterances](https://utteranc.es/)).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Chinese, Danish, Dutch, French (Français), German (Deutsch), Greek, Hindi (हिंदी), Hungarian, Indonesian, Italian (Italiano), Japanese, Korean, Malayalam, Nepali (Nepalese), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
+## Why Openbox?
 
-## Skins (color variations)
+Because:
 
-This theme comes in nine different skins (including the default one).
+   * Openbox is awesome, minimal and rock solid!
 
-| `air` | `contrast` | `dark` |
-| --- | --- | --- |
-| ![air skin](https://github.com/datstartup/ubuntuopenbox/blob/master/images/Galery/2022-02-21_08-28.jpg) | ![contrast skin](https://github.com/datstartup/ubuntuopenbox/blob/master/images/Galery/2022-02-21_08-25.jpg) | ![dark skin](https://github.com/datstartup/ubuntuopenbox/blob/master/images/Galery/conkywithplank.jpg) |
+   * To busting the myth of “how the components of your Ubuntu system work together”.
+
+   * A Window Manager gives you only the “boxes” on the screen, so there will be spaces for customization.
+
+## Who are the target readers?
+
+Who are seeking the way to install an OS with only the packages they want (i.e the customizing way!).
+
+And, for those who have been using pre-configured operating systems (Ubuntu, Kubuntu, Debian, openSUSE…) and want to play more with Linux.
+
+## Screenshots of Ubuntu/ Debian Openbox in action
+
+Openbox is not just practical but its look is also modern.
+
+| `I` | `II` | 
+| --- | --- | 
+| ![screenshot 1](https://github.com/datstartup/ubuntuopenbox/blob/master/images/Galery/2022-02-21_08-28.jpg) | ![screenshot 2](https://github.com/datstartup/ubuntuopenbox/blob/master/images/Galery/2022-02-21_08-25.jpg) | 
 
 ## Main pages
 
 | Name                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
+| [Lessons][lessons-page] | All the Openbox guides are here. |
+| [Gallery][gallery-page] | A variety of screenshot of my Debian Openbox over the years. |
+| [Posts][posts-page] | Posts of my personal blog on things that are interested to me. |
 
-Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
+Additional sample pages are available on the site too.
 
-[header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
-[gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
-[html-tags-post]: https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
-[syntax-post]: https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/
-[sample-collection]: https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/
-[categories-archive]: https://mmistakes.github.io/minimal-mistakes/categories/
-[tags-archive]: https://mmistakes.github.io/minimal-mistakes/tags/
-[year-archive]: https://mmistakes.github.io/minimal-mistakes/year-archive/
+[lessons-page]: https://www.ubuntuopenbox.com/lessons/
+[gallery-page]: https://www.ubuntuopenbox.com/gallery/
+[posts-page]: https://www.ubuntuopenbox.com/year-archive/
 
 ---
 
@@ -67,6 +64,9 @@ Having trouble working with the guide? Found a typo in the website? Interested i
 **Dat Nguyen Huynh**
 
 - <https://ubuntuopenbox.com>
+
+**Unsplash.com**
+- <https://unsplash.com>
 ---
 
 ## License

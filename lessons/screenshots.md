@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /gallery/
-title: "Galery"
+title: "Gallery"
 excerpt: "Screenshots of a Ubuntu Openbox after configured."
 comments: true
 header:
