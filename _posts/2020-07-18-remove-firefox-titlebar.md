@@ -12,6 +12,18 @@ Remove the title bar to get more screen space (like in Chrome).
 
 [![firefox-chrome-titlebar]({{site.baseurl}}/images/firefox-chrome-titlebar.png)]({{site.baseurl}}/images/firefox-chrome-titlebar.png){:target="_blank"}
 
+# Update 10 March 2022
+
+I have found another (better) way to disable the title bar in Openbox.
+Add this line to `/etc/environment` file.
+
+```
+MOZ_GTK_TITLEBAR_DECORATION=client
+```
+Reboot. 
+
+Open Firefox, in the window of Customize Toolbar, uncheck Title at the bottom left corner. The title bar will disapear!
+
 # 1. Remove the title bar
 
 At the very end of `rc.xml`file, above the line `</openbox_config>`, add these three lines in `application` category:

@@ -6,7 +6,7 @@
 
 [1]: https://www.ubuntuopenbox.com/gallery/
 [2]: https://www.ubuntuopenbox.com/gallery/ (live preview)
-
+w
 ## Why Ubuntu?
 
 Because it is one of the most recognizable name in Operating System world (also a big name in Linux world). Although eventually, I recommend Debian for its stability.
