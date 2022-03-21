@@ -20,34 +20,34 @@ header:
 
 Hi, I am Dat from Vietnam.
 
-I learned Linux as a hobby years ago and eventually using it on everything I can (my PC, my Notebook and my Raspberry Pis).
+I learned Linux as a hobby years ago and eventually use it on everything I can (my PC, my Notebook and my Raspberry Pis). I know how clueless it is to enter the Linux world.
 
-This site is created out of the love of Debian and Openbox. (The though of "who am I to write this kind of tutorial?" is always lurking at the back of my mind, but writing it has been a journey of pure joy.)
+YOU WILL NEED THIS KIND OF GUIDE AS THE STARTING POINT.
 
 I have also received a lot of encouraging emails. They are all great sources of motivation. Please do not hesitate to share your thoughts on the Facebook page: [facebook.com/ubuntuopenbox](https://www.facebook.com/ubuntuopenbox)
 
 Or contact me through this Google form: [https://www.ubuntuopenbox.com/contact/](https://www.ubuntuopenbox.com/contact/)
 
-Hope you will enjoy your read and found the information helpful!
+Hope you will enjoy your reading and find the information helpful!
 
 # Why Ubuntu?
 
-Because it is one of the most recognizable name in Operating System world (also a big name in Linux world). Although eventually, I recommend Debian for its stability.
+Because it is one of the most recognizable names in the Operating System world (also a big name in the Linux world). Although eventually, I recommend Debian for its stability.
+
+THE STABLE OF DEBIAN WILL AMAZE YOU. Your tool computer will just work for YEARS!
 
 # Why Openbox?
 
-Because
-:
+Because:
+
  * Openbox is awesome, minimal and rock solid!
 
- * To busting the myth of "how the components of your Ubuntu system work together".
-
- * A Window Manager gives you only the “boxes” on the screen, so there will be spaces for customization.
+ * A Window Manager gives you only the “boxes'' on the screen, so there will be spaces for customization.  Seeing how the components of a Linux system work together will benefit you in theLinux world.
 
 # Who are the target readers?
 
 For those who are seeking the way to install an OS with only the packages they want (i.e the customizing way!).
 
-And, for those who have been using pre-configured operating systems (Ubuntu, Kubuntu, Debian, openSUSE...) and want to play more with Linux.
+And, for those who have been using pre-configured operating systems (Ubuntu, Kubuntu, Debian, openSUSE...) and want to learn more with Linux.
 
 HAPPY PLAYING!
