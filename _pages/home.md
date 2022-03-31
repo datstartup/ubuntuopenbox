@@ -52,8 +52,8 @@ feature_row3:
             image_source: /images/cleanDesktopTin2.jpg
             alt: "placeholder image 2"
             title: "This is a screenshot of the clean desktop after configured"
-            excerpt: 'Click to the button below for screenshot Galery'
-            url: "/galery/"
+            excerpt: 'Click to the button below for screenshot Gallery'
+            url: "/gallery/"
             btn_label: "View Screenshots"
             btn_class: "btn--info"
 github:
