@@ -33,7 +33,7 @@ feature_row2:
         alt: "customizable"
         title: "Eye candy"
         excerpt: "Customizing an elegant and simple Openbox "
-        url: "/lessons//"
+        url: "/lessons/"
         btn_label: "Learn More"
       - image_path: /images/citra-icon.png
         alt: "fully responsive"
