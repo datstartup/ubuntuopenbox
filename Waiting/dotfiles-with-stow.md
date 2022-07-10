@@ -27,7 +27,7 @@ Note that `config` and `lauch.sh` are empty files.
 
 # stow
 
-Stow is the command to create sym link that reflect the 
+Stow is the command to create sym link that reflect the gathered dotfiles.
 ```
 stow -nvt ~ *
 ```
