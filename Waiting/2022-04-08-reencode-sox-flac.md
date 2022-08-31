@@ -18,3 +18,4 @@ $ mkdir resampled
 $ for flac in *.flac; do sox -S "${flac}" -r 44100 -b 16 ./resampled/"${flac}"; done
 ```
 And that’s it - it will convert all the .flac files in that folder to 16 bit at 44100 kHz and put the result into the ./resampled subfolder, preserving the metadata.
+
