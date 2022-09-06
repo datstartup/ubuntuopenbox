@@ -18,7 +18,7 @@ You will need two programs to configure the look of an Openbox desktop:
 * **Obconf** is for changing the Openbox theme.
 
 Skim through this galery for my current setup:
-[**Galery**]({{site.baseurl}}/galery/){:target="_blank"}.
+[**Galery**]({{site.baseurl}}/gallery/){:target="_blank"}.
 
 In case you do not agree with my choices of theme and icons, there will be plenty of space for your aesthetic sense to kick in.
 
