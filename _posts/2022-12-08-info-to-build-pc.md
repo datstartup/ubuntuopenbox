@@ -16,9 +16,12 @@ I like the incredible feeling of research and assembly-by-hand process.
 
 I treated this as a pleasure activity and really did not want it to end.
 
-Later in the research phase, I also found out that ** with pre-built PCs, they have many disadvantages over custom built ones. **
+Later in the research phase, I also found out that **with pre-built PCs, they have many disadvantages over custom built ones.**
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. the way they engineer the cooler/air flow is often not good.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. the parts are fixed and hard to choose one with specific parts.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. they are built with proprietary parts - it means parts are designed for a specific use case and could not be replaced or upgraded on my own.
 
 # You have to know the use case of your future PC
@@ -72,7 +75,7 @@ VRM (Voltage Regulation Modulator) is for controlling the voltage (V) sent to CP
 
 **I bought a MSI B660 mortar motherboard with the hope of overclocking my ram but the fact that my i5-12400 is a locked CPU, I cannot increase the voltage of VCCSA, so I cannot run high frequency on Gear1. To put it simpler, a locked CPU will hinder your ram overclock ability, even if you buy a good motherboard.**
 
-## 3. Ram
+## 4. Ram
 
 The clearance of ram with CPU cooler should be taken into account. Some ram is tall and some cooler clearance is low.
 
@@ -84,7 +87,7 @@ For example, Intel recommends Alder Lake with 3200 mhz ram and this is easy by j
 
 The bible for overclock ram can be found here: [DDR4 OC Guide.](https://github.com/integralfx/MemTestHelper/blob/oc-guide/DDR4%20OC%20Guide.md).
 
-## PSU
+## 5. PSU
 
 Choosing a tier-A gold PSU or above is the rule of thumb. Not only will it be more efficient but it will also be made of better components than the lower tier ones. (You should search for "PSU tier list").
 
@@ -92,11 +95,11 @@ The wattage will depend on the components; just remember, the wattage on the PSU
 
 For example, a 650W will take as much as AC current it needs to output as much as the wattage the computer needs and it will be limited at 650W. The gold rate 80% is that 100% AC power only can convert to 80% DC efficiency.
 
-# Case
+# 6. Case
 
 Choosing a case will depend on the size of the motherboard, the clearance of dedicated GPU, PSU, cooler. Take all of them into account!
 
-## Fan case
+## 7. Fan case
 
 Noise and connection are what to be aware of here. Good fan and lower speed will be good, as well as good connections and/ or fan hub.
 
