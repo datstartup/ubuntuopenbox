@@ -16,7 +16,7 @@ I like the incredible feeling of research and assembly-by-hand process.
 
 I treated this as a pleasure activity and really did not want it to end.
 
-Later in the research phase, I also found out that **with pre-built PCs, they have many disadvantages over custom built ones.**
+Later in the research phase, I also found out that **with pre-built PCs, they had many disadvantages over custom built ones.**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. the way they engineer the cooler/air flow is often not good.
 
@@ -73,7 +73,7 @@ Not all boards are born equal in terms of VRMs, and not all cooling solutions wi
 
 VRM (Voltage Regulation Modulator) is for controlling the voltage (V) sent to CPU and other components in order to regulate the voltage as consistently and steady as possible. It takes the juice from the power supply unit and regulates it to the appropriate ones (DC to DC).
 
-**I bought a MSI B660 mortar motherboard with the hope of overclocking my ram but the fact that my i5-12400 is a locked CPU, I cannot increase the voltage of VCCSA, so I cannot run high frequency on Gear1. To put it simpler, a locked CPU will hinder your ram overclock ability, even if you buy a good motherboard.**
+**I bought a MSI B660 mortar motherboard with the hope of overclocking my ram but the fact that my i5-12400 is a locked CPU, I could not increase the voltage of VCCSA, so I could not run high frequency ram on Gear1. To put it simpler, a locked CPU will hinder your ram overclock ability, even if you buy a good motherboard.**
 
 ## 4. Ram
 
