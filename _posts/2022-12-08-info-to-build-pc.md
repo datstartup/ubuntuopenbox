@@ -73,7 +73,7 @@ Not all boards are born equal in terms of VRMs, and not all cooling solutions wi
 
 VRM (Voltage Regulation Modulator) is for controlling the voltage (V) sent to CPU and other components in order to regulate the voltage as consistently and steady as possible. It takes the juice from the power supply unit and regulates it to the appropriate ones (DC to DC).
 
-**I bought a MSI B660 mortar motherboard with the hope of overclocking my ram but the fact that my i5-12400 is a locked CPU, I could not increase the voltage of VCCSA, so I could not run high frequency ram on Gear1. To put it simpler, a locked CPU will hinder your ram overclock ability, even if you buy a good motherboard.**
+**A MSI B660 mortar motherboard coupled with i5-12400 in theory could overclock ram. However a locked CPU could not be increased the voltage of VCCSA, so the combo could not run high frequency ram on Gear1. To put it simpler, a locked CPU will hinder your ram overclock ability, even if you buy a good motherboard.**
 
 ## 4. Ram
 
