@@ -16,13 +16,13 @@ I like the incredible feeling of research and assembly-by-hand process.
 
 I treated this as a pleasure activity and really did not want it to end.
 
-Later in the research phase, I also found out that **with pre-built PCs, they had many disadvantages over custom built ones.**
+Later in the research phase, I also found out that **with pre-built PCs, they had many disadvantages:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. the way they engineer the cooler/air flow is often not good.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. The way they engineer the cooler/air flow is often not good.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. the parts are fixed and hard to choose one with specific parts.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. The parts are fixed and hard to choose one with only parts I want.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. they are built with proprietary parts - it means parts are designed for a specific use case and could not be replaced or upgraded on my own.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. They are built with proprietary parts - it means parts are designed for their specific PC case, hard to find a replacement on the market.
 
 # You have to know the use case of your future PC
 
@@ -30,40 +30,41 @@ Later in the research phase, I also found out that **with pre-built PCs, they ha
 
 From the answer of the question, you can find out which components you need to use. Otherwise, it is very easy to go over budget for exceeding capacity.
 
-## For example: Mine use case
+## Mine use case as a demonstration
 
-The PC is for web and phone development so occasionally I need to use a virtual machine or emulator and iGPU is fine. I also need a bit of SSD space for my music collection to listen to while working. I also need wifi and bluetooth.
+The PC is for web and phone development so occasionally I need to use a virtual machine or emulator. I also need a bit of SSD space for my music collection to listen to while working. I also need wifi and bluetooth. A iGPU is enough.
 
 I use mostly Linux so I need to check for part support/ driver.
 
-Other than those, I like a small and good airflow case, so mATX is my choice.
+Other than those, I like a small and good airflow case, so mATX case.
 
 With that need, my build focused on an average CPU with onboard iGPU (not a dedicated GPU), mATX mother-boards that have wifi, more Ram, a little bigger SSD, a good PSU in case I need to install a GPU. 
 
-Then, A good mATX case to fit all of those components and a tower air cooler (because of medium power CPU) that can fit that case and the ram that can go with that cooler. Also, the size of the PSU that can fit in that case (or vice versa, a case that can fit my chosen PSU and cooler).
+Then, A good mATX case to fit all of those components and a tower air cooler that can fit that case and the ram that can go with that cooler. Also, the size of the PSU that can fit in that case (or vice versa, a case that can fit my chosen PSU and cooler).
 
 # Choosing parts:
 ## 1. CPU
 AMD vs Intel: Price-Performance Ratio in any category will determine the choice. 
 
-CPUs always come with a combo of motherboard lines. A specific cheaper Intel cpu might come with a more expensive motherboard then a higher price AMD but can be coupled with a cheaper motherboard, given they have similar performance.
+A specific cheaper Intel cpu might require a more expensive motherboard then a higher price AMD but can be coupled with a cheaper motherboard, given they have similar performance.
 
-I was tempted to go with AMD but after research, Intel i5-12400 is without E-core, quite cheaper than a AMD counterpart (Ryzen 5600) and more powerful than I need.
+I was tempted to go with AMD but after research, Intel i5-12400 is without E-core, quite cheaper than a AMD counterpart (Ryzen 5600g).
 
-I chose an Intel CPU with DDR4 mainboard, so some of my experiences were limited by this choice.
+I chose an Intel CPU with DDR4 mainboard, so below information were limited by this choice.
 
 ## 2. CPU cooler
-This needs to be researched on your own. With my 12400 Intel, I chose ID cooling SE 214.
 
-I can use a quite low end air cooler because the 12400 runs cool. With a hotter CPU, you might need to consider a higher end air cooler or liquid cooler. Air cooler is heavier and bigger but easier to maintain, also cheaper than a liquid one (AIO). 
+With a hotter CPU, you might need to consider a higher end air cooler or liquid cooler. Air cooler is heavier and bigger but easier to maintain, also cheaper than a liquid one (AIO).
+
+With my 12400 Intel, I chose ID cooling SE 214. I can use a quite low end air cooler because the 12400 runs cool.  
 
 Just remember, the clearance of the cooler affects the ram and the case. The bottom is too low, you cannot install some tall rams/ or normal rams (need lower profile ram). The height exceeds your case support, you cannot close the side panel.
 
 ## 3. Motherboard
 
-You need to choose the right socket, good VRM, and the IOs (the ports that you can plug usb, lan cable, headphones...) you want to use. 
+You need to choose the right socket (that support the generation of the CPU), good VRM, and the IOs (the ports that you can plug usb, lan cable, headphones...) you want to use. 
 
-VRM (Voltage Regulation Modulator) is for controlling the voltage (V) sent to CPU and other components in order to regulate the voltage as consistently and steady as possible. It takes the juice from the power supply unit and regulates it to the appropriate ones (DC to DC). A power hungry CPU need good VRM.
+VRM (Voltage Regulation Modulator) is for controlling the voltage (V) sent to CPU and other components in order to regulate the voltage as consistently and steady as possible. It takes the juice from the power supply unit and regulates it to the appropriate ones (DC to DC). A power hungry CPU need good VRM from a good mainboard.
 
 My MSI B660 mortar motherboard coupled with i5-12400 in theory could overclock ram. However a locked CPU could not be increased the voltage of VCCSA, so the combo could not run high frequency ram on Gear1. To put it simpler, **a locked CPU will hinder your ram overclock ability, even if you buy a good motherboard.**
 
