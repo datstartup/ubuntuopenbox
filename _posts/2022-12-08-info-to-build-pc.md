@@ -44,18 +44,18 @@ Then, A good mATX case to fit all of those components and a tower air cooler (be
 
 # Choosing parts:
 ## 1. CPU
-AMD vs Intel: Price-Performance Ratio in any category will determine the choice. Do not worry about which brand is better than which.
-
-Use cases are especially significant here. Depending on your use cases, you might find which AMD or Intel suit your needs. 
+AMD vs Intel: Price-Performance Ratio in any category will determine the choice. 
 
 CPUs always come with a combo of motherboard lines. A specific cheaper Intel cpu might come with a more expensive motherboard then a higher price AMD but can be coupled with a cheaper motherboard, given they have similar performance.
 
-I do not know if this statement is still true, at the time I built this PC, the current Linux kernel then was not good with intel E-core (efficient core). I was tempted to go with AMD but after research, Intel i5-12400 is without E-core, quite cheaper than its AMD counterpart and more powerful than I need.
+I was tempted to go with AMD but after research, Intel i5-12400 is without E-core, quite cheaper than a AMD counterpart (Ryzen 5600) and more powerful than I need.
+
+I chose an Intel CPU with DDR4 mainboard, so some of my experiences were limited by this choice.
 
 ## 2. CPU cooler
-This needs to be researched on your own. With my 12400 Intel, I chose ID cooling SE 214. The result is very satisfying.
+This needs to be researched on your own. With my 12400 Intel, I chose ID cooling SE 214.
 
-I can use a quite low end air cooler because the 12400 runs cool. With a hotter CPU, you might need to consider a higher end air cooler or liquid cooler. Air cooler is heavier and bigger but easier to maintain, also cheaper than a liquid one. 
+I can use a quite low end air cooler because the 12400 runs cool. With a hotter CPU, you might need to consider a higher end air cooler or liquid cooler. Air cooler is heavier and bigger but easier to maintain, also cheaper than a liquid one (AIO). 
 
 Just remember, the clearance of the cooler affects the ram and the case. The bottom is too low, you cannot install some tall rams/ or normal rams (need lower profile ram). The height exceeds your case support, you cannot close the side panel.
 
@@ -63,17 +63,9 @@ Just remember, the clearance of the cooler affects the ram and the case. The bot
 
 You need to choose the right socket, good VRM, and the IOs (the ports that you can plug usb, lan cable, headphones...) you want to use. 
 
-3.1 For overclocked K CPU: Z motherboard
+VRM (Voltage Regulation Modulator) is for controlling the voltage (V) sent to CPU and other components in order to regulate the voltage as consistently and steady as possible. It takes the juice from the power supply unit and regulates it to the appropriate ones (DC to DC). A power hungry CPU need good VRM.
 
-3.2 For non K: H610 is for basic use with limited IOs (recommended for 12400 and under), H670 is high end for non K CPU with a lot of IOs and B660 is the middle ground with "enough" IOs.
-
-To say the redundancy - The motherboard must have the socket that supports the specific generations of the CPU. Which is the socket? the position that fits the CPU, to put it as simply as possible.
-
-Not all boards are born equal in terms of VRMs, and not all cooling solutions will allow you to reach a meaningful performance uplift.
-
-VRM (Voltage Regulation Modulator) is for controlling the voltage (V) sent to CPU and other components in order to regulate the voltage as consistently and steady as possible. It takes the juice from the power supply unit and regulates it to the appropriate ones (DC to DC).
-
-**A MSI B660 mortar motherboard coupled with i5-12400 in theory could overclock ram. However a locked CPU could not be increased the voltage of VCCSA, so the combo could not run high frequency ram on Gear1. To put it simpler, a locked CPU will hinder your ram overclock ability, even if you buy a good motherboard.**
+My MSI B660 mortar motherboard coupled with i5-12400 in theory could overclock ram. However a locked CPU could not be increased the voltage of VCCSA, so the combo could not run high frequency ram on Gear1. To put it simpler, **a locked CPU will hinder your ram overclock ability, even if you buy a good motherboard.**
 
 ## 4. Ram
 
@@ -82,6 +74,8 @@ The clearance of ram with CPU cooler should be taken into account. Some ram is t
 The ram frequency your PC can run is dependent on the mainboard and the memory controller of the CPU (both motherboard and CPU are important!). The role of the mainboard in this case is for voltage supply and frequency support; the CPU memory controller is for controlling the ram at that frequency. So, if you want to run your ram above 3200mhz, choose your Mainboard, and CPU carefully (beside choosing a good ram).
 
 XMP is an extreme profile for ram overclocked and the ram might run on 1.35 V as opposed to 1.2 V (normal ddr 4 voltage).
+
+**2 rams is easier to XMP than 4 rams** because it puts less pressure on the memory controller on the CPU.
 
 For example, Intel recommends Alder Lake with 3200 mhz ram and this is easy by just turning on XMP in bios. However, if you want to run the ram above that speed, it is totally fine but you need to overclock it on your own. 
 
@@ -116,20 +110,20 @@ After I had a general idea of which part to pick. I tried a search like "AMD 560
 
 I ask on reddit directly, two kind users gave me advice that drastically decreases my budget without compromising, allowing me to put the money for better ram, PSU and SSD and even pointed me to a more suitable case for my build.
 
-https://pcpartpicker.com/  is a awesome website that lets people check for compatibility and calculate total max wattage.
+[https://pcpartpicker.com/](https://pcpartpicker.com/)  is a awesome website that lets people check for compatibility and calculate total max wattage.
 
-# How to installs:
+# How to install
 
 You need to watch some tutorials to see how those components are assembled. I will just give you some important points you need to be aware of.
 
-## Case fan: air intake and exhaust. 
+## Case fan, air intake and exhaust. 
 
-You should install fans so that they push fresh air from the front and exhaust hot air from the back.This air direction in your case is very important. 
+You should install fans so that they push fresh air from the front and exhaust hot air from the back. This air direction in your case is very important. 
 
-My advice is to aim for a good air flow closed case. It is the best balanced for temperature and dust management.
+My advice is to aim for a good air flow. 
 
-## Install the mainboard into the case:
-Cases are often built to fit multiple size mainboards, so some standoffs need to be removed. Look at your mainboard, see how many standoffs needed then only leave the necessary ones in the case. Do not leave unused standoffs, they will increase the risk of electricity shortage.
+## Install the mainboard into the case
+Cases are often built to fit multiple size mainboards, so some standoffs need to be removed. See how many standoffs needed and leave only used standoffs, to migrate the risk of electricity shortage.
 
 **Hope the information here helps you!**
 
