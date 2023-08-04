@@ -26,6 +26,11 @@ install
 sudo apt install pipewire pipewire-alsa pipewire-audio pipewire-pulse libspa-0.2-bluetooth wireplumber
 ```
 
+enable media session service
+```bash
+systemctl --user --now enable wireplumber.service
+```
+
 - `pipewire-pulse`: to replace `pulseaudio`
 - `pipewire-audio`: I find that it is essential for `bluetooth`
 - `wireplumber`: recommended by pipewire's developers as session manager.
