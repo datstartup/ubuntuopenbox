@@ -11,7 +11,7 @@ tags:
 ---
 
 <button type="button" id="push" style="width:400px;height:60px;">
-    <font size="5" face="verdana" color="white">Begin to transmit</font>
+    <font size="5" face="verdana" color="black">Begin to transmit</font>
    </button>
    <p>
    </p>
