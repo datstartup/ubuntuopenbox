@@ -32,7 +32,7 @@ Hope you will enjoy your reading and find the information helpful!
 
 # Why Ubuntu?
 
-Because it is one of the most recognizable names in the Operating System world (also a big name in the Linux world). Although eventually, I recommend Debian for its stability.
+Because it is one of the most recognizable names in the Operating System world. However, I recommend Debian for its stability though.
 
 THE STABLE OF DEBIAN WILL AMAZE YOU. Your tool computer will just work for YEARS!
 
@@ -42,7 +42,7 @@ Because:
 
  * Openbox is awesome, minimal and rock solid!
 
- * A Window Manager gives you only the “boxes'' on the screen, so there will be spaces for customization.  Seeing how the components of a Linux system work together will benefit you in theLinux world.
+ * A Window Manager gives you only the “boxes'' on the screen, so there will be spaces for customization.  Seeing how the components of a Linux system work together will benefit you to own your OS.
 
 # Who are the target readers?
 
