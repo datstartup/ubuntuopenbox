@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Sheet Submission Form</title>
+    <style>
+        /* Basic styling for readability */
+        form { max-width: 400px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        input, textarea, button { display: block; width: 100%; margin-bottom: 10px; padding: 10px; box-sizing: border-box; }
+        #form-status { margin-top: 20px; padding: 10px; border-radius: 4px; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <form id="google-sheet-form">
+        <h3>Submit to Google Sheet</h3>
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="Message" rows="4"></textarea>
+
+        <button type="submit" id="submit-button">Submit</button>
+
+        <div id="form-status"></div>
+    </form>
+
+    <script>
+        // 1. PASTE YOUR WEB APP URL HERE
+        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzP5Kf2e3rI5Ob2g23zyMD7CXSNxztxhuSw-u1zNHtNVgTYO2b35Xwo3k1rSr7Qw52tNQ/exec'; 
+
+        const form = document.getElementById('google-sheet-form');
+        const statusDiv = document.getElementById('form-status');
+        const submitButton = document.getElementById('submit-button');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault(); // Stop the default form submission (page reload)
+
+            // Disable button and show loading status
+            submitButton.disabled = true;
+            statusDiv.textContent = 'Submitting...';
+            statusDiv.style.backgroundColor = '#ffffcc'; 
+
+            // Get form data and convert to URLSearchParams object (suitable for POST request)
+            const formData = new FormData(form);
+            const urlEncodedData = new URLSearchParams(formData).toString();
+
+            fetch(SCRIPT_URL, {
+                method: 'POST',
+                // Important: Use 'application/x-www-form-urlencoded' for Apps Script doPost(e) to work with e.parameter
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: urlEncodedData 
+            })
+            .then(response => response.json()) // Parse the JSON response from the Apps Script
+            .then(data => {
+                // Handle the success/error response from the script
+                if (data.status === 'SUCCESS') {
+                    statusDiv.textContent = data.message || 'Thank you! Your submission was successful.';
+                    statusDiv.style.backgroundColor = '#d4edda'; // Green background for success
+                    form.reset(); // Clear the form fields
+                } else {
+                    statusDiv.textContent = data.message || 'Error: Submission failed.';
+                    statusDiv.style.backgroundColor = '#f8d7da'; // Red background for error
+                }
+            })
+            .catch(error => {
+                console.error('Network or Fetch Error:', error);
+                statusDiv.textContent = 'An unexpected error occurred. Please try again.';
+                statusDiv.style.backgroundColor = '#f8d7da';
+            })
+            .finally(() => {
+                submitButton.disabled = false; // Re-enable the submit button
+            });
+        });
+    </script>
+
+</body>
+</html>
